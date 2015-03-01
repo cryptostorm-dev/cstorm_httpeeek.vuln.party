@@ -1,0 +1,454 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+<head>
+  <base href="http://www.sixscape.com/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/teredo-a-little-worm-that-bores-holes-in-your-firewall" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="IPv6, NetConf, DNMS, Distributed Network Management System, DDI, cryptography, PKI, computer security" />
+  <meta name="author" content="Lawrence Hughes" />
+  <meta name="description" content="Sixscape Communications creates and sells highly secure apps for various platforms that feature strong support for IPv6." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Teredo - a Little Worm That Bores Holes in your Firewall - Sixscape Communications</title>
+  <link href="/joomla/sixscape/templates/beez_20/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.sixscape.com/joomla/sixscape/index.php/component/search/?Itemid=647&amp;format=opensearch" rel="search" title="Search Sixscape Communications" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/joomla/sixscape/media/com_attachments/css/attachments_hide.css" type="text/css" />
+  <link rel="stylesheet" href="/joomla/sixscape/media/com_attachments/css/attachments_list.css" type="text/css" />
+  <link rel="stylesheet" href="/joomla/sixscape/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/joomla/sixscape/templates/beez_20/css/position.css" type="text/css" media="screen,projection"  />
+  <link rel="stylesheet" href="/joomla/sixscape/templates/beez_20/css/layout.css" type="text/css" media="screen,projection"  />
+  <link rel="stylesheet" href="/joomla/sixscape/templates/beez_20/css/print.css" type="text/css" media="print"  />
+  <link rel="stylesheet" href="/joomla/sixscape/templates/beez_20/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/joomla/sixscape/templates/beez_20/css/personal.css" type="text/css" />
+  <script src="/joomla/sixscape/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/joomla/sixscape/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/joomla/sixscape/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/joomla/sixscape/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/joomla/sixscape/media/com_attachments/js/attachments_refresh.js" type="text/javascript"></script>
+  <script src="/joomla/sixscape/templates/beez_20/javascript/md_stylechanger.js" type="text/javascript"></script>
+  <script src="/joomla/sixscape/templates/beez_20/javascript/hide.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+
+<!--[if lte IE 6]>
+<link href="/joomla/sixscape/templates/beez_20/css/ieonly.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#line {
+  width:98% ;
+}
+.logoheader {
+  height:200px;
+}
+#header ul.menu {
+  display:block !important;
+  width:98.2% ;
+}
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<link href="/joomla/sixscape/templates/beez_20/css/ie7only.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript">
+  var big ='72%';
+  var small='53%';
+  var altopen='is open';
+  var altclose='is closed';
+  var bildauf='/joomla/sixscape/templates/beez_20/images/plus.png';
+  var bildzu='/joomla/sixscape/templates/beez_20/images/minus.png';
+  var rightopen='Open info';
+  var rightclose='Close info';
+  var fontSizeTitle='Font size';
+  var bigger='Bigger';
+  var reset='Reset';
+  var smaller='Smaller';
+  var biggerTitle='Increase size';
+  var resetTitle='Revert styles to default';
+  var smallerTitle='Decrease size';
+</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-43782658-1', 'sixscape.com');
+    ga('send', 'pageview');
+    
+  </script>
+</head>
+
+<body>
+
+<div id="all">
+        <div id="back">
+                <div id="header">
+                                <div class="logoheader">
+                                        <h1 id="logo">
+
+                                                                                <img src="/joomla/sixscape/images/sixscape_1060.png"  alt="Sixcape Communications" />
+                                                                                                                        <span class="header1">
+                                                                                </span></h1>
+                                </div><!-- end logoheader -->
+                                        <ul class="skiplinks">
+                                                <li><a href="#main" class="u2">Skip to content</a></li>
+                                                <li><a href="#nav" class="u2">Jump to main navigation and login</a></li>
+                                                                                    </ul>
+                                        <h2 class="unseen">Nav view search</h2>
+                                        <h3 class="unseen">Navigation</h3>
+                                        
+                                        <div id="line">
+                                        <div id="fontsize"></div>
+                                        <h3 class="unseen">Search</h3>
+                                        <form action="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/teredo-a-little-worm-that-bores-holes-in-your-firewall" method="post">
+	<div class="search">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="647" />
+	</div>
+</form>
+
+                                        </div> <!-- end line -->
+
+
+                        </div><!-- end header -->
+                        <div id="contentarea">
+                                        <div id="breadcrumbs">
+
+                                                        
+<div class="breadcrumbs">
+<span class="showHere">You are here: </span><a href="/joomla/sixscape/" class="pathway">Home</a> <img src="/joomla/sixscape/templates/beez_20/images/system/arrow.png" alt=""  /> <a href="/joomla/sixscape/index.php/ipv6-training-certification" class="pathway">IPv6 Training &amp; Certification</a> <img src="/joomla/sixscape/templates/beez_20/images/system/arrow.png" alt=""  /> <a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification" class="pathway">IPv6 Forum Official Certification</a> <img src="/joomla/sixscape/templates/beez_20/images/system/arrow.png" alt=""  /> <a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver" class="pathway">IPv6 Forum Network Engineer Silver</a> <img src="/joomla/sixscape/templates/beez_20/images/system/arrow.png" alt=""  /> <a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms" class="pathway">Network Engineer Silver - Transition Mechanisms</a> <img src="/joomla/sixscape/templates/beez_20/images/system/arrow.png" alt=""  /> <a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels" class="pathway">Tunnels</a> <img src="/joomla/sixscape/templates/beez_20/images/system/arrow.png" alt=""  /> <span>Teredo - a Little Worm That Bores Holes in your Firewall</span></div>
+
+
+                                        </div>
+
+                                        
+
+                                                        <div class="left1 leftbigger" id="nav">
+                                                   <div class="moduletable_menu">
+ 
+<ul class="menu">
+<li class="item-435"><a href="/joomla/sixscape/" >Home</a></li><li class="item-486 parent"><a href="/joomla/sixscape/index.php/products" >Products</a></li><li class="item-500 parent"><a href="/joomla/sixscape/index.php/projects" >Projects</a></li><li class="item-591"><a href="/joomla/sixscape/index.php/careers-at-sixscape" >Careers at Sixscape</a></li><li class="item-576"><a href="/joomla/sixscape/index.php/errata-and-contributions" >Errata and Contributions</a></li><li class="item-468 deeper"><a href="/joomla/sixscape/index.php/news" >News</a><ul><li class="item-634 active deeper parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification" >IPv6 Forum Official Certification</a><ul><li class="item-640"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/nephos6-online-ipv6-forum-certification" >Nephos6 Online IPv6 Forum Certification</a></li><li class="item-666 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/testbed-network-for-ipv6-forum-training" >Testbed Network for IPv6 Forum Training</a></li><li class="item-573 active deeper parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver" >IPv6 Forum Network Engineer Silver</a><ul><li class="item-569"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-course-outline" >Network Engineer Silver - Course Outline</a></li><li class="item-577 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-introduction" >Network Engineer Silver - Introduction</a></li><li class="item-578 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-address-architecture" >Network Engineer Silver - Address Architecture</a></li><li class="item-579 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-packet-structure-header-format" >Network Engineer Silver - Packet Structure &amp; Header Format</a></li><li class="item-581 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-icmpv6-and-neighbor-discovery" >Network Engineer Silver -  ICMPv6 and Neighbor Discovery</a></li><li class="item-616 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-manual-network-configuration-on-various-platforms" >Network Engineer Silver - Manual Network Configuration on Various Platforms</a></li><li class="item-617 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-network-autoconfiguration" >Network Engineer Silver - Network Autoconfiguration</a></li><li class="item-618 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-introduction-to-routing" >Network Engineer Silver - Introduction to Routing</a></li><li class="item-580 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-ipv6-subnetting" >Network Engineer Silver - IPv6 Subnetting</a></li><li class="item-582 active deeper parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms" >Network Engineer Silver - Transition Mechanisms</a><ul><li class="item-641"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/single-stack-and-dual-stack-networks" >Single Stack and Dual Stack Networks</a></li><li class="item-642"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/single-stack-and-dual-stack-nodes" >Single Stack and Dual Stack Nodes</a></li><li class="item-643 active deeper parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels" >Tunnels</a><ul><li class="item-644"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/6in4-tunnel" >6in4 Tunnel</a></li><li class="item-645"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/6to4-tunnel" >6to4 Tunnel</a></li><li class="item-650"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/6rd-ipv6-rapid-deployment" >6rd - IPv6 Rapid Deployment</a></li><li class="item-661"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/tsp-tunnel-setup-protocol" >TSP - Tunnel Setup Protocol</a></li><li class="item-652"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/isatap-intra-site-automatic-tunnel-addressing-protocol" >ISATAP - Intra-Site Automatic Tunnel Addressing Protocol</a></li><li class="item-647 current active"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/teredo-a-little-worm-that-bores-holes-in-your-firewall" >Teredo - a Little Worm That Bores Holes in your Firewall</a></li><li class="item-648"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/4in6-tunnel" >4in6 Tunnel</a></li><li class="item-651"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/dual-stack-lite-ds-lite" >Dual Stack Lite (DS-Lite)</a></li></ul></li><li class="item-649 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/ip-address-translation" >IP Address Translation</a></li></ul></li></ul></li><li class="item-636 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-gold" >IPv6 Forum Network Engineer Gold</a></li><li class="item-637 parent"><a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-programmer" >IPv6 Forum Network Programmer</a></li></ul></li><li class="item-635"><a href="/joomla/sixscape/index.php/ipv6-training-certification/hurricane-electric-free-certification" >Hurricane Electric Free Certification</a></li></ul></li><li class="item-485 parent"><a href="/joomla/sixscape/index.php/technical-backgrounders" >Technical Backgrounders</a></li><li class="item-688 parent"><a href="/joomla/sixscape/index.php/technology-behind-sixscape-products" >Technology Behind Sixscape Products</a></li></ul>
+</div>
+
+                                                                
+                                                                
+
+
+                                                        </div><!-- end navi -->
+               
+                                        <div id="wrapper2" >
+
+                                                <div id="main">
+
+                                                
+                                                        
+<div id="system-message-container">
+</div>
+                                                        <div class="item-page">
+
+	<h2>
+			<a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/teredo-a-little-worm-that-bores-holes-in-your-firewall">
+		Teredo - a Little Worm That Bores Holes in your Firewall</a>
+		</h2>
+
+	<ul class="actions">
+						<li class="print-icon">
+			<a href="/joomla/sixscape/index.php/ipv6-training-certification/ipv6-forum-official-certification/ipv6-forum-network-engineer-silver/network-engineer-silver-transition-mechanisms/tunnels/teredo-a-little-worm-that-bores-holes-in-your-firewall?tmpl=component&amp;print=1&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/joomla/sixscape/media/system/images/printButton.png" alt="Print"  /></a>			</li>
+		
+					<li class="email-icon">
+			<a href="/joomla/sixscape/index.php/component/mailto/?tmpl=component&amp;template=beez_20&amp;link=754b92bcbae27de6f963221b69540876f905d66b" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/joomla/sixscape/media/system/images/emailButton.png" alt="Email"  /></a>			</li>
+		
+		
+	
+	</ul>
+
+
+
+
+	<dl class="article-info">
+	<dt class="article-info-term">Details</dt>
+	<dd class="createdby">
+				Written by Lawrence Hughes		</dd>
+	<dd class="hits">
+	Hits: 60916	</dd>
+	</dl>
+
+
+
+<p style="text-align: left;">Teredo is an automated tunneling mechanism based on 6in4 for obtaining access to the IPv6 Internet from a single node in an IPv4-only network. It includes NAT Traversal, so that it can work even behind a NAT44 gateway. It is specified in <a href="http://www.ietf.org/rfc/rfc4380.txt">RFC 4380, "Teredo: Tunneling IPv6 over UDP through Network Address Translations (NATs)"</a>, February 2006.</p>
+<p style="text-align: left;">Teredo is a variant of 6to4 tunneling. It still uses Protocol 41 6in4 tunneling way down under. It adds encapsulation over UDP datagrams and a simplified version of <a href="http://en.wikipedia.org/wiki/STUN">STUN NAT Traversal</a>, which allows the Teredo client to work behind an RFC 1918 <em>private</em> address (no public address is required, as is the case with 6in4 and 6to4 tunneling). Teredo servers listen on port udp/3544, and use addresses in 2001::/32 (these facts are useful if you want to block internal nodes from using Teredo - some firewalls allow you to block all protocol 41 traffic from internal nodes).</p>
+<p style="text-align: left;">Teredo is installed in all copies of Windows Vista and later. It is possible to disable it, but this is not a simple GUI configuration option in off-the-shelf Windows. If your Windows node is a member of a Microsoft network <em>domain</em> (not a <em>workgroup</em>), then Teredo is disabled. If your node is <em>not</em> a member of a Microsoft <em>domain</em> (even if it is a member of a Microsoft network <em>workgroup</em>), then Teredo is enabled.</p>
+<p style="text-align: left;">The name <em>teredo</em> is the scientific term (genus) of a small animal commonly called a <em>shipworm</em>, a nasty little creature the bores holes in wooden ship hulls or piers, causing extensive damage. Teredo will happily bore holes in your host-based firewall, using Plug-n-play, and unless your firewall knows about NAT traversal and Teredo, and has mechanisms to block it, Teredo typically goes right through your border gateway as well. Once a connection is open, traffic can go both ways, and there is no inspection of that traffic by the host-based firewall. The 6to4 tunnel in Windows will work only if your node has a public IPv4 address (not likely these days). ISATAP requires some DNS configuration to work. But unless your node is a member of a Microsoft network domain, you may well be using IPv6 via Teredo right now and don't even know it. Tunnels should only be used between the tunneled service provider and your border gateway - they should never be allowed to cross the border gateway to internal nodes, unless the gateway can inspect and control everything going through them. Unfortunately this is the way Teredo was designed to work.<br style="text-align: left;" /></p>
+<p style="text-align: left;">I've heard a talk by a guy from Google who was involved in <a href="http://www.pcworld.com/article/188276/youtube_turns_on_ipv6_support_net_traffic_spikes.html">turning IPv6 on for YouTube</a>. They decided to quietly enable it with no announcement to see how it worked. Their counters were set to track up to 1,000 simultaneous connections, because they couldn't imagine that many people would try connecting over IPv6 by accident. When they turned it on, their counters immediately pegged. They increased it to 10,000 then 100,000 and still they pegged. When they increased it to 1,000,000, it no longer pegged, but showed about 250,000 connections. They could not imagine how that many people discovered it was available over IPv6 (perhaps someone leaked it?). Then they noticed something interesting - almost all of the connections were from addresses in the range 2001::/32. They were from Teredo tunnels. <em>Most of those connections were from people who probably had no idea they were using IPv6.</em></p>
+<p style="text-align: left;">&nbsp;</p>
+<h3 style="text-align: left;">Analysis of IPv6 Connection Types over a Six Year Period</h3>
+<p style="text-align: left;">These statistics are from <a href="http://www.vyncke.org/countv6/stats.php">data</a> collected by Eric Vyncke. They involve tens of thousands of connections to a site since 2008. During that time, Teredo usage (as a percentage of all IPv6 traffic) has stayed around 50%, with one peak to 60% in 2012 (probably related to IPv6 World Day). The breakdown by year and connection type are as follows (note that "native" includes 6in4, since there is no way to tell the difference).</p>
+<p style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Native&nbsp;&nbsp;&nbsp;&nbsp; Teredo&nbsp;&nbsp;&nbsp; 6to4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Free.fr &nbsp; ISATAP</span></p>
+<div style="text-align: left;">
+<table style="width: 476px; height: 125px;" border="0">
+<tbody>
+<tr>
+<td><strong>2008</strong></td>
+<td>21.75</td>
+<td>35.57</td>
+<td>21.89</td>
+<td>18.29</td>
+<td>2.50</td>
+</tr>
+<tr>
+<td>
+<p><strong>2009</strong></p>
+</td>
+<td>23.78</td>
+<td>46.68</td>
+<td>18.07</td>
+<td>&nbsp;9.99</td>
+<td>1.48</td>
+</tr>
+<tr>
+<td><strong>2010</strong></td>
+<td>25.53</td>
+<td>48.37</td>
+<td>19.80</td>
+<td>&nbsp;5.70</td>
+<td>0.60</td>
+</tr>
+<tr>
+<td><strong>2011</strong></td>
+<td>27.06</td>
+<td>53.92</td>
+<td>16.78</td>
+<td>&nbsp;1.94</td>
+<td>0.30</td>
+</tr>
+<tr>
+<td><strong>2012</strong></td>
+<td>24.07</td>
+<td>60.48</td>
+<td>14.14</td>
+<td>&nbsp;1.12</td>
+<td>0.19</td>
+</tr>
+<tr>
+<td><strong>2013</strong></td>
+<td>
+<p>37.86</p>
+</td>
+<td>48.50</td>
+<td>12.16</td>
+<td>&nbsp;1.40</td>
+<td>0.08</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="text-align: left;">Native connections had been around 20-25%, but suddenly jumped to almost 40% in 2013. Teredo is remaining at about 50% (with a peak in 2012 to 60%). 6to4 has decreased from about 22% to just over 12%. Free.fr users have been declining as a percent of the total, because the others have grown a lot. 6in4 and 6rd cannot be distinguished from native. ISATAP started small and has almost vanished.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h3 style="text-align: left;">Technical Features of Teredo</h3>
+<p style="text-align: left;">Unlike 6to4 or 6in4, Teredo only allows obtaining a single "/128" IPv6 address (it can't route an entire /64 or larger block). It is designed to work from internal nodes, not a border gateway. Each internal node will build its own tunnel.</p>
+<p style="text-align: left;">Teredo uses yet another addressing scheme. Unlike 6to4 which uses the entire 2002::/16 address block, Teredo uses only a /32 block, which is 2001:0000::/32.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 0-31 contain the Teredo prefix, 2001:0000::/32.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 32-64 contain the IPv4 address of the Teredo server used.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 64-79 contain various flags. Currently, only the most significant bit (bit 64) is documented. If this is set to 1, the client is behind Hide-mode NAT44, otherwise the node address is public (and STUN NAT Traversal is not used). Microsoft implementation may use additional bits, but these are not documented in the RFC.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 80-95 contain the obfuscated UDP port number (the port number mapped by NAT, with all bits inverted).</p>
+<p style="text-align: left; margin-left: 30px;">Bits 96-127 contain the obfuscated IPv4 address of the node as seen by external nodes (i.e. public IPv4 address of the NAT gateway, with all bits inverted).</p>
+<p style="text-align: left;">For example, the Teredo address 2001:0:4136:e378:8000:63bf:3fff:fdd2 is interpreted as follows:</p>
+<p style="text-align: left; margin-left: 30px;">Bits 0-31 contain the Teredo prefix, 2001:0000::/32.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 32-64 contain 0x4136e378, which interpreted in dotted decimal is 65.54.227.120 (the address of a Teredo server).</p>
+<p style="text-align: left; margin-left: 30px;">Bits 64-79 contain 0x8000, so the node is behind Hide-mode NAT44.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 80-95 contain 63bf. If you invert the bits, and display the result in decimal, this is port 40,000.</p>
+<p style="text-align: left; margin-left: 30px;">Bits 96-127 contain 0x3ffffdd2. If you invert the bits, and display in dotted decimal, this is 192.0.2.45, which is the public IPv4 address this node is behind (this is the address the user would see on whatismyipaddress.com).</p>
+<p style="text-align: left;">The "obfuscating" (intentional garbling) of the port and address are not for security purposes - the "encryption" scheme is public knowledge and trivial to undo (just invert the bits). The reason it is done is to keep firewalls that do deep packet inspection from getting confused. They must have a low opinion of firewall designers.</p>
+<h3 style="text-align: left;">&nbsp;</h3>
+<h3 style="text-align: left;">Non-Microsoft Support for Teredo</h3>
+<p style="text-align: left;">There is an open source project that implements Teredo tunneling for Linux, *BSD and Mac OS-X called <a href="http://www.remlab.net/miredo/">Miredo</a>. It can act as a client, a relay and/or a server.</p>
+<p style="text-align: left;">There are publicly available Teredo Relay Routers (similar to the 6to4 Relay Routers) that allow any node that supports Teredo tunneling to access the IPv6 Internet.</p>
+<p style="text-align: left;">There is a list of public Teredo services on <a href="http://www.bgpmon.net/teredo.php">www.bgpmon.net/teredo.php</a>.</p>
+<p style="text-align: left;">Hurricane Electric runs quite a few public Teredo relay routers via anycast address 2001::/32, in various US states and several other countries.</p>
+<p style="text-align: left;">Microsoft also runs public Teredo servers.</p>
+<h3 style="text-align: left;">&nbsp;</h3>
+<h3 style="text-align: left;">How to Disable Teredo</h3>
+<p style="text-align: left;">You can easily disable Teredo with <a href="/joomla/sixscape/index.php/products/netconf">NetConf</a>, or configure it to run even if your node is a member of a Microsoft domain (should you want to).</p>
+<p style="text-align: left;">To disable Teredo on Windows, you need to change a registry entry (be careful doing this - with regedit, if you don't know what you're doing you can render your Windows node inoperable). The registry key is HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\TCPIP6\Parameters\DisabledComponents. By default that key does not exist, which is interpreted as having a value of 0 (all featured enabled). If you create this key (as a DWORD), the bits of it control various IPv6 networking components. Components are enabled or disabled by setting various bits:</p>
+<div style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">0x20 - if set, modify prefix policy table to prefer IPv4 over IPv6</span></div>
+<div style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">0x10 - if set, disable IPv6 on all non-tunnel interfaces (LAN and PPP)</span></div>
+<div style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">0x08 - if set, disable all Teredo interfaces</span></div>
+<div style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">0x04 - if set, disable all ISATAP interfaces</span></div>
+<div style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">0x02 - if set, disable all 6to4 interfaces</span></div>
+<div style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">0x01 - if set, disable all IPv6 interfaces except for loopback</span></div>
+<p style="text-align: left;">Microsoft provides wizards to control some of these options without using regedit, at <a href="http://support.microsoft.com/kb/929852">&nbsp;</a><a href="http://support.microsoft.com/kb/929852">http://support.microsoft.com/kb/929852</a>. <em>Note that changes to these bits take effect only after the next reboot.</em></p>
+<p style="text-align: left;">&nbsp;</p>
+<h3 style="text-align: left;">Configure Teredo<strong> on Windows 7<br /></strong></h3>
+<p style="text-align: left;">There are a number of things you must do to make Teredo work on Windows 7 due to Microsoft's implementation.</p>
+<p style="text-align: left;">First, change your node to IPv4 only (you may have to disable any source of Router Advertisements, or 6in4 tunnels running in your border gateway).</p>
+<p style="text-align: left;">Make sure IPv6 is enabled on your node.</p>
+<p style="text-align: left;">If you have disabled Teredo, enable it now (set the disabledcomponents key to 0 with regedit).</p>
+<p style="text-align: left;">The followint netsh commands require administrator privilege, so start a command prompt with "Run as Administrator".</p>
+<p style="text-align: left;">Assuming you are running Windows 7 Professional or Ultimate, run <em>gpedit.msc</em>. In gpedit, navigate to <em>Computer Configuration</em> / <em>Administrative Templates</em> / <em>Network</em> / <em>TCPIP Settings</em> / <em>IPv6 Transition Technologies</em></p>
+<p style="text-align: left;">Under this, double click <em>Teredo Default Qualified</em> and change setting from <em>Not Configured</em> to <em>Enabled</em>.</p>
+<p style="text-align: left;">Force this to update by running <em>gpupdate /force</em>.</p>
+<p style="text-align: left;">If you <em>are not</em> a member of a Microsoft network domain, enable teredo with:</p>
+<p style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">netsh int ipv6 set teredo type=client</span></p>
+<p style="text-align: left;">If you <em>are</em> a member of a Microsoft network domain, enable teredo with:</p>
+<p style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">netsh int ipv6 set teredo type=enterpriseclient</span></p>
+<p style="text-align: left;">By default, the DNS resolver on Windows will never resolve a domain name to IPv6 as long as the node has only a link-local address and a Teredo address. So, define a bogus static address (2002:c0a8:102::/48 will work fine - don't worry, it will never be used other than to allow DNS to work).</p>
+<p style="text-align: left;">We also need to force it to route traffic through the Teredo interface first. Determine the interface ID of your teredo interface with "route print". In my case it was interface 15. Issue the following command (replace the XX with your teredo interface ID number):</p>
+<p style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">netsh interface ipv6 add route ::/0 interface=XX</span></p>
+<p style="text-align: left;">Now you should be able to use IPv6 via Teredo. First do an ipconfig /all. I got the following:</p>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">C:\Users\lhughes&gt;ipconfig /all</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Windows IP Configuration</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Host Name . . . . . . . . . . . . : Lawrence-PC</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Primary Dns Suffix&nbsp; . . . . . . . : hughesnet.local</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Node Type . . . . . . . . . . . . : Hybrid</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; IP Routing Enabled. . . . . . . . : No</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; WINS Proxy Enabled. . . . . . . . : No</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DNS Suffix Search List. . . . . . : hughesnet.local</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Ethernet adapter Local Area Connection:</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Connection-specific DNS Suffix&nbsp; . :</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Physical Address. . . . . . . . . : 50-46-5D-6B-7A-54</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DHCP Enabled. . . . . . . . . . . : No</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Autoconfiguration Enabled . . . . : Yes</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; IPv6 Address. . . . . . . . . . . : 2002:c0a8:102::(Preferred)</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Link-local IPv6 Address . . . . . : fe80::2030:9139:9cd5:ab52%11(Preferred)</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; IPv4 Address. . . . . . . . . . . : 172.20.2.1(Preferred)</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Subnet Mask . . . . . . . . . . . : 255.255.0.0</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Default Gateway . . . . . . . . . : 172.20.0.1</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DHCPv6 IAID . . . . . . . . . . . : 240141917</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-18-BA-30-56-50-46-5D-6B-7A-54</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DNS Servers . . . . . . . . . . . : 172.20.0.13</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 172.20.0.14</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; NetBIOS over Tcpip. . . . . . . . : Enabled</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Tunnel adapter isatap.{8C29F61F-7AFF-42E2-8535-F508C29EAAFC}:</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Media State . . . . . . . . . . . : Media disconnected</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Connection-specific DNS Suffix&nbsp; . :</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Description . . . . . . . . . . . : Microsoft ISATAP Adapter</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DHCP Enabled. . . . . . . . . . . : No</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsnbsp;&nbsp; Autoconfiguration Enabled . . . . : Yes</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Tunnel adapter Teredo Tunneling Pseudo-Interface:</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Connection-specific DNS Suffix&nbsp; . :</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DHCP Enabled. . . . . . . . . . . : No</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Autoconfiguration Enabled . . . . : Yes</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; IPv6 Address. . . . . . . . . . . : 2001:0:4137:9e76:1035:b56:83ac:c744(Prefe</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">rred)</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Link-local IPv6 Address . . . . . : fe80::1035:b56:83ac:c744%15(Preferred)</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Default Gateway . . . . . . . . . : ::</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; NetBIOS over Tcpip. . . . . . . . : Disabled</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Tunnel adapter 6TO4 Adapter:</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Media State . . . . . . . . . . . : Media disconnected</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Connection-specific DNS Suffix&nbsp; . :</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Description . . . . . . . . . . . : Microsoft 6to4 Adapter</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; DHCP Enabled. . . . . . . . . . . : No</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp; Autoconfiguration Enabled . . . . : Yes</span></div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">The automatically configured Teredo IPv6 address is 2001:0:4137:9e76:1035:b56:83ac:c744. The default gateway is fe80::1035:b56:83ac:c744.</p>
+<p style="text-align: left;">Try pinging an IPv6 address literal. This should work normally:</p>
+<p style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></p>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">C:\Users\lhughes&gt;ping 2001:470:20::2</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Pinging 2001:470:20::2 with 32 bytes of data:</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:20::2: time=619ms</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:20::2: time=213ms</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:20::2: time=214ms</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:20::2: time=212ms</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Ping statistics for 2001:470:20::2:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp; Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Approximate round trip times in milli-seconds:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp; Minimum = 212ms, Maximum = 619ms, Average = 314ms</span></div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Try pinging an domain name that has both A and AAAA records. It will resolve to IPv4. This is normal behavior for Teredo.</p>
+<div style="text-align: left;">&nbsp;</div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">C:\Users\lhughes&gt;ping <a href="/joomla/sixscape/../../">www.sixscape.com</a></span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Pinging www.sixscape.com [184.105.238.120] with 32 bytes of data:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 184.105.238.120: bytes=32 time=186ms TTL=50</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 184.105.238.120: bytes=32 time=185ms TTL=50</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 184.105.238.120: bytes=32 time=180ms TTL=50</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 184.105.238.120: bytes=32 time=185ms TTL=50</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Ping statistics for 184.105.238.120:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp; Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Approximate round trip times in milli-seconds:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp; Minimum = 180ms, Maximum = 186ms, Average = 184ms</span></div>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Try pinging an domain name that has only AAAA records. It will resolve to IPv6.</p>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">C:\Users\lhughes&gt;ping www6.sixscape.com</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Pinging www6.sixscape.com [2001:470:3d:100::120] with 32 bytes of data:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:3d:100::120: time=582ms</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:3d:100::120: time=189ms</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:3d:100::120: time=189ms</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Reply from 2001:470:3d:100::120: time=190ms</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">Ping statistics for 2001:470:3d:100::120:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp; Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">Approximate round trip times in milli-seconds:</span><br /><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;&nbsp;&nbsp; Minimum = 189ms, Maximum = 582ms, Average = 287ms</span></div>
+<div style="text-align: left;"><span style="font-family: courier new,courier; font-size: 10pt;">&nbsp;</span></div>
+<p style="text-align: left;">Now try surfing to www6.v6address.com. (If I surf to www.v6address.com, I get IPv4). Here's what I got:</p>
+<div style="text-align: left;">&nbsp;</div>
+<div style="text-align: left;"><img src="/joomla/sixscape/images/teredo1.JPG" alt="teredo1" height="93" width="642" /></div>
+<div style="text-align: left;">&nbsp;</div>
+<p style="text-align: left;">As you can see, the source address was the Teredo address, and it accepted the connection on the normal IPv6 global address for the site.</p>
+<p style="text-align: left;">If I surf to www.ipv6-test.com, I get the following:</p>
+<p style="text-align: left;">&nbsp;</p>
+<div style="text-align: left;"><img src="/joomla/sixscape/images/teredo_ipv6-test.JPG" alt="teredo ipv6-test" height="542" width="641" /></div>
+<div style="text-align: left;">&nbsp;</div>
+<p style="text-align: left;">Note that it shows the Teredo IPv6 node address, and it defaults to IPv4 if both are available (normal Teredo behavior). It recognizes the address as Teredo, and shows my public IPv4 address 9124.83.56.187) and the port used (62633). It also shows the Teredo server used (65.55.158.118). It even recognized that my public IPv4 address is from the Philppines.</p>
+<p style="text-align: left;">Finally let's surf to <a href="http://www.test-ipv6.com">www.test-ipv6.com:</a></p>
+<p style="text-align: left;">&nbsp;</p>
+<div style="text-align: left;"><img src="/joomla/sixscape/images/teredo_test-ipv6.JPG" alt="teredo test-ipv6" height="256" width="672" /></div>
+<div style="text-align: left;">&nbsp;</div>
+<p style="text-align: left;">It does show the correct IPv4 and IPv6 addresses and recognizes the IPv6 address as Teredo. It does not indicate that IPv4 is preferred or interpret the Teredo address for us. The other tests are not run for Teredo connections.</p>
+<p style="text-align: left;">&nbsp;</p>
+<h3 style="text-align: left;">Summary</h3>
+<p style="text-align: left;">Teredo does give a node automatic access to IPv6, but for full functionality on Windows, you must defeat some of the things that Windows does, esp. with DNS. If a site is dual stack, you will get IPv4. It is useful only for accessing IPv6-only sites (of which there are not a lot at this time). It is far better to just disable all three automated tunneling mechanisms on Windows Vista and later, and make your subnet native dual stack, by tunneling in an entire /64 (or larger) over 6in4 (assuming you have at least one public IPv4 address with your ISP service).</p>
+<p style="text-align: left;">If you did the above steps to make Teredo work on your node, don't forget to reset everything to normal operation. You can disable Teredo with the following (required administrator privilege):</p>
+<p style="text-align: left; margin-left: 30px;"><span style="font-family: courier new,courier; font-size: 10pt;">netsh int ipv6 set teredo type=disabled</span></p>
+<p style="text-align: left;">Note: some of the above steps were taken from the following blog. You can find more detailed information and directions for making Teredo work on other Windows platforms there.</p>
+<p style="text-align: left;"><a href="http://esihere.wordpress.com/2012/01/19/a-step-by-step-guide-on-how-to-set-up-teredo-tunneling/">http://esihere.wordpress.com/2012/01/19/a-step-by-step-guide-on-how-to-set-up-teredo-tunneling/</a></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p> <div class="attachmentsContainer">
+
+<div class="attachmentsList" id="attachmentsList_com_content_default_225"></div>
+
+</div>
+	
+</div>
+
+
+                                                </div><!-- end main -->
+
+                                        </div><!-- end wrapper -->
+
+                                
+                        
+                                <div class="wrap"></div>
+
+                                </div> <!-- end contentarea -->
+
+                        </div><!-- back -->
+
+                </div><!-- all -->
+
+                <div id="footer-outer">
+                                                <div id="footer-inner">
+
+                                <div id="bottom">
+                                        <div class="box box1"> <div class="moduletable">
+ <div class="bannergroup">
+
+
+	<div class="bannerfooter">
+		Contribute!	</div>
+</div>
+</div>
+</div>
+                                        <div class="box box2"> <div class="moduletable">
+ <div class="bannergroup">
+
+
+	<div class="bannerfooter">
+		Books!	</div>
+</div>
+</div>
+</div>
+                                        <div class="box box3"> <div class="moduletable">
+ <div class="bannergroup">
+
+
+	<div class="bannerfooter">
+		Shop!	</div>
+</div>
+</div>
+</div>
+                                </div>
+
+
+                        </div>
+                                
+                        <div id="footer-sub">
+
+
+                                <div id="footer">
+
+                                        <div class="footer1">Contents Copyright &#169; 2015 Sixscape Communications. All Rights Reserved Worldwide.</div>
+<div class="footer2"></div>
+
+                                        <p>
+                                                Powered by <a href="http://www.joomla.org/">Joomla!&#174;</a>
+                                        </p>
+
+
+                                </div><!-- end footer -->
+
+                        </div>
+
+                </div>
+        
+        </body>
+</html>
