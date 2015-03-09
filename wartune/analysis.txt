@@ -1,0 +1,6 @@
+First iteration unpacking:
+http://jsunpack.jeek.org/?report=2b86b50d8f3c1cb970283a493ad76e3c88d25edc
+
+
+Pulls out this little nasty:
+view-source:https://fbstatic-a.akamaihd.net/rsrc.php/v2/yj/r/WRHMB_lIO30.js
