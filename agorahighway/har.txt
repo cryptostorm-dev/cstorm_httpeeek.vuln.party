@@ -1,0 +1,138 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2015-03-16T20:46:09.063Z",
+        "id": "page_1",
+        "title": "http://agorahooawayyfoe.onion/captcha",
+        "pageTimings": {
+          "onContentLoad": 75736.01984977722,
+          "onLoad": 75735.46981811523
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2015-03-16T20:46:09.063Z",
+        "time": 75735.14986038208,
+        "request": {
+          "method": "GET",
+          "url": "http://agorahooawayyfoe.onion/captcha",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "agorahooawayyfoe.onion"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/***.36 (KHTML, like Gecko) *** Chromium/41.0.****.76 Chrome/**.0.****.76 Safari/***.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cookie",
+              "value": "evidence=7AnYJV1O**********SxoUmVAj8d7sAySD9oCHDAqqk="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "evidence",
+              "value": "7AnY****************oUmVAj8d7sAySD9oCHDAqqk=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 507,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store,must-revalidate,max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Microsoft (R) Macro Assembler (x64) Version 9.00.30729.207"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3058"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/jpeg"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3058,
+            "mimeType": "image/jpeg",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 266,
+          "bodySize": 3058,
+          "_transferSize": 3324
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.40700000015204,
+          "dns": 123.55500000012397,
+          "connect": 120.42699999983599,
+          "send": 0.06500000017700813,
+          "wait": 74944.20499999981,
+          "receive": 543.4908603819786,
+          "ssl": -1
+        },
+        "connection": "55379",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
