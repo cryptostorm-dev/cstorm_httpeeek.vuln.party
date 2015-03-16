@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+    <style type="text/css">
+    
+
+    .pgp-verification, .pgp-verification textarea {
+        font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+        font-size: 9px;
+        color: #222;
+        text-align: center;
+    }
+    .pgp-verification textarea {
+        display: inline-block;
+        text-align: left;
+        width: 400px;
+        height: 250px;
+        padding: 15px;
+    }
+    </style>
+
+</head>
+<body style="background-color: white;">
+
+
+
+
+<div style="width: 100%; height: 100%; text-align: center; vertical-align: middle;">
+    <div style="width: 10px; height: 40px;"></div>
+    <div id="login-bar" style="height: 300px;">
+        <img src="/images/zorroonbg.jpg" alt="" style="padding-bottom: 20px;" />
+        
+        <form action="/dologin" method="post" >
+
+        <table style="width: 100%; text-align: center;" id="loginpage-table">
+            
+
+
+                <tr>
+                    <td style="text-align:right;"><input type="text" name="username" class="loginpage-field" placeholder="User Name" value="" id="username" /></td>
+                    <td style="width: 10px;"></td>
+                    <td style="text-align:left;"><input type="password" name="password" class="loginpage-field" placeholder="Password" value="" id="password" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;"><img src="/captcha" style="display: inline; border:1px solid #aaa;" /></td>
+                    <td style="width: 10px;"></td>
+                    <td style="text-align:left; vertical-align: top;"><input type="text" style="height: 28px; display: inline;" class="loginpage-field" name="enterCaptcha" id="enterCaptcha" value="" placeholder="Captcha code" /></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;"><div class="button-blue" style="display: inline-block;"><i class="fa fa-magic"></i> <a href="/register">Register</a></div></td>
+                    <td style="width: 10px;"></td>
+                    <td style="text-align:left;"><div class="button-red"><i class="fa fa-unlock-alt"></i> <input type="submit" name="submit" class="input-in-button" value="Log In" id="submit" /></div></td>
+                </tr>
+            
+            
+        </table>
+
+
+        </form>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
