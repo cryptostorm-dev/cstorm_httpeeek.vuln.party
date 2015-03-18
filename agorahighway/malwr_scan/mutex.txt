@@ -1,0 +1,22 @@
+CTF.TimListCache.FMPDefaultS-1-5-21-1547161642-507921405-839522115-1004MUTEX.DefaultS-1-5-21-1547161642-507921405-839522115-1004
+ShimCacheMutex
+Shell.CMruPidlList
+WininetStartupMutex
+_!MSFTHISTORY!_
+c:!documents and settings!user!local settings!temporary internet files!content.ie5!
+c:!documents and settings!user!cookies!
+c:!documents and settings!user!local settings!history!history.ie5!
+WininetConnectionMutex
+WininetProxyRegistryMutex
+Groove:PathMutex:[5LBWqDQtVSETZb3iqc1uneQ9gf0=]
+Groove:PathMutex:[LUt+jL/YbxUWwjk7hRky++rqRco=]
+Groove.Mutex.WebServices.Status
+Groove.Mutex.SystemServices.Lock
+Global\Groove.Mutex.SystemServices.GlobalLock
+CtfmonInstMutexDefaultS-1-5-21-1547161642-507921405-839522115-1004
+MSIMGSIZECacheMutex
+_!SHMSFTHISTORY!_
+c:!documents and settings!user!local settings!history!history.ie5!mshist012015031820150319!
+MSCTF.Shared.MUTEX.MNF
+Local\MU_ACBPIDS09_S-1-5-5-0-39952
+Global\MsoShellExtRegAccess_S-1-5-21-1547161642-507921405-839522115-1004
