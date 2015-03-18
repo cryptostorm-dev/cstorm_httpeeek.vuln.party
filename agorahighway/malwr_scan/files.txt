@@ -1,0 +1,108 @@
+C:\Documents and Settings\User\Desktop
+C:\WINDOWS\Registration\R000000000007.clb
+C:\WINDOWS\system32\msctfime.ime
+IDE#CdRomVBOX_CD-ROM_____________________________1.0_____#42562d3231303037333036372020202020202020#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+MountPointManager
+STORAGE#Volume#1&30a96598&0&Signature32B832B7Offset7E00Length27F4DB200#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+C:\DOCUME~1
+C:\Documents and Settings\User
+C:\Documents and Settings\User\LOCALS~1
+C:\Documents and Settings\User\Local Settings\Temp
+C:\Documents and Settings\User\Local Settings\Temp\savedfromgithub.html
+C:\Documents and Settings\User\Local Settings\Temporary Internet Files
+C:\Documents and Settings\User\Local Settings\History
+C:\Documents and Settings\User\Local Settings\Temporary Internet Files\Content.IE5\
+C:\
+C:\Documents and Settings\User\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+C:\Documents and Settings\User\Cookies\
+C:\Documents and Settings\User\Cookies\index.dat
+C:\Documents and Settings\User\Local Settings\History\History.IE5\
+C:\Documents and Settings\User\Local Settings\History\History.IE5\index.dat
+C:\PROGRA~1\MICROS~2\Office12\GRA8E1~1.DLL
+C:\WINDOWS\System32\cscui.dll
+shadow
+C:\Documents and Settings
+C:\Documents and Settings\User\Favorites
+C:\Documents and Settings\User\Favorites\desktop.ini
+C:\Documents and Settings\User\Favorites\Links
+C:\Documents and Settings\User\Local Settings
+C:\Documents and Settings\User\Local Settings\Temporary Internet Files\desktop.ini
+C:\Documents and Settings\User\Favorites\Links\*.*
+PIPE\lsarpc
+C:\Program Files\Java
+C:\Program Files\Java\jre6
+C:\Program Files\Mozilla Firefox\plugins\NPOJI*.dll
+C:\Program Files\Mozilla Firefox\plugins\NPJava*.dll
+C:\Program Files\Mozilla Firefox\plugins\NPJPI*.dll
+C:\Program Files\Common Files\Adobe\Acrobat\ActiveX\AcroIEHelper.dll
+C:\WINDOWS\system32\xpsp3res.dll
+C:\WINDOWS\WindowsShell.manifest
+C:\WINDOWS\WindowsShell.Config
+C:\Program Files
+C:\Program Files\Internet Explorer
+C:\WINDOWS\system32\shdocvw.dll
+C:\WINDOWS\system32\stdole2.tlb
+C:\css\FontAwesome.css
+C:\css\main.css
+C:\liabilities\preview\S8m1wysh2V.jpg
+C:\liabilities\preview\Do08Z1TVDm.jpg
+C:\liabilities\preview\Wam22dMlne.jpg
+C:\liabilities\preview\mFnNqs6o04.jpg
+C:\liabilities\preview\LD50n4YzxV.jpg
+C:\liabilities\preview\k4X0XN5L5o.jpg
+C:\liabilities\preview\BKV60M7ley.jpg
+C:\liabilities\preview\CUfF3Yd7D2.jpg
+C:\liabilities\preview\kYBscnvAXT.jpg
+C:\liabilities\preview\hA15WWesek.jpg
+C:\liabilities\preview\N8uknFTMZM.jpg
+C:\liabilities\preview\B7oNimK9Y6.jpg
+C:\liabilities\preview\mKvi6ffKmW.jpg
+C:\liabilities\preview\VaLeuxNarA.jpg
+C:\liabilities\preview\C7wFMYs6d8.jpg
+C:\liabilities\preview\chtX8pUgFg.jpg
+C:\liabilities\preview\VkvSKFh776.jpg
+C:\liabilities\preview\KRxNZ0ruRk.jpg
+C:\liabilities\preview\pAiEslbG78.jpg
+C:\liabilities\preview\VVd3TTErTp.jpg
+C:\liabilities\preview\ktSRUoatYe.jpg
+C:\liabilities\preview\VnDV109oxU.jpg
+C:\liabilities\preview\ZNTxhrx46n.jpg
+C:\liabilities\preview\oos2EKDN7J.jpg
+C:\liabilities\preview\l0qVLZtu1m.jpg
+C:\liabilities\preview\EXDMK8A1ZT.jpg
+C:\liabilities\preview\FwUmharbZz.jpg
+C:\liabilities\preview\F9ZqpldNYf.jpg
+C:\liabilities\preview\Dd4kZbEYyj.jpg
+C:\liabilities\preview\T5Er3PFnYg.jpg
+C:\Documents and Settings\User\Local Settings\Application Data\Microsoft\Internet Explorer\MSIMGSIZ.DAT
+C:\PROGRA~1\MICROS~2\Office12\ONBttnIE.dll
+C:\PROGRA~1\MICROS~2\Office12\REFBAR.ICO
+C:\PROGRA~1\MICROS~2\Office12\REFBARH.ICO
+C:\Program Files\Messenger\msmsgs.exe
+C:\WINDOWS\system32\shell32.dll
+C:\Program Files\Microsoft Office\Office12\msohevi.dll
+C:\Program Files\Internet Explorer\iexplore.exe
+C:\WINDOWS\system32\mshtml.dll
+C:\notexist.htm
+C:\WINDOWS\system32\url.dll
+C:\WINDOWS\explorer.exe
+C:\Documents and Settings\User\Local Settings\History\desktop.ini
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012014092220140929\*.*
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012014092220140929\index.dat
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012014092220140929\
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012014092920140930\*.*
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012014092920140930\index.dat
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012014092920140930\
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012015031820150319\
+C:\Documents and Settings\User\Local Settings\History\History.IE5\MSHist012015031820150319\index.dat
+C:\Program Files\Microsoft Office\Office12\WINWORD.EXE
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE
+C:\WINDOWS\system32\NOTEPAD.EXE
+C:\PROGRA~1\MICROS~2\Office12\GrooveUtil.DLL
+C:\PROGRA~1\MICROS~2\Office12\GrooveUtil.DLL.123.Manifest
+C:\Program Files\Common Files\Microsoft Shared\office12\Cultures\office.odf
+C:\Program Files\Common Files\Microsoft Shared\OFFICE11\msxml5.dll
+C:\Documents and Settings\User\Application Data\Microsoft\Office\Groove12.pip
+C:\WINDOWS\system32
+C:\Program Files\Common Files\system\ado\msadox.dll
+C:\WINDOWS\system32\oleacc.dll
