@@ -28,7 +28,7 @@
 	font-weight: 900;
 }
 .main-title:after{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/bitcoin-white.20x20.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/bitcoin-white.20x20.png');
 }
 
 /* animate */
@@ -483,7 +483,7 @@
 	display: inline-block;
 	width: 15px; 
 	height:15px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/notification-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/notification-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 	z-Index: 1;
 }
@@ -495,7 +495,7 @@
 	display: inline-block;
 	width: 28px; 
 	height:13px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/list-tile-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/list-tile-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 	z-Index: 1;
 }
@@ -511,7 +511,7 @@
 	display: inline-block;
 	width: 10px; 
 	height:10px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/modules/freedomshop/favorite.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/modules/freedomshop/favorite.png') no-repeat 0 0;
 	background-position: 0px 0px;
 	cursor: pointer;
 }
@@ -523,7 +523,7 @@
 	display: inline-block;
 	width: 10px; 
 	height:10px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/modules/freedomshop/favorite.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/modules/freedomshop/favorite.png') no-repeat 0 0;
 	background-position: -11px 0px;
 	cursor: pointer;
 }
@@ -531,7 +531,7 @@
 	display: inline-block;
 	width: 22px; 
 	height:15px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/mailbox-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/mailbox-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 	z-Index: 1;
 }
@@ -547,7 +547,7 @@
 	display: inline-block;
 	width: 13px; 
 	height:13px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/market-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/market-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 }
 .market:hover{
@@ -565,7 +565,7 @@
 	display: inline-block;
 	width: 15px; 
 	height:13px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/home-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/home-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 }
 .home:hover{
@@ -580,7 +580,7 @@
 	display: inline-block;
 	width: 15px; 
 	height:15px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/bank-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/bank-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 }
 .bank:hover{
@@ -592,7 +592,7 @@
 	display: inline-block;
 	width: 15px; 
 	height:15px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/orders-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/orders-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 }
 .orders:hover{
@@ -604,7 +604,7 @@
 	display: inline-block;
 	width: 19px; 
 	height:15px;
-	background: url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/ship-icon.png') no-repeat 0 0;
+	background: url('http://wztyb7vlfcw6l4xd.onion/image/system/ship-icon.png') no-repeat 0 0;
 	background-position: 0px 0px;
 }
 .ship:hover{
@@ -614,32 +614,32 @@
 
 /* pseudo elements */
 .alert:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/warning.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/warning.png');
 	padding: 2px;
 }
 .info:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/info.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/info.png');
 	padding: 2px;
 }
 
 .t_info:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/t_info.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/t_info.png');
 	padding: 2px;
 }
 .t_alert:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/t_alert.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/t_alert.png');
 	padding: 2px;
 }
 .t_check:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/t_check.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/t_check.png');
 	padding: 2px;
 }
 .t_redflag:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/t_redflag.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/t_redflag.png');
 	padding: 2px;
 }
 .t_warning:before{
-	content:url('https://wztyb7vlfcw6l4xd.torstorm.org/image/system/t_warning.png');
+	content:url('http://wztyb7vlfcw6l4xd.onion/image/system/t_warning.png');
 	padding: 2px;
 }
 
