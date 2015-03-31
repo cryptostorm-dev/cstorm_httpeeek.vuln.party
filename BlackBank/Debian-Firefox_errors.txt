@@ -1,0 +1,1090 @@
+# firefox
+
+(process:17140): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+
+(firefox:17140): GLib-GObject-WARNING **: Attempt to add property GnomeProgram::sm-connect after class was initialised
+
+(firefox:17140): GLib-GObject-WARNING **: Attempt to add property GnomeProgram::show-crash-dialog after class was initialised
+
+(firefox:17140): GLib-GObject-WARNING **: Attempt to add property GnomeProgram::display after class was initialised
+
+(firefox:17140): GLib-GObject-WARNING **: Attempt to add property GnomeProgram::default-icon after class was initialised
+1427774944257	addons.update-checker	WARN	Update manifest for ubufox@ubuntu.com did not contain an updates property
+1427774944551	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: conn4.timelineActor78
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: conn4.timelineActor78
+Handler function TabActor.prototype.onReload's delayed body threw an exception: TypeError: this.docShell is null
+Stack: TabActor.prototype.webNavigation@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:717:5
+TabActor.prototype.onReload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:1151:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+Line: 717, column: 4
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: conn3.timelineActor78
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: conn3.timelineActor78
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+NM__onRequestHeader@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:659:34
+NM_observeActivity@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/toolkit/webconsole/network-monitor.js:532:7
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't convert undefined to object
+Full stack: getObjectForLocalOrSessionStorage/<.getNamesForHost@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/storage.js:725:14
+StorageActors.defaults/<.onWindowReady<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/storage.js:262:1
+TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:393:7
+TaskImpl_run@resource://gre/modules/Task.jsm:322:13
+TaskImpl@resource://gre/modules/Task.jsm:275:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:249:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+async/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/async-utils.js:30:12
+emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:97:9
+exports.StorageActor<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/storage.js:1506:7
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't convert undefined to object
+Full stack: getObjectForLocalOrSessionStorage/<.getNamesForHost@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/storage.js:725:14
+StorageActors.defaults/<.onWindowReady<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/storage.js:262:1
+TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:393:7
+TaskImpl_run@resource://gre/modules/Task.jsm:322:13
+TaskImpl@resource://gre/modules/Task.jsm:275:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:249:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+async/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/async-utils.js:30:12
+emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:97:9
+exports.StorageActor<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/storage.js:1506:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    WalkerActor<.querySelector<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:1727:9
+actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1004:19
+DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1485:15
+LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:545:11
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+
+WalkerActor<.querySelector<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:1727:9
+actorProto/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1004:19
+DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1485:15
+LocalDebuggerTransport.prototype.send/<@resource://gre/modules/devtools/dbg-client.jsm -> resource://gre/modules/devtools/transport/transport.js:545:11
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:83:14
+console.error: 
+  Protocol error (unknownError): TypeError: can't access dead object
+console.error: 
+  Protocol error (unknownError): TypeError: can't access dead object
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: conn0.timelineActor38
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: conn0.timelineActor38
+root@BanekiDev:/home/fausty# 
