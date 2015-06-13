@@ -1,0 +1,1126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Microsoft speaks out on Flame malware certificate forgery | Naked Security</title>
+
+				
+		
+		<link rel="shortcut icon" type="image/x-icon" href="https://s0.wp.com/wp-content/themes/vip/sophosnews/images/favicon.ico">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="publisher" href="https://plus.google.com/107512733802574023624/">
+		<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/vip/sophosnews/style.css">
+		<link rel="pingback" href="https://sophosnews.wordpress.com/xmlrpc.php">
+		
+<meta name="description" content="Microsoft has now gone public with additional information about the certificate forgery in the Flame malware. The attackers used an MD5 collision. Learn more about hash collisions, and how to avoid them in your own IT environment.">
+<meta name="keywords" content="cryptography, featured, malware, microsoft, collision, cryptography, digital certificate, flame, forgery, hash, it, md5, microsoft, ps3, sha-1, sha-2">
+<meta name="google-site-verification" content="I9dHFo-YhnK2MfAHn-20V4GnWrOttVUYyISGamyU41M">
+<meta name="msvalidate.01" content="7D8D1FA2892142B1543D2CBCD07FB88F">
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=nakedsecurity.sophos.com&amp;id=15254721&amp;t=1434158069&amp;back=https%3A%2F%2Fnakedsecurity.sophos.com%2F2012%2F06%2F07%2Fmicrosoft-speaks-out-on-flame-malware-certificate-forgery%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="Naked Security &raquo; Feed" href="https://nakedsecurity.sophos.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Naked Security &raquo; Comments Feed" href="https://nakedsecurity.sophos.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Naked Security &raquo; Microsoft speaks out on Flame malware certificate forgery Comments Feed" href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/_static/??-eJx9jlsOwiAQRTckTtXG6IdxLYAjnXZ4pNB0+059RaPhh9xLzuECc1I2hoKhgJ9U4slRyMA0YIYeS9J2UPe2tjmv4D9u44hy75MuC+HxQhoZvWA1zaf9y1piJ1vVmTkJrYxJI+as5PQ0eVU6GXp6BCEWEjW/Q+1Bh1FxtLpQDF9FXVnTWFNHNBydRAdCfdQf6fE/6FpwHI3mBTj706bdbY/bpj00/Q2l+pCl' type='text/css' media='all'>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Sophos = {"ajaxurl":"https:\/\/nakedsecurity.sophos.com\/wp-admin\/admin-ajax.php","nonce":"85707f4d3b"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyNkG0KwjAMhi9k18kG4g/xLLWLW7q1qU27MU9vxQmKQ4VASPLkzYecvECnh9QAS5PtkiDMiysMb+Q3QFhsg4pQWHRPWJOL4OKdtXTCAURiCKrNuSx0phXOE0cLzBlaqb6vhG5EmH5iBqJXuhcBGK8fqrGDPE+O6CWT74gdTC/XFZqox/+7HlHhVA8Ng04B47y85GgP27qqy6rc7StzA3m5iaE='></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all'>
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all'>
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sophosnews.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel='prev' title='LinkedIn confirms hack, over 60% of stolen passwords already cracked' href='https://nakedsecurity.sophos.com/2012/06/06/linkedin-confirms-hack-over-60-of-stolen-passwords-already-cracked/'>
+<link rel='next' title='Users of dating website eHarmony told their passwords have been stolen' href='https://nakedsecurity.sophos.com/2012/06/07/eharmony-passwords-stolen/'>
+<meta name="generator" content="WordPress.com">
+<link rel='canonical' href='https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/'>
+<link rel='shortlink' href='http://wp.me/p120rT-Ijz'>
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fnakedsecurity.sophos.com%2F2012%2F06%2F07%2Fmicrosoft-speaks-out-on-flame-malware-certificate-forgery%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fnakedsecurity.sophos.com%2F2012%2F06%2F07%2Fmicrosoft-speaks-out-on-flame-malware-certificate-forgery%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Microsoft speaks out on Flame malware certificate forgery">
+<meta property="og:url" content="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/">
+<meta property="og:description" content="Microsoft has now gone public with additional information about the certificate forgery in the Flame malware. The attackers used an MD5 collision.
+
+Learn more about hash collisions, and how to av...">
+<meta property="article:published_time" content="2012-06-06T23:33:36+00:00">
+<meta property="article:modified_time" content="2013-02-10T23:47:54+00:00">
+<meta property="og:site_name" content="Naked Security">
+<meta property="og:image" content="https://sophosnews.files.wordpress.com/2012/06/ms-flames-250.png?w=250">
+<meta property="og:image:secure_url" content="https://sophosnews.files.wordpress.com/2012/06/ms-flames-250.png?w=250">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:image" content="https://sophosnews.files.wordpress.com/2012/06/ms-flames-250.png?w=240">
+<meta name="twitter:card" content="summary">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel='openid.server' href='https://sophosnews.wordpress.com/?openidserver=1'>
+<link rel='openid.delegate' href='https://sophosnews.wordpress.com/'>
+<link rel="search" type="application/opensearchdescription+xml" href="https://nakedsecurity.sophos.com/osd.xml" title="Naked Security">
+<link rel="search" type="application/opensearchdescription+xml" href="https://wordpress.com/opensearch.xml" title="WordPress.com">
+<meta name="application-name" content="Naked Security"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Computer Security News, Advice and Research"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://nakedsecurity.sophos.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><style type="text/css" id="syntaxhighlighteranchor"></style>
+		<script type="text/javascript">
+
+			/* Setup a Google Analytics command stack to track the page view */
+			window._gaq = window._gaq || [];
+
+			// Add data to the .sophos.com profile
+			_gaq.push(
+				['_setAccount', 'UA-737537-1'],
+				['_setDomainName', '.sophos.com'],
+				['_setAllowLinker', true],
+				['_setAllowHash', false],
+				['_trackPageview', '/nakedsecurity'+window.location.pathname+window.location.search]
+			);
+
+			// Add data to the independent profile
+			_gaq.push(
+				['ns._setAccount', 'UA-737537-25'],
+				['ns._trackPageview']
+			);
+
+			jQuery(function () {
+                            try {
+    				window.sophosGaGuidStore.processGaToken({
+        				useGoogleVid: true,
+        				outputDebug: false,
+        				gaScope: 1,
+        				gaNamespace: 'ns',
+        				gaAccount: 'UA-737537-25'
+                            });
+                            } catch (e) {
+				// do nothing
+                            }
+			});
+
+			/* Create the appropriate Google Analytics script element */
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+            <meta name="msvalidate.01" content="D40C7646E4220DFB555112071FD858E4" />
+	</head>
+	<body class="single single-post postid-170349 single-format-standard mp6 typekit-enabled customizer-styles-applied highlander-enabled highlander-light">
+            <div class="xp"></div>
+                <div id="printHeader"><img src="https://s0.wp.com/wp-content/themes/vip/sophosnews/images/sophos-logo.gif"
+				width="126" height="50" alt="Antivirus and Security Software from Sophos"></div>
+
+		<div id="wrapper" class="hfeed">
+			<div id="header">
+                            <a rel="home" href="/" title="Naked Security - Award-winning computer security, news, opinion, advice and research from SOPHOS">
+                                                                    <span class="title">Naked <em>Security</em></span>
+                                                                <small>Award-winning computer security news from <span class="replace logo sophos">Sophos</span></small>
+                            </a>
+				<a class="mothership" rel="nofollow" href="http://www.sophos.com/" title="SOPHOS"></a>
+				<div title="Hi" class="robot">
+				</div>
+				<div id="game-container"></div>
+				<div class="navigation">
+					<ul id="menu-category-menu" class="menu"><li id="menu-item-31599" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-31599"><a href="https://nakedsecurity.sophos.com/category/security-threats/malware/">Malware</a></li>
+<li id="menu-item-31533" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31533"><a href="https://nakedsecurity.sophos.com/category/organisations/apple/">Mac</a></li>
+<li id="menu-item-187396" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-187396"><a href="https://nakedsecurity.sophos.com/category/social-networks/facebook/">Facebook</a></li>
+<li id="menu-item-187828" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-187828"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/mobile/android/">Android</a></li>
+<li id="menu-item-147074" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-147074"><a href="https://nakedsecurity.sophos.com/category/security-threats/vulnerability/">Vulnerability</a></li>
+<li id="menu-item-31368" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31368"><a href="https://nakedsecurity.sophos.com/category/security-threats/data-loss/">Data loss</a></li>
+<li id="menu-item-147073" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-147073"><a href="https://nakedsecurity.sophos.com/category/privacy/">Privacy</a></li>
+<li id="menu-item-27702" class="more menu-item menu-item-type-custom menu-item-object-custom menu-item-27702"><a href="/categories">More...</a></li>
+</ul>					<form action="/" id="searchform" method="get" role="search">
+						<label for="s" class="screen-reader-text">Search for:</label>
+						<input class="text" onclick="if (this.value == 'search articles') this.value=''" type="text"	size="5" id="s" name="s" value="search articles">
+						<input class="submit" type="submit" value="" id="searchButton">
+					</form>
+				</div>
+				<ul class="social">
+					<li><a class="facebook" rel="nofollow" href="https://www.facebook.com/SophosSecurity" title="Join over 250,000 people in our Facebook community"></a></li><li><a
+					class="twitter" rel="nofollow" href="https://twitter.com/#!/NakedSecurity" title="Follow our team of security experts on Twitter"></a></li><li><a
+					class="youtube" rel="nofollow" href="https://www.youtube.com/user/SophosLabs" title="Take a look at the SophosLabs YouTube channel"></a></li><li><a
+                    class="gplus" rel="nofollow" href="https://plus.google.com/107512733802574023624" rel="publisher" title="Join our Google+ community"></a></li><li><a
+					class="linkedin" rel="nofollow" href="https://www.linkedin.com/groups?about=&amp;gid=4023910" title="Join the Naked Security discussion group on LinkedIn"></a></li><li><a
+					class="rss" rel="nofollow" href="/feed" title="Subscribe to our RSS feed"></a></li>
+				</ul>
+			</div><!-- #header -->
+                        <div class="share-rail">
+	<!-- Facebook -->
+	<iframe class="facebook" src="https://www.facebook.com/plugins/like.php?href=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/&amp;layout=box_count&amp;height=63&amp;width=49"
+        scrolling="no" frameborder="0"
+        style="border:none; width:49px; height:63px"></iframe>
+
+    <!-- Place this tag where you want the share button to render. -->
+    <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/"></div>
+    
+    <!-- Place this tag after the last share tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+
+    <!-- Twitter -->
+    <iframe class="twitter" allowtransparency="true" frameborder="0" scrolling="no"
+    src="https://platform.twitter.com/widgets/tweet_button.html?count=vertical&amp;url=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/&amp;related=NakedSecurity&amp;text=Microsoft speaks out on Flame malware certificate forgery"
+    style="width:60px; height:62px;"></iframe>
+
+    <!-- Reddit -->
+    <iframe class="reddit" width="60" scrolling="no" height="70" frameborder="0" src="https://pay.reddit.com/static/button/button2.html?width=69&amp;url=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/"></iframe>
+
+    <!-- LinkedIn -->
+    <script src="//platform.linkedin.com/in.js" type="text/javascript">
+     lang: en_US
+    </script>
+    <script type="IN/Share"></script>
+
+    <!-- Pocket -->
+    <iframe class="pocket" scrolling="no" width="60" height="22" frameborder="0"
+	src="https://widgets.getpocket.com/v1/button?label=pocket&amp;count=none&amp;v=1&amp;url=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/" allowtransparency="true"></iframe>
+</div>                                                       
+				<div id="main">
+				
+<div id="container">
+	<div id="content" role="main">
+
+		
+		<div id="post-170349" class="post-170349 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-featured category-malware category-microsoft tag-collision tag-cryptography tag-digital-certificate tag-flame tag-forgery tag-hash tag-it tag-md5 tag-microsoft tag-ps3 tag-sha-1 tag-sha-2">
+
+			<div id="nav-above" class="navigation">
+				<div class="nav-previous"><a href="https://nakedsecurity.sophos.com/2012/06/06/linkedin-confirms-hack-over-60-of-stolen-passwords-already-cracked/" rel="prev"><span class="previous-arrow"></span> LinkedIn confirms hack, over 60% of stolen passwords already cracked</a></div>
+				<div class="nav-next"><a href="https://nakedsecurity.sophos.com/2012/06/07/eharmony-passwords-stolen/" rel="next">Users of dating website eHarmony told their passwords have been stolen <span class="next-arrow"></span></a></div>
+			</div><!-- #nav-above -->
+
+			
+			<h1 class="entry-title">Microsoft speaks out on Flame malware certificate forgery</h1>
+			<div class="entry-meta">
+						by <span class="author vcard"><a class="url fn n" href="https://nakedsecurity.sophos.com/author/pducklin/" title="View all posts by Paul Ducklin">Paul Ducklin</a></span> on June 7, 2012				<span class="meta-sep">|</span>
+						<a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comments">12 Comments</a>									</div><!-- .entry-meta -->
+
+			<div class="entry-utility">
+						<p><span class="post-categories-label">Filed Under:</span> <a href="https://nakedsecurity.sophos.com/category/cryptography/" rel="category tag">Cryptography</a>, <a href="https://nakedsecurity.sophos.com/category/featured/" rel="category tag">Featured</a>, <a href="https://nakedsecurity.sophos.com/category/security-threats/malware/" rel="category tag">Malware</a>, <a href="https://nakedsecurity.sophos.com/category/organisations/microsoft/" rel="category tag">Microsoft</a></p>			</div><!-- .entry-utility -->
+
+			<div class="entry-content">
+						<p><img src="https://sophosnews.files.wordpress.com/2012/06/ms-flames-180.png?w=180&#038;h=180" alt="" title="Microsoft logo with flame imagery" width="180" height="180" align="right" hspace="10" vspace="10"></img>We've already written about the ability of the Flame malware to trick you into installing apparently-trusted software signed with a <a href="https://nakedsecurity.sophos.com/2012/06/04/flame-malware-used-man-in-the-middle-attack-against-windows-update/">fraudulent digital certificate</a>.</p>
+<p>Microsoft has now gone public with <a href="http://blogs.technet.com/b/srd/archive/2012/06/06/more-information-about-the-digital-certificates-used-to-sign-the-flame-malware.aspx" rel="nofollow">additional information</a> about the cryptographic trickery used in this case.</p>
+<p>For pre-Vista versions of Windows, it seems that the certificate spoofing <a href="http://blogs.technet.com/b/msrc/archive/2012/06/06/security-advisory-2718704-collision-attack-details-wu-update-rollout.aspx" rel="nofollow">didn't rely</a> on any sort of cryptographic forgery. </p>
+<p>But for Vista and later, the attackers needed to forge a certificate. They did this using an MD5 collision. </p>
+<p>The details of what the forged certificate <a href="http://blogs.technet.com/b/srd/archive/2012/06/06/more-information-about-the-digital-certificates-used-to-sign-the-flame-malware.aspx" rel="nofollow">looked like</a> can be found on the Technet blog; here, we'll simply review what we mean by "an MD5 collision."</p>
+<p>Digital certificates rely on <a href="http://en.wikipedia.org/wiki/Public-key_cryptography" rel="nofollow">public-key cryptography</a>. You use a private key to encrypt the certificate; the recipient can use your public key - and only your public key - to decrypt it and thus to validate it. If the certificate doesn't decrypt with your public key, then clearly you didn't sign it, and <em>vice versa</em>.</p>
+<p>Except that public-key algorithms aren't good at encrypting and decrypting arbitrarily-sized blocks of data such as certificate files, not least because they're very much slower than non-public-key cryptographic algorithms. </p>
+<p>So, to digitally sign a file, you first generate a cryptographic hash of it - generating a fixed-length fingerprint - and then use public-key encryption on just the hash.</p>
+<p>This makes computation much more convenient, but at the cost that the digital signature is now only as strong as the weaker of the hash algorithm and the public-key algorithm.</p>
+<p>In the Flame case, the attackers took a legitimate Microsoft certificate using MD5 for its hash and RSA-2048 for its public-key encryption. They then generated a similar-but-different certificate with the same MD5 hash. This means that the RSA-2048 signature from Microsoft's genuine certificate could be grafted into their forged certificate to make it appear valid.</p>
+<p>Of course, this isn't supposed to happen. For a hashing algorithm to be considered cryptographically sound, there should be no method better than chance (i.e. no alternative to brute force) for creating two objects with a matching hash. </p>
+<p>But this isn't true for MD5. Back in 2004, Chinese researchers showed how to <a href="http://eprint.iacr.org/2004/199" rel="nofollow">create colliding MD5 messages</a> in about one hour on a (then) high-end IBM server. </p>
+<p><a href="http://www.win.tue.nl/~bdeweger/PS3Lab/" rel="nofollow"><img src="https://sophosnews.files.wordpress.com/2012/06/200-p23s-180.png?w=180&#038;h=200" alt="" title="200 PS3s in cryptanalytical rig, Switzerland" width="180" height="200" align="right" hspace="10" vspace="10"></img></a>And by the end of 2008, European researchers had successfully generated a <a href="http://www.win.tue.nl/hashclash/rogue-ca/" rel="nofollow">rogue Certificate Authority (CA) digital certificate</a>. They used a network of <a href="http://www.win.tue.nl/~bdeweger/PS3Lab/" rel="nofollow">200 PS3s</a> for the computational heavy lifting.</p>
+<p>The moral of the story? </p>
+<p>Don't use digital certificates which rely on MD5. In fact, <strong>avoid MD5 as far as you can</strong>. You <strong>should not use MD5 in any new IT project</strong>. </p>
+<p>In 2012, <strong>use <a href="http://en.wikipedia.org/wiki/SHA-1" rel="nofollow">SHA-1</a> as a minimum</strong> whenever a cryptographic hash is called for, and <strong>prefer <a href="http://en.wikipedia.org/wiki/SHA-2" rel="nofollow">SHA-2</a> if practicable</strong>. (SHA-2 comes in four flavours, giving hashes of 224, 256, 384 or 512 bits long.)</p>
+<p><a href='http://twitter.com/duckblog' class='twitter-follow-button'>Follow @duckblog</a><br>
+-</p>
+															</div><!-- .entry-content -->
+
+			<div class="entry-utility">
+						<p><span class="post-tags-label">Tags:</span> <a href="https://nakedsecurity.sophos.com/tag/collision/" rel="tag">collision</a>, <a href="https://nakedsecurity.sophos.com/tag/cryptography/" rel="tag">Cryptography</a>, <a href="https://nakedsecurity.sophos.com/tag/digital-certificate/" rel="tag">digital certificate</a>, <a href="https://nakedsecurity.sophos.com/tag/flame/" rel="tag">Flame</a>, <a href="https://nakedsecurity.sophos.com/tag/forgery/" rel="tag">forgery</a>, <a href="https://nakedsecurity.sophos.com/tag/hash/" rel="tag">hash</a>, <a href="https://nakedsecurity.sophos.com/tag/it/" rel="tag">IT</a>, <a href="https://nakedsecurity.sophos.com/tag/md5/" rel="tag">MD5</a>, <a href="https://nakedsecurity.sophos.com/tag/microsoft/" rel="tag">Microsoft</a>, <a href="https://nakedsecurity.sophos.com/tag/ps3/" rel="tag">ps3</a>, <a href="https://nakedsecurity.sophos.com/tag/sha-1/" rel="tag">sha-1</a>, <a href="https://nakedsecurity.sophos.com/tag/sha-2/" rel="tag">sha-2</a></p>			</div><!-- .entry-utility -->
+
+                        <div class="share-rail">
+	<!-- Facebook -->
+	<iframe class="facebook" src="https://www.facebook.com/plugins/like.php?href=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/&amp;layout=box_count&amp;height=63&amp;width=49"
+        scrolling="no" frameborder="0"
+        style="border:none; width:49px; height:63px"></iframe>
+
+    <!-- Place this tag where you want the share button to render. -->
+    <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/"></div>
+    
+    <!-- Place this tag after the last share tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+
+    <!-- Twitter -->
+    <iframe class="twitter" allowtransparency="true" frameborder="0" scrolling="no"
+    src="https://platform.twitter.com/widgets/tweet_button.html?count=vertical&amp;url=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/&amp;related=NakedSecurity&amp;text=Microsoft speaks out on Flame malware certificate forgery"
+    style="width:60px; height:62px;"></iframe>
+
+    <!-- Reddit -->
+    <iframe class="reddit" width="60" scrolling="no" height="70" frameborder="0" src="https://pay.reddit.com/static/button/button2.html?width=69&amp;url=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/"></iframe>
+
+    <!-- LinkedIn -->
+    <script src="//platform.linkedin.com/in.js" type="text/javascript">
+     lang: en_US
+    </script>
+    <script type="IN/Share"></script>
+
+    <!-- Pocket -->
+    <iframe class="pocket" scrolling="no" width="60" height="22" frameborder="0"
+	src="https://widgets.getpocket.com/v1/button?label=pocket&amp;count=none&amp;v=1&amp;url=https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/" allowtransparency="true"></iframe>
+</div>                                                       
+	                        
+                        <div class="nps-jail">
+                            <a name="pd_a_5700808"></a>
+<div class="PDS_Poll" id="PDI_container5700808" style="display:inline-block;"></div>
+<div id="PD_superContainer"></div>
+<script type="text/javascript" charset="UTF-8" src="//static.polldaddy.com/p/5700808.js"></script>
+<noscript><a href="http://polldaddy.com/poll/5700808">Take Our Poll</a></noscript>                        </div>
+			
+                        <div id="nav-below" class="navigation">
+				<div class="nav-previous"><a href="https://nakedsecurity.sophos.com/2012/06/06/linkedin-confirms-hack-over-60-of-stolen-passwords-already-cracked/" rel="prev"><span class="previous-arrow"></span> LinkedIn confirms hack, over 60% of stolen passwords already cracked</a></div>
+				<div class="nav-next"><a href="https://nakedsecurity.sophos.com/2012/06/07/eharmony-passwords-stolen/" rel="next">Users of dating website eHarmony told their passwords have been stolen <span class="next-arrow"></span></a></div>
+			</div><!-- #nav-above -->
+
+		</div><!-- #post-## -->
+		
+                            <h2>You might like</h2>
+                            <div class="related-posts">
+                                    
+                <div class="post">
+                    <a class="image" href="https://nakedsecurity.sophos.com/2013/11/14/microsoft-leads-the-way-setting-new-cryptographic-defaults/"><img width="115" height="115" src="https://i2.wp.com/sophosnews.files.wordpress.com/2013/03/ts-cracked-250.png?crop=27px%2C22px%2C193px%2C193px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="ts-cracked-250"></a>
+                    <a class="title" href="https://nakedsecurity.sophos.com/2013/11/14/microsoft-leads-the-way-setting-new-cryptographic-defaults/">Microsoft leads the way, setting new cryptographic defaults</a>
+                </div>
+
+                
+                <div class="post">
+                    <a class="image" href="https://nakedsecurity.sophos.com/2013/05/28/certificate-pinning-first-for-websites-now-for-software/"><img width="115" height="115" src="https://i2.wp.com/sophosnews.files.wordpress.com/2013/05/certchain-250.png?crop=0px%2C64px%2C127px%2C127px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="certchain-250"></a>
+                    <a class="title" href="https://nakedsecurity.sophos.com/2013/05/28/certificate-pinning-first-for-websites-now-for-software/">Certificate pinning - first for websites, now for software?</a>
+                </div>
+
+                
+                <div class="post">
+                    <a class="image" href="https://nakedsecurity.sophos.com/2012/10/04/sha-3-hash-competition-concludes-keccak/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2012/10/nist-winner-250.png?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="SHA-3 hash competition concludes, and the winner is...Keccak!"></a>
+                    <a class="title" href="https://nakedsecurity.sophos.com/2012/10/04/sha-3-hash-competition-concludes-keccak/">SHA-3 hash competition concludes, and the winner is...Keccak!</a>
+                </div>
+
+                
+                <div class="post">
+                    <a class="image" href="https://nakedsecurity.sophos.com/2012/06/04/flame-malware-used-man-in-the-middle-attack-against-windows-update/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2012/06/windows-update-thumb.jpg?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="windows-update-thumb"></a>
+                    <a class="title" href="https://nakedsecurity.sophos.com/2012/06/04/flame-malware-used-man-in-the-middle-attack-against-windows-update/">Flame malware used man-in-the-middle attack against Windows Update</a>
+                </div>
+
+                                            </div>
+
+                    
+			<div id="comments">
+
+
+			<h3 id="comments-title">12 Responses to <em>Microsoft speaks out on Flame malware certificate forgery</em></h3>
+
+
+			<ol class="commentlist">
+				    <li class="comment even thread-even depth-1 highlander-comment" id="li-comment-36256">
+        <div id="comment-36256">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://s0.wp.com/i/mu.gif' class='avatar avatar-30 avatar-default' height='30' width='30'></div>
+                <cite class="fn"><a href='http://twitter.com/MarkLaffan' rel='external nofollow' class='url'>@MarkLaffan</a></cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36256">1101 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>and at a minimum, use SHA-1 *with a salt* too :) </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36256"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36256#respond' onclick='return addComment.moveForm( "comment-36256", "36256", "respond", "170349" )' aria-label='Reply to @MarkLaffan'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-36371">
+        <div id="comment-36371">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://0.gravatar.com/avatar/c9ff01abca4eeac04287162c80e6c395?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">gene</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36371">1100 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>How does one do that?  Use either or any?  Is there a program to be used?  The &quot;how&quot; is as important as the story.  For non-computer professionals I mean. </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36371"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36371#respond' onclick='return addComment.moveForm( "comment-36371", "36371", "respond", "170349" )' aria-label='Reply to gene'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    <ul class="children">
+    <li class="comment even depth-2 highlander-comment" id="li-comment-36468">
+        <div id="comment-36468">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://1.gravatar.com/avatar/441e7fae6894199e8fc3025efb70919d?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">Paul Ducklin</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36468">1100 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>Avoiding MD5 certs offered to you (e.g. into your browser) by other people isn&#039;t easy. </p>
+<p>Firefox, for example, has had an on-again-off-again effort to make &quot;reject MD5-hashed certificates&quot; a default setting for over a year now. Indeed, in FF 13, which I acquired a couple of days back, it is now an official setting, but it is _off_ by default (you can use about:config to change &quot;security.enable_md5_signatures&quot; to &quot;false&quot;). </p>
+<p>If Mozilla can dither for that long...then what are the rest of us to do :-) </p>
+<p>My advice above was meant to be more restricted, and thus easier to achieve but less useful overall: give up using MD5 in anything _you_ do, including minting digital certificates. </p>
+<p>Having said that, you can check your own (and other people&#039;s) certs, assuming you know how to save them to disk, with a command like &quot;openssl x509 -in certname -text&quot; (UNIX/Linux/OSX) or  &quot;certtool.exe -dump certname&quot; (Windows). </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36468"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36468#respond' onclick='return addComment.moveForm( "comment-36468", "36468", "respond", "170349" )' aria-label='Reply to Paul Ducklin'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1 highlander-comment" id="li-comment-36376">
+        <div id="comment-36376">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://2.gravatar.com/avatar/e55c0cbc9ee863a41f27f7bc6007c1e6?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">Cliff Jones</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36376">1100 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>Most Linux distros are using MD5 on isos and updates. Should they change this? Or is the risk low enough that the lower overhead is more desirable than the security? </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36376"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36376#respond' onclick='return addComment.moveForm( "comment-36376", "36376", "respond", "170349" )' aria-label='Reply to Cliff Jones'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    <ul class="children">
+    <li class="comment even depth-2 highlander-comment" id="li-comment-36470">
+        <div id="comment-36470">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://1.gravatar.com/avatar/441e7fae6894199e8fc3025efb70919d?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">Paul Ducklin</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36470">1100 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>Download sites I&#039;ve used lately seem to carry both SHA1s and MD5s.  </p>
+<p>FWIW, If you just want to verify &quot;did the download complete without errors&quot; then you are OK with the MD5 hash - it&#039;s not a digital signature, after all. (If hackers could alter the ISOs, they could probably alter the page containing the MD5s and other hashes, too. So even a SHA-512 would be no more useful, given that you can&#039;t validate the authenticity of the hash. It could be just as &quot;hacked&quot; as the ISO :-) </p>
+<p>Many (most? all?) distros these days also provide signed checksums which you can verify using GPG and a copy of the distro-maker&#039;s public key - which you can acquire from a separate source if you like. In the case of software updates, that&#039;s typically done automatically.   </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36470"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36470#respond' onclick='return addComment.moveForm( "comment-36470", "36470", "respond", "170349" )' aria-label='Reply to Paul Ducklin'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-36421">
+        <div id="comment-36421">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://2.gravatar.com/avatar/5668984226e274615ee2d1c0261e807a?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">njorl</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36421">1100 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>&quot;Except that public-key algorithms aren&#039;t good at encrypting and decrypting arbitrarily-sized blocks of data such as certificate files, not least because they&#039;re very much slower than non-public-key cryptographic algorithms.&quot; </p>
+<p>I&#039;m puzzled as to in what way being &quot;arbitrarily-sized&quot; poses a problem, particularly as the context suggests that &quot;arbitrarily-sized&quot; is not a loose substitute for &quot;very large&quot;.  If the algorithm is much more effective when handling blocks of 1k (say), surely we can pad to the next multiple with random noise? </p>
+<p>The speed comparison with non-PKI is, not, in itself, informative.  What&#039;s important is how slow is decryption of public-key encrypted data/code, on non-archaic hardware, and is the consequent delay to the update process a price worth paying for the potential avoidance of malware?  (I&#039;m assuming the encryption time, at the head end, will be far from beyond what Microsoft and et al can support.) </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36421"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36421#respond' onclick='return addComment.moveForm( "comment-36421", "36421", "respond", "170349" )' aria-label='Reply to njorl'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    <ul class="children">
+    <li class="comment even depth-2 highlander-comment" id="li-comment-36473">
+        <div id="comment-36473">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://1.gravatar.com/avatar/441e7fae6894199e8fc3025efb70919d?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">Paul Ducklin</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36473">1100 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>I haven&#039;t got current measurements, but RSA is typically about 1000x slower than a symmetric encryption algorithm, which is in turn generally slower than a designed-for-the-purpose cryptographic hash. And RSA and friends don&#039;t lend themselves to enciphering data in blocks or streams (in the context of which, I do consider 1KByte &quot;large&quot; :-) </p>
+<p>Actually, I failed to mention another reason for hash-and-sign, namely that you may not actually want to encrypt the data you are presenting. In other words, the raw data of a certificate is public information - you want it to be in clear. You also want the cryptographic hash to be in clear. And you want a separate signature by which the hash can be authenticated, and thus the content of the certificate validated. (Nice thing about that is it means you can start processing the certificate, computing and checking its hash, and validating the authenticity of the hash, all in parallel.) </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36473"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36473#respond' onclick='return addComment.moveForm( "comment-36473", "36473", "respond", "170349" )' aria-label='Reply to Paul Ducklin'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1 highlander-comment" id="li-comment-36619">
+        <div id="comment-36619">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://2.gravatar.com/avatar/834022dc3c9b056e2aa4aea754fb8bc9?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn"><a href='http://&#039;' rel='external nofollow' class='url'>jmb</a></cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36619">1099 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>This would be a great time to discuss last month's #sophospuzzle, eh? </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36619"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36619#respond' onclick='return addComment.moveForm( "comment-36619", "36619", "respond", "170349" )' aria-label='Reply to jmb'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    <ul class="children">
+    <li class="comment even depth-2 highlander-comment" id="li-comment-36772">
+        <div id="comment-36772">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://1.gravatar.com/avatar/441e7fae6894199e8fc3025efb70919d?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">Paul Ducklin</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36772">1099 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>Er, yes :-) </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36772"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36772#respond' onclick='return addComment.moveForm( "comment-36772", "36772", "respond", "170349" )' aria-label='Reply to Paul Ducklin'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-36739">
+        <div id="comment-36739">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://s0.wp.com/i/mu.gif' class='avatar avatar-30 avatar-default' height='30' width='30'></div>
+                <cite class="fn"><a href='http://twitter.com/tyw7' rel='external nofollow' class='url'>@tyw7</a></cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36739">1099 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>How about SHA-5 or WHIRLWIND?  Also, if MD5 is weak why do antiviruses use it to detect viruses? </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36739"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36739#respond' onclick='return addComment.moveForm( "comment-36739", "36739", "respond", "170349" )' aria-label='Reply to @tyw7'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    <ul class="children">
+    <li class="comment even depth-2 highlander-comment" id="li-comment-36771">
+        <div id="comment-36771">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://1.gravatar.com/avatar/441e7fae6894199e8fc3025efb70919d?s=30&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-30' height='30' width='30'></div>
+                <cite class="fn">Paul Ducklin</cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-36771">1099 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>I&#039;ve not heard of SHA-5.  </p>
+<p>Don&#039;t forget that NIST is currently getting to the end of a public contest to choose and standardise on a hash that will be designated &quot;SHA-3&quot; and that will replace its currently-officially-recommended SHA-2. Since we&#039;re not yet even at SHA-3, anything called SHA-5 sounds rather confusing at best. Perhaps SHA-5 is somebody&#039;s unofficial name for a hash function or some sort? If so, then on those grounds alone, I&#039;d avoid it, whatever it might be. </p>
+<p>In my book, there is only: SHA-0 (a retrofitted name for a NIST hash function which was &quot;unrecommended&quot; immediately and reissued as SHA-1), SHA-1 and SHA-2 (which comes in four flavours, as mentioned in the article). SHA-3 will appear Real Soon Now. </p>
+<p>As for Whirlpool (which is what I presume you meant by &quot;Whirlwind&quot;) - it&#039;s derived in part from AES, and one of the designers is Vincent Rijmen, co-designer of AES. So it has good heritage :-) Use it if you like, but bear in mind that keeping to the the current NIST-approved hash _might_ be a simpler option when it comes to justifying your choice to customers. </p>
+<p>And finally, the way hashes are used in malware detection doesn&#039;t generally require a _cryptographic_ hash - merely a hash with quantifiably satisfactory dispersion properties. I won&#039;t try to explain here (maybe another time :-) but there&#039;s a hard-to-find research paper on this very issue from way back by the late anti-virus guru Yisrael Radai, if you care to go digging.  </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_36771"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=36771#respond' onclick='return addComment.moveForm( "comment-36771", "36771", "respond", "170349" )' aria-label='Reply to Paul Ducklin'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    <ul class="children">
+    <li class="comment odd alt depth-3 highlander-comment" id="li-comment-38310">
+        <div id="comment-38310">
+            <div class="comment-author vcard">
+                <div class="avatar"><img alt='' src='https://s0.wp.com/i/mu.gif' class='avatar avatar-30 avatar-default' height='30' width='30'></div>
+                <cite class="fn"><a href='http://twitter.com/tyw7' rel='external nofollow' class='url'>@tyw7</a></cite> · 
+                <a href="https://nakedsecurity.sophos.com/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#comment-38310">1091 days ago</a>
+            </div><!-- .comment-author .vcard -->
+            
+            <div class="comment-body"><p>There are tons of hashes.  Which is the &quot;strongest&quot;? </p>
+<div class="pd-rating" id="pd_rating_holder_7238218_comm_38310"></div></div>
+
+            <div class="reply button">
+                <a class='comment-reply-link' href='/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/?replytocom=38310#respond' onclick='return addComment.moveForm( "comment-38310", "38310", "respond", "170349" )' aria-label='Reply to @tyw7'>Reply</a>            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+			</ol>
+
+
+	
+
+						<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="https://sophosnews.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																										
+
+
+												<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a9908ea192" /><input type="hidden" name="_wp_http_referer" value="/2012/06/07/microsoft-speaks-out-on-flame-malware-certificate-forgery/" />
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest" />
+
+<div class="comment-form-field comment-textarea">
+	<label for="comment">Enter your comment here...</label>
+	<div id="comment-form-comment"><textarea id="comment" name="comment" title="Enter your comment here..."></textarea></div>
+</div>
+
+<div id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://s0.wp.com/i/mu.gif" alt="Gravatar" width="25" class="no-grav" />
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name</label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="text" value="" /></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://s2.wp.com/wp-content/mu-plugins/highlander-comments/images/wplogo.png" alt="WordPress.com Logo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" />
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://s0.wp.com/i/mu.gif" alt="Twitter picture" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" />
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://s0.wp.com/i/mu.gif" alt="Facebook photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" />
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://s0.wp.com/i/mu.gif" alt="Google+ photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" />
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe">
+	</div>
+
+						
+						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='170349' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1e17de8679" /></p>
+<input type="hidden" name="genseq" value="1434158069" />
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="201"/></p>					</form>
+							</div><!-- #respond -->
+			<div style="clear: both"></div>
+</div><!-- #comments -->
+                    <div id="entry-author-info">
+                        <div id="author-avatar">
+                        <img alt='' src='https://0.gravatar.com/avatar/025c4bb891cbc5a1bb24a4854f823e48?s=60&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Fmu.gif&#038;r=G' class='avatar avatar-60' height='60' width='60' />                        </div>
+                        <!-- #author-avatar -->
+                        <div id="author-description">
+                            <h2>About the author</h2>
+                            Paul Ducklin is a passionate security proselytiser. (That's like an evangelist, but more so!) He lives and breathes computer security, and would be happy for you to do so, too. 
+
+Paul won the inaugural <em>AusCERT Director's Award for Individual Excellence in Computer Security</em> in 2009. 
+
+Follow him on Twitter: <a href="http://twitter.com/duckblog">@duckblog</a>                            <div id="author-link">
+                                <a
+                                    href="https://nakedsecurity.sophos.com/author/pducklin/">
+                                    View all posts by Paul Ducklin                                </a>
+                            </div>
+                            <!-- #author-link   -->
+                        </div>
+                        <!-- #author-description -->
+                    </div>
+                    <!-- #entry-author-info -->
+                		
+	</div><!-- #content -->
+</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="facebook-likebox-3" class="widget-container widget_facebook_likebox">		<div class="fb-page" data-href="https://www.facebook.com/SophosSecurity" data-height="130" data-hide-cover="false" data-show-facepile="false" data-show-posts="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SophosSecurity"><a href="https://www.facebook.com/SophosSecurity"></a></blockquote></div>
+		</div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</li><li id="text-2" class="widget-container widget_text">			<div class="textwidget"><a style="display:block;overflow:hidden;margin-bottom:1em;" href="https://www.sophos.com/en-us/lp/sevendeadlysins.aspx?cmp=701j0000000ZaL9AAK#web"><img src="https://sophosnews.files.wordpress.com/2015/06/ns_delinquent_web_filtering_246x500.png"></a>
+
+
+</div>
+		</li><li class="sophos-widget related">
+                <h2>Related articles</h2>
+                <ul>
+                    <li><div>
+    <a href="https://nakedsecurity.sophos.com/2015/04/14/tls-certificate-blunder-revisited-whither-china-internet-network-information-center/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2015/04/cnnic-250.png?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="cnnic-250" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2015/04/14/tls-certificate-blunder-revisited-whither-china-internet-network-information-center/">TLS certificate blunder revisited - whither China Internet Network Information Center?</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2015/03/02/anatomy-of-a-certificate-problem-comodos-privdog-software-in-the-spotlight/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2015/03/certerr-250.png?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2015/03/02/anatomy-of-a-certificate-problem-comodos-privdog-software-in-the-spotlight/">Anatomy of a certificate problem - the "PrivDog" software in the spotlight</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2014/06/08/patch-tuesday-for-june-2014-7-bulletins-3-rces-2-critical-and-1-funky-sort-of-hole/"><img width="115" height="115" src="https://i1.wp.com/sophosnews.files.wordpress.com/2014/06/pt-june-2104-250.png?crop=42px%2C42px%2C167px%2C167px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="pt-june-2104-250" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2014/06/08/patch-tuesday-for-june-2014-7-bulletins-3-rces-2-critical-and-1-funky-sort-of-hole/">Patch Tuesday for June 2014 - 7 bulletins, 3 RCEs, 2 critical, and 1 funky sort of hole</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2013/12/09/serious-security-google-finds-fake-but-trusted-ssl-certificates-for-its-domains-made-in-france/"><img width="115" height="115" src="https://i1.wp.com/sophosnews.files.wordpress.com/2013/12/ff-ssl-warn-250.png?crop=38px%2C32px%2C181px%2C181px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="ff-ssl-warn-250" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2013/12/09/serious-security-google-finds-fake-but-trusted-ssl-certificates-for-its-domains-made-in-france/">Serious Security: Google finds fake but trusted SSL certificates for its domains, made in France</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2013/11/14/microsoft-leads-the-way-setting-new-cryptographic-defaults/"><img width="115" height="115" src="https://i2.wp.com/sophosnews.files.wordpress.com/2013/03/ts-cracked-250.png?crop=27px%2C22px%2C193px%2C193px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="ts-cracked-250" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2013/11/14/microsoft-leads-the-way-setting-new-cryptographic-defaults/">Microsoft leads the way, setting new cryptographic defaults</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2013/05/28/certificate-pinning-first-for-websites-now-for-software/"><img width="115" height="115" src="https://i2.wp.com/sophosnews.files.wordpress.com/2013/05/certchain-250.png?crop=0px%2C64px%2C127px%2C127px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="certchain-250" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2013/05/28/certificate-pinning-first-for-websites-now-for-software/">Certificate pinning - first for websites, now for software?</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2013/01/08/the-turktrust-ssl-certificate-fiasco-what-happened-and-what-happens-next/"><img width="115" height="115" src="https://i0.wp.com/sophosnews.files.wordpress.com/2013/01/turktrust-ssl-250.png?crop=38px%2C36px%2C176px%2C176px&amp;resize=115%2C115" class="attachment-list-post wp-post-image" alt="The TURKTRUST SSL certificate fiasco - what happened, and what happens next?" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2013/01/08/the-turktrust-ssl-certificate-fiasco-what-happened-and-what-happens-next/">The TURKTRUST SSL certificate fiasco - what really happened, and what happens next?</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2012/10/04/sha-3-hash-competition-concludes-keccak/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2012/10/nist-winner-250.png?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="SHA-3 hash competition concludes, and the winner is...Keccak!" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2012/10/04/sha-3-hash-competition-concludes-keccak/">SHA-3 hash competition concludes, and the winner is...Keccak!</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2012/06/04/flame-malware-used-man-in-the-middle-attack-against-windows-update/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2012/06/windows-update-thumb.jpg?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="windows-update-thumb" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2012/06/04/flame-malware-used-man-in-the-middle-attack-against-windows-update/">Flame malware used man-in-the-middle attack against Windows Update</a></h3>
+</div></li><li><div>
+    <a href="https://nakedsecurity.sophos.com/2010/06/23/trojbhoqp-verisign/"><img width="115" height="115" src="https://sophosnews.files.wordpress.com/2010/06/bho-verified-vs-notverified.png?w=115&amp;h=115&amp;crop=1" class="attachment-list-post wp-post-image" alt="&quot;Who&#039;s your Verisign?&quot; -- Malware faking digital signatures" /></a>
+    <h3><a href="https://nakedsecurity.sophos.com/2010/06/23/trojbhoqp-verisign/">"Who's your Verisign?" -- Malware faking digital signatures</a></h3>
+</div></li>                </ul>
+            </li><li class="sophos-widget free-tools">
+                <h2>Free tools</h2>
+                <ul>
+                    <li class="android">
+            <h3><a href="http://www.sophos.com/en-us/products/free-tools/sophos-mobile-security-free-edition.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">Mobile Security for Android</a></h3>
+            <ul class="features">
+                <li>Scans apps for malware</li>
+                <li>Remote lock and wipe </li>
+                <li>Detection from the cloud</li>
+                <li><strong>Completely free</strong></li>
+                <li><a href="http://www.sophos.com/en-us/products/free-tools/sophos-mobile-security-free-edition.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">More...</a></li>
+            </ul>
+        </li>
+        <li class="mac">
+            <h3><a href="http://www.sophos.com/en-us/products/free-tools/sophos-antivirus-for-mac-home-edition.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">Antivirus for Mac</a></h3>
+            <ul class="features">
+                <li>Clears viruses and Trojans</li>
+                <li>Stops all threats, even new ones</li>
+                <li>Installs easily and runs quietly</li>
+                <li><strong>Completely free</strong></li>
+                <li><a href="http://www.sophos.com/en-us/products/free-tools/sophos-antivirus-for-mac-home-edition.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">More...</a></li>
+            </ul>
+        </li>
+        <li class="virus">
+            <h3><a
+			href="http://www.sophos.com/en-us/products/free-tools/virus-removal-tool.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">Virus Removal Tool</a></h3>
+            <ul class="features">
+                <li>Removes viruses and rootkits</li>
+                <li>Windows XP SP2 and up</li>
+                <li>Works with existing antivirus</li>
+                <li><strong>Completely free</strong></li>
+                <li><a href="http://www.sophos.com/en-us/products/free-tools/virus-removal-tool.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">More...</a></li>
+            </ul>
+        </li>
+        <li class="utm">
+            <h3><a href="http://www.sophos.com/en-us/products/free-tools/sophos-utm-home-edition.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">UTM Home Edition</a></h3>
+            <ul class="features">
+                <li>Fully-equipped UTM</li>
+                <li>Network, web, mail and VPN</li>
+                <li>Protects 50 IP addresses</li>
+                <li><strong>Completely free</strong></li>
+                <li><a href="http://www.sophos.com/en-us/products/free-tools/sophos-utm-home-edition.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">More...</a></li>
+            </ul>
+        </li>
+        <li class="firewall">
+            <h3><a href="http://www.sophos.com/en-us/products/free-tools/sophos-utm-essential-firewall.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">UTM Essential Firewall</a></h3>
+            <ul class="features">
+                <li>Network security for business</li>
+                <li>No user/IP limitations</li>
+                <li>Upgrade to full UTM</li>
+                <li><strong>Completely free</strong></li>
+                <li><a href="http://www.sophos.com/en-us/products/free-tools/sophos-utm-essential-firewall.aspx?cmp=70130000001xGqlAAE&utm_source=nakedsecurity.sophos.com&utm_medium=Widget%253A%2520Free%2520tools&utm_campaign=%252F2015%252F06%252F11%252Ffeds-seize-mans-computers-in-raids-connected-to-celebrity-nude-photo-hack%252F%253Futm_source%253Dfeedburner%2526utm_medium%253Dfeed%2526utm_campaign%253DFeed%25253A%252Bnakedsecurity%252B%252528Naked%252BSecurity%252B-%252BSophos%252529">More...</a></li>
+            </ul>
+        </li>                </ul>
+            </li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+		</div><!-- #main -->
+	<br class="clear">
+	</div><!-- #wrapper -->
+
+	<div id="footer">
+		<div class="content">
+		<div class="top">
+			<ul class="us">
+				<li><a rel="nofollow" href="/about">About Us</a></li>
+				<li><a rel="nofollow" href="http://www.sophos.com/en-us/about-us.aspx">About Sophos</a></li>
+				<li><a rel="nofollow" href="/authors">Our Authors</a></li>
+				<li><a rel="nofollow" href="/about/#awards">Awards</a></li>
+				<li><a rel="nofollow" href="/about/#tip">Got a story?</a></li>
+			</ul><!-- kill the whitespace like it's the 1990s... --><ul class="social">
+				<li><a rel="nofollow" class="facebook"
+					href="http://www.facebook.com/SophosSecurity"
+					title="Join over 170,000 people in our Facebook community"></a></li>
+				<li><a rel="nofollow" class="twitter" href="https://twitter.com/#!/NakedSecurity"
+					title="Follow our team of security experts on Twitter"></a></li>
+				<li><a rel="nofollow" class="youtube" href="http://www.youtube.com/user/SophosLabs"
+					title="Take a look at the SophosLabs YouTube channel"></a></li>
+				<li><a rel="nofollow" class="gplus"
+                    href="https://plus.google.com/107512733802574023624"
+					title="Join our Google+ community"></a></li>
+				<li><a rel="nofollow" class="linkedin"
+					href="http://www.linkedin.com/groups?about=&amp;gid=4023910"
+					title="Join the Naked Security discussion group on LinkedIn"></a></li>
+				<li><a rel="nofollow" class="rss" href="/feed"
+					title="Subscribe to our RSS feed"></a></li>
+			</ul>
+		</div>
+		<div class="column naked-security">
+				<div class="labels">
+					<h3>Tags</h3>
+					<div class="tags">
+						<div style="overflow:hidden"><a href='https://nakedsecurity.sophos.com/tag/adobe/' class='tag-link-29691' title='229 topics' style='font-size: 10.394736842105pt;'>Adobe</a>
+<a href='https://nakedsecurity.sophos.com/tag/android/' class='tag-link-641922' title='272 topics' style='font-size: 11.868421052632pt;'>Android</a>
+<a href='https://nakedsecurity.sophos.com/tag/apple/' class='tag-link-291' title='447 topics' style='font-size: 15.736842105263pt;'>Apple</a>
+<a href='https://nakedsecurity.sophos.com/tag/chet-chat/' class='tag-link-43155110' title='226 topics' style='font-size: 10.394736842105pt;'>chet chat</a>
+<a href='https://nakedsecurity.sophos.com/tag/data-breach/' class='tag-link-67372' title='228 topics' style='font-size: 10.394736842105pt;'>data breach</a>
+<a href='https://nakedsecurity.sophos.com/tag/encryption/' class='tag-link-6474' title='223 topics' style='font-size: 10.210526315789pt;'>Encryption</a>
+<a href='https://nakedsecurity.sophos.com/tag/exploit/' class='tag-link-78999' title='391 topics' style='font-size: 14.631578947368pt;'>Exploit</a>
+<a href='https://nakedsecurity.sophos.com/tag/facebook/' class='tag-link-81819' title='973 topics' style='font-size: 22pt;'>Facebook</a>
+<a href='https://nakedsecurity.sophos.com/tag/fbi/' class='tag-link-68079' title='199 topics' style='font-size: 9.2894736842105pt;'>FBI</a>
+<a href='https://nakedsecurity.sophos.com/tag/general/' class='tag-link-54' title='712 topics' style='font-size: 19.421052631579pt;'>General</a>
+<a href='https://nakedsecurity.sophos.com/tag/google/' class='tag-link-81' title='434 topics' style='font-size: 15.552631578947pt;'>Google</a>
+<a href='https://nakedsecurity.sophos.com/tag/hacking/' class='tag-link-1816' title='381 topics' style='font-size: 14.447368421053pt;'>hacking</a>
+<a href='https://nakedsecurity.sophos.com/tag/iphone/' class='tag-link-106595' title='169 topics' style='font-size: 8pt;'>iPhone</a>
+<a href='https://nakedsecurity.sophos.com/tag/it/' class='tag-link-3072' title='252 topics' style='font-size: 11.131578947368pt;'>IT</a>
+<a href='https://nakedsecurity.sophos.com/tag/malware/' class='tag-link-15593' title='869 topics' style='font-size: 21.078947368421pt;'>Malware</a>
+<a href='https://nakedsecurity.sophos.com/tag/microsoft/' class='tag-link-637' title='401 topics' style='font-size: 14.815789473684pt;'>Microsoft</a>
+<a href='https://nakedsecurity.sophos.com/tag/nsa/' class='tag-link-29197' title='171 topics' style='font-size: 8.1842105263158pt;'>NSA</a>
+<a href='https://nakedsecurity.sophos.com/tag/password/' class='tag-link-37471' title='196 topics' style='font-size: 9.1052631578947pt;'>password</a>
+<a href='https://nakedsecurity.sophos.com/tag/patch/' class='tag-link-51546' title='207 topics' style='font-size: 9.6578947368421pt;'>Patch</a>
+<a href='https://nakedsecurity.sophos.com/tag/patch-tuesday/' class='tag-link-341283' title='182 topics' style='font-size: 8.5526315789474pt;'>Patch Tuesday</a>
+<a href='https://nakedsecurity.sophos.com/tag/phishing/' class='tag-link-21013' title='241 topics' style='font-size: 10.763157894737pt;'>phishing</a>
+<a href='https://nakedsecurity.sophos.com/tag/privacy/' class='tag-link-3279' title='479 topics' style='font-size: 16.289473684211pt;'>Privacy</a>
+<a href='https://nakedsecurity.sophos.com/tag/scam/' class='tag-link-26037' title='325 topics' style='font-size: 13.157894736842pt;'>Scam</a>
+<a href='https://nakedsecurity.sophos.com/tag/spam/' class='tag-link-652' title='684 topics' style='font-size: 19.236842105263pt;'>Spam</a>
+<a href='https://nakedsecurity.sophos.com/tag/surveillance/' class='tag-link-21053' title='167 topics' style='font-size: 8pt;'>surveillance</a>
+<a href='https://nakedsecurity.sophos.com/tag/twitter/' class='tag-link-599182' title='400 topics' style='font-size: 14.815789473684pt;'>Twitter</a>
+<a href='https://nakedsecurity.sophos.com/tag/video/' class='tag-link-412' title='200 topics' style='font-size: 9.2894736842105pt;'>Video</a>
+<a href='https://nakedsecurity.sophos.com/tag/vulnerability-2/' class='tag-link-35821136' title='577 topics' style='font-size: 17.763157894737pt;'>vulnerability</a>
+<a href='https://nakedsecurity.sophos.com/tag/web/' class='tag-link-151' title='226 topics' style='font-size: 10.394736842105pt;'>web</a>
+<a href='https://nakedsecurity.sophos.com/tag/web-2-0/' class='tag-link-3161794' title='301 topics' style='font-size: 12.605263157895pt;'>web 2.0</a></div>					</div>
+					<h3>Categories</h3>
+					<ul class="categories">
+							<li class="cat-item cat-item-154348"><a href="https://nakedsecurity.sophos.com/category/technologies/adobe-flash/" >Adobe Flash</a> (472)
+</li>
+	<li class="cat-item cat-item-641922"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/mobile/android/" >Android</a> (1,300)
+</li>
+	<li class="cat-item cat-item-682731"><a href="https://nakedsecurity.sophos.com/category/technologies/web-browsers/apple-safari/" >Apple Safari</a> (502)
+</li>
+	<li class="cat-item cat-item-103188"><a href="https://nakedsecurity.sophos.com/category/audio-and-video/" >Audio and Video</a> (28)
+</li>
+	<li class="cat-item cat-item-25818"><a href="https://nakedsecurity.sophos.com/category/cryptography/" >Cryptography</a> (1,763)
+</li>
+	<li class="cat-item cat-item-81819"><a href="https://nakedsecurity.sophos.com/category/social-networks/facebook/" >Facebook</a> (3,356)
+</li>
+	<li class="cat-item cat-item-35890"><a href="https://nakedsecurity.sophos.com/category/featured/" >Featured</a> (20,386)
+</li>
+	<li class="cat-item cat-item-45"><a href="https://nakedsecurity.sophos.com/category/technologies/web-browsers/firefox/" >Firefox</a> (496)
+</li>
+	<li class="cat-item cat-item-81"><a href="https://nakedsecurity.sophos.com/category/organisations/google/" >Google</a> (2,592)
+</li>
+	<li class="cat-item cat-item-10625068"><a href="https://nakedsecurity.sophos.com/category/technologies/web-browsers/google-chrome/" >Google Chrome</a> (429)
+</li>
+	<li class="cat-item cat-item-1143"><a href="https://nakedsecurity.sophos.com/category/technologies/web-browsers/internet-explorer/" >Internet Explorer</a> (714)
+</li>
+	<li class="cat-item cat-item-54929223"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/mobile/ios-mobile/" >iOS</a> (1,079)
+</li>
+	<li class="cat-item cat-item-610"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/linux/" >Linux</a> (187)
+</li>
+	<li class="cat-item cat-item-15593"><a href="https://nakedsecurity.sophos.com/category/security-threats/malware/" >Malware</a> (6,445)
+</li>
+	<li class="cat-item cat-item-120"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/mobile/" >Mobile</a> (1,767)
+</li>
+	<li class="cat-item cat-item-2438"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/os-x/" >OS X</a> (693)
+</li>
+	<li class="cat-item cat-item-89084086"><a href="https://nakedsecurity.sophos.com/category/security-threats/malware/phishing-malware/" >Phishing</a> (913)
+</li>
+	<li class="cat-item cat-item-1142"><a href="https://nakedsecurity.sophos.com/category/audio-and-video/podcast/" >Podcast</a> (1,025)
+</li>
+	<li class="cat-item cat-item-3279"><a href="https://nakedsecurity.sophos.com/category/privacy/" >Privacy</a> (8,353)
+</li>
+	<li class="cat-item cat-item-652"><a href="https://nakedsecurity.sophos.com/category/security-threats/spam/" >Spam</a> (3,011)
+</li>
+	<li class="cat-item cat-item-7859"><a href="https://nakedsecurity.sophos.com/category/technologies/" >Technologies</a> (37)
+</li>
+	<li class="cat-item cat-item-599182"><a href="https://nakedsecurity.sophos.com/category/social-networks/twitter/" >Twitter</a> (1,343)
+</li>
+	<li class="cat-item cat-item-20650"><a href="https://nakedsecurity.sophos.com/category/security-threats/vulnerability/" >Vulnerability</a> (5,460)
+</li>
+	<li class="cat-item cat-item-26885"><a href="https://nakedsecurity.sophos.com/category/technologies/web-browsers/" >Web Browsers</a> (429)
+</li>
+	<li class="cat-item cat-item-800"><a href="https://nakedsecurity.sophos.com/category/technologies/operating-systems/windows/" >Windows</a> (931)
+</li>
+					</ul>
+				</div>
+				<!-- <div class="months">
+					<h3>Archives by month</h3>
+					<ul>
+							<li><a href='https://nakedsecurity.sophos.com/2015/06/'>June 2015</a>&nbsp;(43)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2015/05/'>May 2015</a>&nbsp;(89)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2015/04/'>April 2015</a>&nbsp;(107)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2015/03/'>March 2015</a>&nbsp;(112)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2015/02/'>February 2015</a>&nbsp;(108)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2015/01/'>January 2015</a>&nbsp;(109)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/12/'>December 2014</a>&nbsp;(90)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/11/'>November 2014</a>&nbsp;(87)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/10/'>October 2014</a>&nbsp;(98)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/09/'>September 2014</a>&nbsp;(93)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/08/'>August 2014</a>&nbsp;(90)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/07/'>July 2014</a>&nbsp;(104)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/06/'>June 2014</a>&nbsp;(97)</li>
+	<li><a href='https://nakedsecurity.sophos.com/2014/05/'>May 2014</a>&nbsp;(101)</li>
+					</ul>
+					<p><a href="/archive/">More...</a></p>
+				</div>  .monthly -->
+			</div> <!-- .column -->
+			<div class="column sophos">
+				<h3>Download some free tools</h3>
+				<ul class="tools">
+					<li><strong><a href="http://www.sophos.com/en-us/products/free-tools/sophos-antivirus-for-mac-home-edition.aspx">Free anti-virus for your Mac</a></strong><small>Free antivirus that works simply and beautifully</small></li>
+       				<li><strong><a href="https://play.google.com/store/apps/details?id=com.sophos.smsec">Free Android protection</a></strong><small>Free antivirus for all your Android devices</small></li>
+					<li><a href="http://www.sophos.com/en-us/products/free-tools.aspx">More free tools...</a></li>
+				</ul>
+				<h3>Take a look at our products</h3>
+				<ul class="products">
+					<li><a href="http://www.sophos.com/en-us/products/endpoint.aspx">Endpoint</a></li>
+					<li><a href="http://www.sophos.com/en-us/products/encryption.aspx">Encryption</a></li>
+				</ul>
+				<ul class="products">
+			   	 	<li><a href="http://www.sophos.com/en-us/products/mobile.aspx">Mobile</a></li>
+					<li><a href="http://www.sophos.com/en-us/products/network.aspx">Network</a></li>
+				</ul>
+				<ul class="products">
+					<li><a href="http://www.sophos.com/en-us/products/email.aspx">Email</a></li>
+					<li><a href="http://www.sophos.com/en-us/products/web.aspx">Web</a></li>
+				</ul>
+				<p>Try out our <a href="http://www.sophos.com/en-us/products/free-trials.aspx">free trials</a> and <a href="http://www.sophos.com/en-us/products/product-demos.aspx">demos</a></p>
+				<h3>Investigate the threats</h3>
+				<ul class="threats">
+					<li><a href="http://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware.aspx">Virus and spyware analyses</a></li>
+					<li><a href="http://www.sophos.com/en-us/threat-center.aspx">Threat Center</a></li>
+					<li><a href="http://www.sophos.com/en-us/why-sophos/our-people/inside-sophoslabs.aspx">Inside SophosLabs</a></li>
+				</ul>
+			</div>
+		</div> <!-- .content -->
+		<div id="blog-footer" role="contentinfo">
+			<div id="colophon">
+				<ul>
+					<li>&copy; 1997-2015 Sophos Ltd. All rights reserved</li>
+					<li><a rel="nofollow" href="http://www.sophos.com/legal/blogs.html">Legal</a></li>
+					<li><a rel="nofollow" href="http://www.sophos.com/legal/privacy.html">Privacy</a></li>
+                    <li><a rel="nofollow" href="/cookies-and-scripts/">Cookies</a></li>
+                    <li><a rel="nofollow" href="/disclaimers/">Disclaimers</a></li>
+                    <li><a href="https://vip.wordpress.com/" rel="generator nofollow" class="powered-by-wpcom"><img src="https://s0.wp.com/wp-content/themes/vip/plugins/vip-do-not-include-on-wpcom/vip-powered-wpcom/images/vip-powered-light-small.png" width="187" height="26" alt="Powered by WordPress.com VIP"></a></li>
+				</ul>
+			</div><!-- #colophon -->
+		</div><!-- #blog-footer -->
+	</div> <!-- #footer -->
+<!-- wpcom_wp_footer -->
+	<div style="display:none">
+	<div class="grofile-hash-map-d41d8cd98f00b204e9800998ecf8427e">
+	</div>
+	<div class="grofile-hash-map-c9ff01abca4eeac04287162c80e6c395">
+	</div>
+	<div class="grofile-hash-map-441e7fae6894199e8fc3025efb70919d">
+	</div>
+	<div class="grofile-hash-map-e55c0cbc9ee863a41f27f7bc6007c1e6">
+	</div>
+	<div class="grofile-hash-map-5668984226e274615ee2d1c0261e807a">
+	</div>
+	<div class="grofile-hash-map-834022dc3c9b056e2aa4aea754fb8bc9">
+	</div>
+	<div class="grofile-hash-map-025c4bb891cbc5a1bb24a4854f823e48">
+	</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/sophosnews.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/sophosnews.wordpress.com\/wp-login.php?action=logout&_wpnonce=08f58880d5","homeURL":"https:\/\/nakedsecurity.sophos.com\/","postID":"170349","gravDefault":"blank","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' charset='UTF-8' id='polldaddyRatings'><!--//--><![CDATA[//><!--
+PDRTJS_settings_7238218_comm_36256={"id":7238218,"unique_id":"wp-comment-36256","title":"and%20at%20a%20minimum%2C%20use%20SHA-1%20%2Awith%20a%20salt%2A%20too%20%3A%29%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36256","item_id":"_comm_36256"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36256 == 'undefined' ){PDRTJS_7238218_comm_36256 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36256 );}}PDRTJS_settings_7238218_comm_36371={"id":7238218,"unique_id":"wp-comment-36371","title":"How%20does%20one%20do%20that%3F%20%20Use%20either%20or%20any%3F%20%20Is%20there%20a%20program%20to%20be%20used%3F%20%20The%20%26quot%3Bhow%26quot%3B%20is%20as%20important%20as%20the%20story.%20%20For%20non-computer%20professionals%20I%20mean.%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36371","item_id":"_comm_36371"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36371 == 'undefined' ){PDRTJS_7238218_comm_36371 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36371 );}}PDRTJS_settings_7238218_comm_36468={"id":7238218,"unique_id":"wp-comment-36468","title":"Avoiding%20MD5%20certs%20offered%20to%20you%20%28e.g.%20into%20your%20browser%29%20by%20other%20people%20isn%26%23039%3Bt%20easy.%20%20Firefox%2C%20for%20example%2C%20has%20had%20an%20on-again-off-again%20effort%20to%20make%20%26quot%3Breject%20MD5-hashed%20certificate...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36468","item_id":"_comm_36468"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36468 == 'undefined' ){PDRTJS_7238218_comm_36468 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36468 );}}PDRTJS_settings_7238218_comm_36376={"id":7238218,"unique_id":"wp-comment-36376","title":"Most%20Linux%20distros%20are%20using%20MD5%20on%20isos%20and%20updates.%20Should%20they%20change%20this%3F%20Or%20is%20the%20risk%20low%20enough%20that%20the%20lower%20overhead%20is%20more%20desirable%20than%20the%20security%3F%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36376","item_id":"_comm_36376"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36376 == 'undefined' ){PDRTJS_7238218_comm_36376 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36376 );}}PDRTJS_settings_7238218_comm_36470={"id":7238218,"unique_id":"wp-comment-36470","title":"Download%20sites%20I%26%23039%3Bve%20used%20lately%20seem%20to%20carry%20both%20SHA1s%20and%20MD5s.%20%20%20FWIW%2C%20If%20you%20just%20want%20to%20verify%20%26quot%3Bdid%20the%20download%20complete%20without%20errors%26quot%3B%20then%20you%20are%20OK%20with%20the%20MD5%20hash%20-...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36470","item_id":"_comm_36470"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36470 == 'undefined' ){PDRTJS_7238218_comm_36470 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36470 );}}PDRTJS_settings_7238218_comm_36421={"id":7238218,"unique_id":"wp-comment-36421","title":"%26quot%3BExcept%20that%20public-key%20algorithms%20aren%26%23039%3Bt%20good%20at%20encrypting%20and%20decrypting%20arbitrarily-sized%20blocks%20of%20data%20such%20as%20certificate%20files%2C%20not%20least%20because%20they%26%23039%3Bre%20very%20much%20slower%20t...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36421","item_id":"_comm_36421"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36421 == 'undefined' ){PDRTJS_7238218_comm_36421 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36421 );}}PDRTJS_settings_7238218_comm_36473={"id":7238218,"unique_id":"wp-comment-36473","title":"I%20haven%26%23039%3Bt%20got%20current%20measurements%2C%20but%20RSA%20is%20typically%20about%201000x%20slower%20than%20a%20symmetric%20encryption%20algorithm%2C%20which%20is%20in%20turn%20generally%20slower%20than%20a%20designed-for-the-purpose%20cryptogra...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36473","item_id":"_comm_36473"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36473 == 'undefined' ){PDRTJS_7238218_comm_36473 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36473 );}}PDRTJS_settings_7238218_comm_36619={"id":7238218,"unique_id":"wp-comment-36619","title":"This%20would%20be%20a%20great%20time%20to%20discuss%20last%20month%26%23039%3Bs%20%23sophospuzzle%2C%20eh%3F%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36619","item_id":"_comm_36619"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36619 == 'undefined' ){PDRTJS_7238218_comm_36619 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36619 );}}PDRTJS_settings_7238218_comm_36772={"id":7238218,"unique_id":"wp-comment-36772","title":"Er%2C%20yes%20%3A-%29%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36772","item_id":"_comm_36772"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36772 == 'undefined' ){PDRTJS_7238218_comm_36772 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36772 );}}PDRTJS_settings_7238218_comm_36739={"id":7238218,"unique_id":"wp-comment-36739","title":"How%20about%20SHA-5%20or%20WHIRLWIND%3F%20%20Also%2C%20if%20MD5%20is%20weak%20why%20do%20antiviruses%20use%20it%20to%20detect%20viruses%3F%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36739","item_id":"_comm_36739"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36739 == 'undefined' ){PDRTJS_7238218_comm_36739 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36739 );}}PDRTJS_settings_7238218_comm_36771={"id":7238218,"unique_id":"wp-comment-36771","title":"I%26%23039%3Bve%20not%20heard%20of%20SHA-5.%20%20%20Don%26%23039%3Bt%20forget%20that%20NIST%20is%20currently%20getting%20to%20the%20end%20of%20a%20public%20contest%20to%20choose%20and%20standardise%20on%20a%20hash%20that%20will%20be%20designated%20%26quot%3BSHA-3%26quot%3B%20and%20t...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-36771","item_id":"_comm_36771"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_36771 == 'undefined' ){PDRTJS_7238218_comm_36771 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_36771 );}}PDRTJS_settings_7238218_comm_38310={"id":7238218,"unique_id":"wp-comment-38310","title":"There%20are%20tons%20of%20hashes.%20%20Which%20is%20the%20%26quot%3Bstrongest%26quot%3B%3F%20...","permalink":"https:\/\/nakedsecurity.sophos.com\/2012\/06\/07\/microsoft-speaks-out-on-flame-malware-certificate-forgery\/#comment-38310","item_id":"_comm_38310"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_7238218_comm_38310 == 'undefined' ){PDRTJS_7238218_comm_38310 = new PDRTJS_RATING( PDRTJS_settings_7238218_comm_38310 );}}
+//--><!]]></script><script type='text/javascript' charset='UTF-8' src='https://polldaddy.com/js/rating/rating.js'></script><script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431g'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/widgets/facebook-likebox/style.css?m=1434038153g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJxtjUEOwyAMBD9UYoWQY9S3RI5VGYGhgNPy+5JDpR562sPs7MIrG0zSSBr4CgedjJTfk683GIgFgx5UL+afSqWDMmAqNEWWfy1MMY4xUyiH/lv6vkQ1OeiDpYI1J+dLGmF22UNvjHUI97jNblnW2Trr/AeQmDsL'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?47" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'15254721','blog_tz':'1','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'15254721','v':'wpcom','tz':'1','user_id':'0','post':'170349','subd':'sophosnews'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=15254721&v=wpcomvt&tz=1&user_id=0&post=170349&subd=sophosnews&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTcwcit4OCtUVUJKS3xUYWdKLXB0XUxnbnphSXEmVV9Hem9YUS1+Y3RPWUpmSlosRz9iXU9lV2RWWHlYayVmMW5mS3QrX3QybjZfaHdwYk5YfFVNSTFmP2NEWmVxbl9WU1N2aE9RdyU/Jlo5eHlNZjEuL2Q3cGNCeCw0aWpufngsQ0RIVTEsenhbckYyNWg5eVR1b3VYL01DP3NqW2ZTYUNzUT9fS110NCV8cixKbGs5YktUMHo4UkhlZ2lxQ28zXXRlSWVCW1FF'}]);
+_stq.push([ 'clickTrackerInit', '15254721', '170349' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script></body>
+</html>
+<!--
+	generated 76 seconds ago
+	generated in 0.278 seconds
+	served from batcache in 0.002 seconds
+	expires in 224 seconds
+-->
