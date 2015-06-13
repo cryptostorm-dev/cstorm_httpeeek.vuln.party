@@ -1,0 +1,1288 @@
+<svg width="1062pt" height="3447pt"
+ viewBox="0.00 0.00 1062.00 3446.77" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph1" class="graph" transform="scale(1 1) rotate(0) translate(4 3442.77)">
+
+<polygon fill="white" stroke="white" points="-4,5 -4,-3442.77 1059,-3442.77 1059,5 -4,5"/>
+
+<g id="node1" class="node">
+<ellipse fill="none" stroke="black" cx="660" cy="-1719.39" rx="54" ry="12.7279"/>
+<text text-anchor="middle" x="660" y="-1718.09" font-family="Times Roman,serif" font-size="7.00">173.252.100.27</text>
+</g>
+
+<g id="node53" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/edge-star-shv-12-frc1/" xlink:title="edge&#45;star&#45;shv&#45;12&#45;frc1.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="896,-1748.39 750,-1748.39 750,-1730.39 896,-1730.39 896,-1748.39"/>
+<text text-anchor="middle" x="823" y="-1738.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">edge&#45;star&#45;shv&#45;12&#45;frc1.facebook.com</text>
+</a>
+</g>
+
+<g id="edge24" class="edge">
+<path fill="none" stroke="black" d="M707.585,-1725.22C720.834,-1726.85 735.539,-1728.65 749.893,-1730.42"/>
+<text text-anchor="middle" x="740.383" y="-1732.21" font-family="Times Roman,serif" font-size="7.00">PTR</text>
+<text text-anchor="middle" x="717.095" y="-1720.83" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node98" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/route/173.252.96.0-19.html" xlink:title="173.252.96.0/19&#13;facebook, inc.">
+<polygon fill="#ffaaff" stroke="black" points="877,-1712.39 769,-1712.39 769,-1686.39 877,-1686.39 877,-1712.39"/>
+<text text-anchor="middle" x="823" y="-1702.09" font-family="Arial" font-size="7.00" fill="#770077">173.252.96.0/19</text>
+<text text-anchor="middle" x="823" y="-1693.09" font-family="Arial" font-size="7.00" fill="#770077">facebook, inc.</text>
+</a>
+</g>
+
+<g id="edge26" class="edge">
+<path fill="none" stroke="black" d="M707.585,-1713.55C723.459,-1711.6 741.423,-1709.4 758.37,-1707.32"/>
+<polygon fill="black" stroke="black" points="759.263,-1710.73 768.762,-1706.04 758.41,-1703.78 759.263,-1710.73"/>
+<text text-anchor="middle" x="760.281" y="-1710.04" font-family="Times Roman,serif" font-size="7.00">ROUTE</text>
+</g>
+
+<g id="node2" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/alma-on/*/" xlink:title="*.alma&#45;on.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-3420.39 231,-3420.39 231,-3402.39 339,-3402.39 339,-3420.39"/>
+<text text-anchor="middle" x="285" y="-3410.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.alma&#45;on.fb.me</text>
+</a>
+</g>
+
+<g id="edge126" class="edge">
+<path fill="none" stroke="black" d="M314.244,-3420.51C372.213,-3436.56 501.96,-3462.07 570,-3393.39 631.003,-3331.81 656.412,-1934.89 659.642,-1741.52"/>
+<polygon fill="black" stroke="black" points="663.143,-1741.47 659.809,-1731.41 656.144,-1741.35 663.143,-1741.47"/>
+<text text-anchor="middle" x="663.885" y="-1739.24" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node3" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/au/com/facebook/facebookwww/wmlwww/com/*/" xlink:title="*.com.wmlwww.facebookwww.facebook.com.au">
+<polygon fill="#ccccff" stroke="black" points="377,-3384.39 193,-3384.39 193,-3366.39 377,-3366.39 377,-3384.39"/>
+<text text-anchor="middle" x="285" y="-3374.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.com.wmlwww.facebookwww.facebook.com.au</text>
+</a>
+</g>
+
+<g id="edge14" class="edge">
+<path fill="none" stroke="black" d="M377.656,-3382.26C450.469,-3385.43 543.815,-3383.79 570,-3357.39 629.669,-3297.23 656.181,-1933.07 659.613,-1741.63"/>
+<polygon fill="black" stroke="black" points="663.113,-1741.66 659.791,-1731.6 656.114,-1741.54 663.113,-1741.66"/>
+<text text-anchor="middle" x="663.856" y="-1739.44" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node4" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/za/co/facebook/com252fwww/*/" xlink:title="*.com252fwww.facebook.co.za">
+<polygon fill="#ccccff" stroke="black" points="348,-3348.39 222,-3348.39 222,-3330.39 348,-3330.39 348,-3348.39"/>
+<text text-anchor="middle" x="285" y="-3338.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.com252fwww.facebook.co.za</text>
+</a>
+</g>
+
+<g id="edge96" class="edge">
+<path fill="none" stroke="black" d="M348.516,-3344.7C423.003,-3349.39 540.131,-3351.46 570,-3321.39 628.309,-3262.67 655.918,-1932.45 659.578,-1742.01"/>
+<polygon fill="black" stroke="black" points="663.081,-1741.85 659.772,-1731.78 656.082,-1741.71 663.081,-1741.85"/>
+<text text-anchor="middle" x="663.825" y="-1739.62" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node5" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/connect/en-gb/*/" xlink:title="*.en&#45;gb.connect.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="349,-3312.39 221,-3312.39 221,-3294.39 349,-3294.39 349,-3312.39"/>
+<text text-anchor="middle" x="285" y="-3302.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.en&#45;gb.connect.facebook.com</text>
+</a>
+</g>
+
+<g id="edge90" class="edge">
+<path fill="none" stroke="black" d="M349.164,-3308.73C423.674,-3313.39 540.199,-3315.36 570,-3285.39 627.011,-3228.05 655.708,-1928.96 659.552,-1741.78"/>
+<polygon fill="black" stroke="black" points="663.057,-1741.57 659.761,-1731.5 656.059,-1741.43 663.057,-1741.57"/>
+<text text-anchor="middle" x="663.802" y="-1739.35" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node6" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/tj/facebook/*/" xlink:title="*.facebook.tj">
+<polygon fill="#ccccff" stroke="black" points="339,-3276.39 231,-3276.39 231,-3258.39 339,-3258.39 339,-3276.39"/>
+<text text-anchor="middle" x="285" y="-3266.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.facebook.tj</text>
+</a>
+</g>
+
+<g id="edge54" class="edge">
+<path fill="none" stroke="black" d="M339.27,-3272.08C412.889,-3277.13 538.823,-3280.7 570,-3249.39 625.685,-3193.46 655.463,-1926.77 659.52,-1741.83"/>
+<polygon fill="black" stroke="black" points="663.023,-1741.73 659.741,-1731.66 656.025,-1741.58 663.023,-1741.73"/>
+<text text-anchor="middle" x="663.769" y="-1739.51" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node7" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/au/com/facebook/facebookwww/*/" xlink:title="*.facebookwww.facebook.com.au">
+<polygon fill="#ccccff" stroke="black" points="352,-3240.39 218,-3240.39 218,-3222.39 352,-3222.39 352,-3240.39"/>
+<text text-anchor="middle" x="285" y="-3230.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.facebookwww.facebook.com.au</text>
+</a>
+</g>
+
+<g id="edge98" class="edge">
+<path fill="none" stroke="black" d="M352.787,-3236.94C427.383,-3241.42 540.639,-3242.83 570,-3213.39 624.362,-3158.87 655.214,-1924.44 659.487,-1741.87"/>
+<polygon fill="black" stroke="black" points="662.987,-1741.88 659.72,-1731.8 655.989,-1741.72 662.987,-1741.88"/>
+<text text-anchor="middle" x="663.735" y="-1739.66" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node8" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/de/faceboook/*/" xlink:title="*.faceboook.de">
+<polygon fill="#ccccff" stroke="black" points="339,-3204.39 231,-3204.39 231,-3186.39 339,-3186.39 339,-3204.39"/>
+<text text-anchor="middle" x="285" y="-3194.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.faceboook.de</text>
+</a>
+</g>
+
+<g id="edge22" class="edge">
+<path fill="none" stroke="black" d="M339.257,-3200.07C412.862,-3205.1 538.778,-3208.65 570,-3177.39 623.07,-3124.24 654.995,-1920.71 659.459,-1741.59"/>
+<polygon fill="black" stroke="black" points="662.96,-1741.59 659.708,-1731.5 655.962,-1741.41 662.96,-1741.59"/>
+<text text-anchor="middle" x="663.709" y="-1739.37" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node9" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/htmlm/com/htmlfacebook/*/" xlink:title="*.htmlfacebook.com.htmlm.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="367,-3168.39 203,-3168.39 203,-3150.39 367,-3150.39 367,-3168.39"/>
+<text text-anchor="middle" x="285" y="-3158.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.htmlfacebook.com.htmlm.facbook.com</text>
+</a>
+</g>
+
+<g id="edge18" class="edge">
+<path fill="none" stroke="black" d="M367.2,-3165.72C441.2,-3169.44 542.435,-3168.95 570,-3141.39 621.725,-3089.67 654.705,-1919.34 659.416,-1741.85"/>
+<polygon fill="black" stroke="black" points="662.921,-1741.71 659.686,-1731.62 655.924,-1741.53 662.921,-1741.71"/>
+<text text-anchor="middle" x="663.672" y="-1739.49" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node10" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/de/facebook/htmlm/fr/htmlfacebook/*/" xlink:title="*.htmlfacebook.fr.htmlm.facebook.de">
+<polygon fill="#ccccff" stroke="black" points="360,-3132.39 210,-3132.39 210,-3114.39 360,-3114.39 360,-3132.39"/>
+<text text-anchor="middle" x="285" y="-3122.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.htmlfacebook.fr.htmlm.facebook.de</text>
+</a>
+</g>
+
+<g id="edge172" class="edge">
+<path fill="none" stroke="black" d="M360.562,-3129.36C435,-3133.43 541.579,-3133.76 570,-3105.39 620.41,-3055.06 654.443,-1916.64 659.379,-1741.83"/>
+<polygon fill="black" stroke="black" points="662.881,-1741.82 659.662,-1731.73 655.884,-1741.62 662.881,-1741.82"/>
+<text text-anchor="middle" x="663.633" y="-1739.6" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node11" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/za/co/facebook/htmlwww/*/" xlink:title="*.htmlwww.facebook.co.za">
+<polygon fill="#ccccff" stroke="black" points="341,-3096.39 229,-3096.39 229,-3078.39 341,-3078.39 341,-3096.39"/>
+<text text-anchor="middle" x="285" y="-3086.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.htmlwww.facebook.co.za</text>
+</a>
+</g>
+
+<g id="edge28" class="edge">
+<path fill="none" stroke="black" d="M341.105,-3092.17C414.927,-3097.11 538.965,-3100.31 570,-3069.39 619.124,-3020.43 654.214,-1912.63 659.349,-1741.5"/>
+<polygon fill="black" stroke="black" points="662.851,-1741.51 659.65,-1731.41 655.854,-1741.3 662.851,-1741.51"/>
+<text text-anchor="middle" x="663.604" y="-1739.29" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node12" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/mx/com/facebook/htmlwww/*/" xlink:title="*.htmlwww.facebook.com.mx">
+<polygon fill="#ccccff" stroke="black" points="345,-3060.39 225,-3060.39 225,-3042.39 345,-3042.39 345,-3060.39"/>
+<text text-anchor="middle" x="285" y="-3050.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.htmlwww.facebook.com.mx</text>
+</a>
+</g>
+
+<g id="edge68" class="edge">
+<path fill="none" stroke="black" d="M345.218,-3056.43C419.439,-3061.2 539.508,-3063.72 570,-3033.39 617.79,-2985.85 653.908,-1910.78 659.302,-1741.68"/>
+<polygon fill="black" stroke="black" points="662.807,-1741.59 659.625,-1731.49 655.81,-1741.37 662.807,-1741.59"/>
+<text text-anchor="middle" x="663.562" y="-1739.38" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node13" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/vn/facebook/htmlwww/*/" xlink:title="*.htmlwww.facebook.vn">
+<polygon fill="#ccccff" stroke="black" points="339,-3024.39 231,-3024.39 231,-3006.39 339,-3006.39 339,-3024.39"/>
+<text text-anchor="middle" x="285" y="-3014.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.htmlwww.facebook.vn</text>
+</a>
+</g>
+
+<g id="edge176" class="edge">
+<path fill="none" stroke="black" d="M339.22,-3020.03C412.78,-3025.02 538.643,-3028.52 570,-2997.39 616.483,-2951.24 653.632,-1907.71 659.261,-1741.59"/>
+<polygon fill="black" stroke="black" points="662.761,-1741.66 659.599,-1731.55 655.765,-1741.42 662.761,-1741.66"/>
+<text text-anchor="middle" x="663.518" y="-1739.45" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node14" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/inktest/*/" xlink:title="*.inktest.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-2988.39 231,-2988.39 231,-2970.39 339,-2970.39 339,-2988.39"/>
+<text text-anchor="middle" x="285" y="-2978.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.inktest.fb.me</text>
+</a>
+</g>
+
+<g id="edge170" class="edge">
+<path fill="none" stroke="black" d="M339.211,-2984.02C412.761,-2989 538.611,-2992.48 570,-2961.39 615.134,-2916.67 653.276,-1906.54 659.201,-1741.96"/>
+<polygon fill="black" stroke="black" points="662.712,-1741.71 659.572,-1731.6 655.717,-1741.46 662.712,-1741.71"/>
+<text text-anchor="middle" x="663.472" y="-1739.5" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node15" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebok/theidylgroup-beastiality-scat-clone/project-camelot-porn-clone/kerry-cassidy-soulless-bitch-fetish-clone/*/" xlink:title="*.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.facebok.com">
+<polygon fill="#ccccff" stroke="black" points="508,-2952.39 62,-2952.39 62,-2934.39 508,-2934.39 508,-2952.39"/>
+<text text-anchor="middle" x="285" y="-2942.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.facebok.com</text>
+</a>
+</g>
+
+<g id="edge168" class="edge">
+<path fill="none" stroke="black" d="M508.783,-2946.7C536.538,-2942.87 559.026,-2936.23 570,-2925.39 613.833,-2882.05 652.99,-1903.16 659.157,-1741.81"/>
+<polygon fill="black" stroke="black" points="662.662,-1741.75 659.544,-1731.63 655.667,-1741.49 662.662,-1741.75"/>
+<text text-anchor="middle" x="663.423" y="-1739.54" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node16" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/theidylgroup-beastiality-scat-clone/project-camelot-porn-clone/kerry-cassidy-soulless-bitch-fetish-clone/*/" xlink:title="*.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="511,-2916.39 59,-2916.39 59,-2898.39 511,-2898.39 511,-2916.39"/>
+<text text-anchor="middle" x="285" y="-2906.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge40" class="edge">
+<path fill="none" stroke="black" d="M511.091,-2910.35C537.775,-2906.48 559.323,-2899.92 570,-2889.39 612.494,-2847.47 652.619,-1901.55 659.092,-1742.1"/>
+<polygon fill="black" stroke="black" points="662.608,-1741.77 659.515,-1731.64 655.614,-1741.49 662.608,-1741.77"/>
+<text text-anchor="middle" x="663.372" y="-1739.56" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node17" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/htmlspeedy/com/facebook/lite/*/" xlink:title="*.lite.facebook.com.htmlspeedy.fb.me">
+<polygon fill="#ccccff" stroke="black" points="362,-2880.39 208,-2880.39 208,-2862.39 362,-2862.39 362,-2880.39"/>
+<text text-anchor="middle" x="285" y="-2870.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.lite.facebook.com.htmlspeedy.fb.me</text>
+</a>
+</g>
+
+<g id="edge78" class="edge">
+<path fill="none" stroke="black" d="M362.207,-2877.37C436.49,-2881.28 541.597,-2881.33 570,-2853.39 611.2,-2812.84 652.322,-1897.85 659.045,-1741.89"/>
+<polygon fill="black" stroke="black" points="662.553,-1741.77 659.484,-1731.63 655.559,-1741.48 662.553,-1741.77"/>
+<text text-anchor="middle" x="663.318" y="-1739.57" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node18" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebooklogin/htmlm/com/login/*/" xlink:title="*.login.com.htmlm.facebooklogin.com">
+<polygon fill="#ccccff" stroke="black" points="362,-2844.39 208,-2844.39 208,-2826.39 362,-2826.39 362,-2844.39"/>
+<text text-anchor="middle" x="285" y="-2834.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.login.com.htmlm.facebooklogin.com</text>
+</a>
+</g>
+
+<g id="edge110" class="edge">
+<path fill="none" stroke="black" d="M362.539,-2841.37C436.79,-2845.25 541.605,-2845.25 570,-2817.39 649.656,-2739.21 658.875,-1890.75 659.882,-1741.68"/>
+<polygon fill="black" stroke="black" points="663.383,-1741.5 659.945,-1731.48 656.383,-1741.46 663.383,-1741.5"/>
+<text text-anchor="middle" x="664.115" y="-1739.27" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node19" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook-login/wmlwww/net/*/" xlink:title="*.net.wmlwww.facebook&#45;login.com">
+<polygon fill="#ccccff" stroke="black" points="355,-2808.39 215,-2808.39 215,-2790.39 355,-2790.39 355,-2808.39"/>
+<text text-anchor="middle" x="285" y="-2798.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.net.wmlwww.facebook&#45;login.com</text>
+</a>
+</g>
+
+<g id="edge192" class="edge">
+<path fill="none" stroke="black" d="M355.003,-2804.95C429.488,-2809.19 540.592,-2810.17 570,-2781.39 647.009,-2706.01 658.39,-1888.5 659.815,-1741.85"/>
+<polygon fill="black" stroke="black" points="663.319,-1741.47 659.91,-1731.44 656.319,-1741.4 663.319,-1741.47"/>
+<text text-anchor="middle" x="664.054" y="-1739.24" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node20" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/co/facebook/o/*/" xlink:title="*.o.facebook.co">
+<polygon fill="#ccccff" stroke="black" points="339,-2772.39 231,-2772.39 231,-2754.39 339,-2754.39 339,-2772.39"/>
+<text text-anchor="middle" x="285" y="-2762.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.o.facebook.co</text>
+</a>
+</g>
+
+<g id="edge178" class="edge">
+<path fill="none" stroke="black" d="M339.146,-2767.95C412.618,-2772.86 538.376,-2776.25 570,-2745.39 644.369,-2672.81 657.886,-1886.09 659.743,-1741.98"/>
+<polygon fill="black" stroke="black" points="663.246,-1741.76 659.87,-1731.72 656.247,-1741.67 663.246,-1741.76"/>
+<text text-anchor="middle" x="663.984" y="-1739.53" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node21" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/com/projectcamelot/kerry-cassidy-soulless-bitch/officialprojectscamalot/*/" xlink:title="*.officialprojectscamalot.kerry&#45;cassidy&#45;soulless&#45;bitch.projectcamelot.com.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="452,-2736.39 118,-2736.39 118,-2718.39 452,-2718.39 452,-2736.39"/>
+<text text-anchor="middle" x="285" y="-2726.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.officialprojectscamalot.kerry&#45;cassidy&#45;soulless&#45;bitch.projectcamelot.com.facbook.com</text>
+</a>
+</g>
+
+<g id="edge8" class="edge">
+<path fill="none" stroke="black" d="M452.566,-2734.77C504.145,-2733.3 552.098,-2726.8 570,-2709.39 641.815,-2639.52 657.398,-1881.84 659.673,-1741.63"/>
+<polygon fill="black" stroke="black" points="663.173,-1741.68 659.83,-1731.63 656.174,-1741.57 663.173,-1741.68"/>
+<text text-anchor="middle" x="663.914" y="-1739.45" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node22" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/bill-ryan-corrupt-click-fraud/bill-ryan-corrupt-porn-host/projectavalon/officialprojectscamalot/*/" xlink:title="*.officialprojectscamalot.projectavalon.bill&#45;ryan&#45;corrupt&#45;porn&#45;host.bill&#45;ryan&#45;corrupt&#45;click&#45;fraud.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="488,-2700.39 82,-2700.39 82,-2682.39 488,-2682.39 488,-2700.39"/>
+<text text-anchor="middle" x="285" y="-2690.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.officialprojectscamalot.projectavalon.bill&#45;ryan&#45;corrupt&#45;porn&#45;host.bill&#45;ryan&#45;corrupt&#45;click&#45;fraud.facbook.com</text>
+</a>
+</g>
+
+<g id="edge34" class="edge">
+<path fill="none" stroke="black" d="M488.779,-2696.72C525.457,-2693.5 556.385,-2686.59 570,-2673.39 639.198,-2606.3 656.865,-1878.95 659.593,-1741.66"/>
+<polygon fill="black" stroke="black" points="663.095,-1741.58 659.788,-1731.51 656.096,-1741.44 663.095,-1741.58"/>
+<text text-anchor="middle" x="663.839" y="-1739.36" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node23" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/fbops/project-camelot-click-fraud-murder/*/" xlink:title="*.project&#45;camelot&#45;click&#45;fraud&#45;murder.fbops.com">
+<polygon fill="#ccccff" stroke="black" points="379,-2664.39 191,-2664.39 191,-2646.39 379,-2646.39 379,-2664.39"/>
+<text text-anchor="middle" x="285" y="-2654.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.project&#45;camelot&#45;click&#45;fraud&#45;murder.fbops.com</text>
+</a>
+</g>
+
+<g id="edge58" class="edge">
+<path fill="none" stroke="black" d="M379.553,-2662.06C451.864,-2664.92 543.523,-2662.96 570,-2637.39 636.521,-2573.13 656.275,-1877.28 659.496,-1742.07"/>
+<polygon fill="black" stroke="black" points="663.004,-1741.79 659.737,-1731.71 656.006,-1741.62 663.004,-1741.79"/>
+<text text-anchor="middle" x="663.752" y="-1739.57" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node24" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/fr/facebook/comlogin/com252ffcaebook/robtex/*/" xlink:title="*.robtex.com252ffcaebook.comlogin.facebook.fr">
+<polygon fill="#ccccff" stroke="black" points="380,-2628.39 190,-2628.39 190,-2610.39 380,-2610.39 380,-2628.39"/>
+<text text-anchor="middle" x="285" y="-2618.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.robtex.com252ffcaebook.comlogin.facebook.fr</text>
+</a>
+</g>
+
+<g id="edge108" class="edge">
+<path fill="none" stroke="black" d="M380.623,-2626.07C452.745,-2628.86 543.607,-2626.78 570,-2601.39 633.993,-2539.82 655.748,-1872.51 659.415,-1741.6"/>
+<polygon fill="black" stroke="black" points="662.915,-1741.64 659.69,-1731.55 655.917,-1741.45 662.915,-1741.64"/>
+<text text-anchor="middle" x="663.666" y="-1739.42" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node25" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/fbops/spraydns/*/" xlink:title="*.spraydns.fbops.com">
+<polygon fill="#ccccff" stroke="black" points="339,-2592.39 231,-2592.39 231,-2574.39 339,-2574.39 339,-2592.39"/>
+<text text-anchor="middle" x="285" y="-2582.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.spraydns.fbops.com</text>
+</a>
+</g>
+
+<g id="edge134" class="edge">
+<path fill="none" stroke="black" d="M339.068,-2587.87C412.445,-2592.68 538.093,-2595.95 570,-2565.39 631.344,-2506.62 655.116,-1870.26 659.304,-1741.88"/>
+<polygon fill="black" stroke="black" points="662.809,-1741.78 659.631,-1731.67 655.813,-1741.56 662.809,-1741.78"/>
+<text text-anchor="middle" x="663.565" y="-1739.57" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node26" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/theidylgroup-beastiality-scat-clone/*/" xlink:title="*.theidylgroup&#45;beastiality&#45;scat&#45;clone.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="386,-2556.39 184,-2556.39 184,-2538.39 386,-2538.39 386,-2556.39"/>
+<text text-anchor="middle" x="285" y="-2546.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.theidylgroup&#45;beastiality&#45;scat&#45;clone.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge162" class="edge">
+<path fill="none" stroke="black" d="M386.827,-2554.23C457.822,-2556.62 544.256,-2553.93 570,-2529.39 628.774,-2473.34 654.514,-1866.37 659.2,-1741.69"/>
+<polygon fill="black" stroke="black" points="662.707,-1741.58 659.578,-1731.46 655.711,-1741.32 662.707,-1741.58"/>
+<text text-anchor="middle" x="663.467" y="-1739.37" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node27" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/www/*/" xlink:title="*.www.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-2520.39 231,-2520.39 231,-2502.39 339,-2502.39 339,-2520.39"/>
+<text text-anchor="middle" x="285" y="-2510.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.www.fb.me</text>
+</a>
+</g>
+
+<g id="edge36" class="edge">
+<path fill="none" stroke="black" d="M339.027,-2515.83C412.355,-2520.58 537.944,-2523.8 570,-2493.39 626.155,-2440.11 653.837,-1863.47 659.074,-1741.83"/>
+<polygon fill="black" stroke="black" points="662.584,-1741.65 659.511,-1731.51 655.591,-1741.36 662.584,-1741.65"/>
+<text text-anchor="middle" x="663.35" y="-1739.45" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node28" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/za/co/facebook/zawww/*/" xlink:title="*.zawww.facebook.co.za">
+<polygon fill="#ccccff" stroke="black" points="339,-2484.39 231,-2484.39 231,-2466.39 339,-2466.39 339,-2484.39"/>
+<text text-anchor="middle" x="285" y="-2474.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">*.zawww.facebook.co.za</text>
+</a>
+</g>
+
+<g id="edge74" class="edge">
+<path fill="none" stroke="black" d="M339.003,-2479.8C412.303,-2484.53 537.859,-2487.71 570,-2457.39 623.607,-2406.82 653.195,-1859.12 658.955,-1741.53"/>
+<polygon fill="black" stroke="black" points="662.452,-1741.69 659.438,-1731.53 655.46,-1741.35 662.452,-1741.69"/>
+<text text-anchor="middle" x="663.223" y="-1739.48" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node29" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/fbops/spraydns/1xrgilr/" xlink:title="1xrgilr.spraydns.fbops.com">
+<polygon fill="#ccccff" stroke="black" points="341,-2448.39 229,-2448.39 229,-2430.39 341,-2430.39 341,-2448.39"/>
+<text text-anchor="middle" x="285" y="-2438.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">1xrgilr.spraydns.fbops.com</text>
+</a>
+</g>
+
+<g id="edge10" class="edge">
+<path fill="none" stroke="black" d="M341.777,-2443.95C415.401,-2448.54 538.172,-2451.23 570,-2421.39 621.019,-2373.55 652.474,-1855.58 658.812,-1741.52"/>
+<polygon fill="black" stroke="black" points="662.308,-1741.68 659.361,-1731.5 655.319,-1741.29 662.308,-1741.68"/>
+<text text-anchor="middle" x="663.085" y="-1739.48" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node30" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/116profile/38/178/216/" xlink:title="216.178.38.116profile.fb.me">
+<polygon fill="#ccccff" stroke="black" points="344,-2412.39 226,-2412.39 226,-2394.39 344,-2394.39 344,-2412.39"/>
+<text text-anchor="middle" x="285" y="-2402.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">216.178.38.116profile.fb.me</text>
+</a>
+</g>
+
+<g id="edge4" class="edge">
+<path fill="none" stroke="black" d="M344.593,-2408.09C418.46,-2412.54 538.479,-2414.74 570,-2385.39 618.448,-2340.27 651.73,-1851.7 658.658,-1741.42"/>
+<polygon fill="black" stroke="black" points="662.152,-1741.62 659.278,-1731.43 655.166,-1741.19 662.152,-1741.62"/>
+<text text-anchor="middle" x="662.935" y="-1739.43" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node31" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/tw/com/facebook/2a/" xlink:title="2a.facebook.com.tw">
+<polygon fill="#ccccff" stroke="black" points="339,-2376.39 231,-2376.39 231,-2358.39 339,-2358.39 339,-2376.39"/>
+<text text-anchor="middle" x="285" y="-2366.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">2a.facebook.com.tw</text>
+</a>
+</g>
+
+<g id="edge44" class="edge">
+<path fill="none" stroke="black" d="M339.226,-2371.73C412.467,-2376.34 537.594,-2379.33 570,-2349.39 615.846,-2307.02 650.888,-1848.45 658.471,-1741.56"/>
+<polygon fill="black" stroke="black" points="661.963,-1741.79 659.172,-1731.57 654.98,-1741.3 661.963,-1741.79"/>
+<text text-anchor="middle" x="662.753" y="-1739.61" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node32" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/3251/" xlink:title="3251.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="339,-2340.39 231,-2340.39 231,-2322.39 339,-2322.39 339,-2340.39"/>
+<text text-anchor="middle" x="285" y="-2330.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">3251.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge196" class="edge">
+<path fill="none" stroke="black" d="M339.19,-2335.69C412.39,-2340.25 537.468,-2343.2 570,-2313.39 613.269,-2273.74 650.02,-1844.7 658.27,-1741.58"/>
+<polygon fill="black" stroke="black" points="661.776,-1741.64 659.077,-1731.39 654.798,-1741.08 661.776,-1741.64"/>
+<text text-anchor="middle" x="662.574" y="-1739.46" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node33" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/htmlm/ro/promotur/3d-ambient-decor-constanta/" xlink:title="3d&#45;ambient&#45;decor&#45;constanta.promotur.ro.htmlm.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="404,-2304.39 166,-2304.39 166,-2286.39 404,-2286.39 404,-2304.39"/>
+<text text-anchor="middle" x="285" y="-2294.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">3d&#45;ambient&#45;decor&#45;constanta.promotur.ro.htmlm.facbook.com</text>
+</a>
+</g>
+
+<g id="edge92" class="edge">
+<path fill="none" stroke="black" d="M404.529,-2302.3C471.322,-2303.44 545.862,-2299.29 570,-2277.39 610.712,-2240.44 649.118,-1840.53 658.054,-1741.48"/>
+<polygon fill="black" stroke="black" points="661.55,-1741.68 658.954,-1731.41 654.578,-1741.06 661.55,-1741.68"/>
+<text text-anchor="middle" x="662.357" y="-1739.51" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node34" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/html/97/" xlink:title="97.html.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-2268.39 231,-2268.39 231,-2250.39 339,-2250.39 339,-2268.39"/>
+<text text-anchor="middle" x="285" y="-2258.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">97.html.fb.me</text>
+</a>
+</g>
+
+<g id="edge94" class="edge">
+<path fill="none" stroke="black" d="M339.106,-2263.6C412.206,-2268.05 537.166,-2270.86 570,-2241.39 645.71,-2173.42 657.779,-1832.97 659.66,-1741.85"/>
+<polygon fill="black" stroke="black" points="663.161,-1741.85 659.847,-1731.78 656.162,-1741.72 663.161,-1741.85"/>
+<text text-anchor="middle" x="663.904" y="-1739.62" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node35" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/fbsbx/attachement/www/en/advisory/" xlink:title="advisory.en.www.attachement.fbsbx.com">
+<polygon fill="#ccccff" stroke="black" points="366,-2232.39 204,-2232.39 204,-2214.39 366,-2214.39 366,-2232.39"/>
+<text text-anchor="middle" x="285" y="-2222.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">advisory.en.www.attachement.fbsbx.com</text>
+</a>
+</g>
+
+<g id="edge174" class="edge">
+<path fill="none" stroke="black" d="M366.836,-2228.98C440.285,-2232.13 540.879,-2231.2 570,-2205.39 640.583,-2142.8 656.312,-1829.24 659.346,-1741.96"/>
+<polygon fill="black" stroke="black" points="662.848,-1741.94 659.675,-1731.83 655.852,-1741.71 662.848,-1741.94"/>
+<text text-anchor="middle" x="663.604" y="-1739.73" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node36" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook-login/wmlwww/ro/promotur/ama-baby/" xlink:title="ama&#45;baby.promotur.ro.wmlwww.facebook&#45;login.com">
+<polygon fill="#ccccff" stroke="black" points="385,-2196.39 185,-2196.39 185,-2178.39 385,-2178.39 385,-2196.39"/>
+<text text-anchor="middle" x="285" y="-2186.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">ama&#45;baby.promotur.ro.wmlwww.facebook&#45;login.com</text>
+</a>
+</g>
+
+<g id="edge52" class="edge">
+<path fill="none" stroke="black" d="M385.856,-2193.56C456.607,-2195.63 543.169,-2192.83 570,-2169.39 635.527,-2112.12 654.758,-1824.89 658.989,-1741.88"/>
+<polygon fill="black" stroke="black" points="662.49,-1741.93 659.48,-1731.77 655.499,-1741.59 662.49,-1741.93"/>
+<text text-anchor="middle" x="663.261" y="-1739.73" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node37" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/lite/connect/apps/" xlink:title="apps.connect.lite.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="352,-2160.39 218,-2160.39 218,-2142.39 352,-2142.39 352,-2160.39"/>
+<text text-anchor="middle" x="285" y="-2150.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">apps.connect.lite.facebook.com</text>
+</a>
+</g>
+
+<g id="edge84" class="edge">
+<path fill="none" stroke="black" d="M352.011,-2156.11C425.882,-2159.8 538.462,-2160.49 570,-2133.39 630.481,-2081.41 653.074,-1820.46 658.572,-1741.84"/>
+<polygon fill="black" stroke="black" points="662.081,-1741.82 659.261,-1731.61 655.097,-1741.35 662.081,-1741.82"/>
+<text text-anchor="middle" x="662.869" y="-1739.64" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node38" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook-login/wmlwww/com/wordpress/bancdebinary60seconds/" xlink:title="bancdebinary60seconds.wordpress.com.wmlwww.facebook&#45;login.com">
+<polygon fill="#ccccff" stroke="black" points="418,-2124.39 152,-2124.39 152,-2106.39 418,-2106.39 418,-2124.39"/>
+<text text-anchor="middle" x="285" y="-2114.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">bancdebinary60seconds.wordpress.com.wmlwww.facebook&#45;login.com</text>
+</a>
+</g>
+
+<g id="edge166" class="edge">
+<path fill="none" stroke="black" d="M418.501,-2121.77C481.059,-2121.87 546.871,-2116.87 570,-2097.39 625.454,-2050.67 651.237,-1815.88 658.078,-1741.81"/>
+<polygon fill="black" stroke="black" points="661.576,-1741.99 658.984,-1731.72 654.604,-1741.37 661.576,-1741.99"/>
+<text text-anchor="middle" x="662.383" y="-1739.82" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node39" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/co/facebook/project-avalon-porn-hosting/bill-ryan-corrupt-clickfraud/" xlink:title="bill&#45;ryan&#45;corrupt&#45;clickfraud.project&#45;avalon&#45;porn&#45;hosting.facebook.co">
+<polygon fill="#ccccff" stroke="black" points="416,-2088.39 154,-2088.39 154,-2070.39 416,-2070.39 416,-2088.39"/>
+<text text-anchor="middle" x="285" y="-2078.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">bill&#45;ryan&#45;corrupt&#45;clickfraud.project&#45;avalon&#45;porn&#45;hosting.facebook.co</text>
+</a>
+</g>
+
+<g id="edge136" class="edge">
+<path fill="none" stroke="black" d="M416.777,-2085.54C479.739,-2085.67 546.451,-2080.75 570,-2061.39 620.421,-2019.92 649.179,-1811.34 657.47,-1741.91"/>
+<polygon fill="black" stroke="black" points="660.984,-1742 658.665,-1731.66 654.031,-1741.18 660.984,-1742"/>
+<text text-anchor="middle" x="661.814" y="-1739.85" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node40" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/nz/co/facebook/blog/" xlink:title="blog.facebook.co.nz">
+<polygon fill="#ccccff" stroke="black" points="339,-2052.39 231,-2052.39 231,-2034.39 339,-2034.39 339,-2052.39"/>
+<text text-anchor="middle" x="285" y="-2042.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">blog.facebook.co.nz</text>
+</a>
+</g>
+
+<g id="edge102" class="edge">
+<path fill="none" stroke="black" d="M339.261,-2047.09C411.902,-2050.88 535.619,-2052.84 570,-2025.39 615.513,-1989.04 647,-1805.79 656.779,-1741.62"/>
+<polygon fill="black" stroke="black" points="660.289,-1741.82 658.304,-1731.41 653.366,-1740.78 660.289,-1741.82"/>
+<text text-anchor="middle" x="661.146" y="-1739.7" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node41" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebok/www/blog/" xlink:title="blog.www.facebok.com">
+<polygon fill="#ccccff" stroke="black" points="339,-2016.39 231,-2016.39 231,-1998.39 339,-1998.39 339,-2016.39"/>
+<text text-anchor="middle" x="285" y="-2006.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">blog.www.facebok.com</text>
+</a>
+</g>
+
+<g id="edge76" class="edge">
+<path fill="none" stroke="black" d="M339.124,-2010.92C411.604,-2014.5 535.134,-2016.23 570,-1989.39 610.553,-1958.17 644.406,-1800.68 655.849,-1741.72"/>
+<polygon fill="black" stroke="black" points="659.342,-1742.08 657.778,-1731.6 652.466,-1740.77 659.342,-1742.08"/>
+<text text-anchor="middle" x="660.231" y="-1740" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node42" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/ca-es/" xlink:title="ca&#45;es.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="339,-1980.39 231,-1980.39 231,-1962.39 339,-1962.39 339,-1980.39"/>
+<text text-anchor="middle" x="285" y="-1970.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">ca&#45;es.facebook.com</text>
+</a>
+</g>
+
+<g id="edge38" class="edge">
+<path fill="none" stroke="black" d="M339.261,-1974.71C411.583,-1978.01 534.584,-1979.39 570,-1953.39 639.67,-1902.23 655.408,-1789.64 658.963,-1741.7"/>
+<polygon fill="black" stroke="black" points="662.471,-1741.68 659.604,-1731.48 655.485,-1741.24 662.471,-1741.68"/>
+<text text-anchor="middle" x="663.254" y="-1739.49" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node43" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/ca/facebook/htmlwww/ca/" xlink:title="ca.htmlwww.facebook.ca">
+<polygon fill="#ccccff" stroke="black" points="339,-1944.39 231,-1944.39 231,-1926.39 339,-1926.39 339,-1944.39"/>
+<text text-anchor="middle" x="285" y="-1934.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">ca.htmlwww.facebook.ca</text>
+</a>
+</g>
+
+<g id="edge50" class="edge">
+<path fill="none" stroke="black" d="M339.046,-1938.4C411.117,-1941.36 533.826,-1942.33 570,-1917.39 630.213,-1875.87 650.832,-1783.83 657.302,-1741.49"/>
+<polygon fill="black" stroke="black" points="660.794,-1741.79 658.715,-1731.4 653.861,-1740.81 660.794,-1741.79"/>
+<text text-anchor="middle" x="661.643" y="-1739.66" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node44" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/it/facebook/htmlglb2/cn/" xlink:title="cn.htmlglb2.facebook.it">
+<polygon fill="#ccccff" stroke="black" points="339,-1908.39 231,-1908.39 231,-1890.39 339,-1890.39 339,-1908.39"/>
+<text text-anchor="middle" x="285" y="-1898.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">cn.htmlglb2.facebook.it</text>
+</a>
+</g>
+
+<g id="edge20" class="edge">
+<path fill="none" stroke="black" d="M326.973,-1908.43C386.138,-1918.75 495.181,-1928.65 570,-1881.39 620.782,-1849.31 645.361,-1777.86 654.948,-1741.53"/>
+<polygon fill="black" stroke="black" points="658.434,-1742.01 657.454,-1731.46 651.642,-1740.32 658.434,-1742.01"/>
+<text text-anchor="middle" x="659.366" y="-1739.98" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node45" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/htmlwmwlww/com/" xlink:title="com.htmlwmwlww.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="352,-1872.39 218,-1872.39 218,-1854.39 352,-1854.39 352,-1872.39"/>
+<text text-anchor="middle" x="285" y="-1862.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">com.htmlwmwlww.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge72" class="edge">
+<path fill="none" stroke="black" d="M334.142,-1872.4C393.916,-1880.76 495.987,-1886.48 570,-1845.39 611.838,-1822.16 639.008,-1770.31 651.68,-1740.87"/>
+<polygon fill="black" stroke="black" points="654.977,-1742.06 655.558,-1731.48 648.506,-1739.39 654.977,-1742.06"/>
+<text text-anchor="middle" x="656.006" y="-1740.17" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node46" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/com252f252a/" xlink:title="com252f252a.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="344,-1836.39 226,-1836.39 226,-1818.39 344,-1818.39 344,-1836.39"/>
+<text text-anchor="middle" x="285" y="-1826.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">com252f252a.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge60" class="edge">
+<path fill="none" stroke="black" d="M344.677,-1835.47C404.452,-1840.91 497.707,-1842.04 570,-1809.39 603.127,-1794.42 630.843,-1761.53 646.422,-1739.92"/>
+<polygon fill="black" stroke="black" points="649.488,-1741.65 652.337,-1731.44 643.746,-1737.64 649.488,-1741.65"/>
+<text text-anchor="middle" x="650.62" y="-1739.99" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node47" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/au/com/facebook/com252fwab/" xlink:title="com252fwab.facebook.com.au">
+<polygon fill="#ccccff" stroke="black" points="348,-1800.39 222,-1800.39 222,-1782.39 348,-1782.39 348,-1800.39"/>
+<text text-anchor="middle" x="285" y="-1790.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">com252fwab.facebook.com.au</text>
+</a>
+</g>
+
+<g id="edge138" class="edge">
+<path fill="none" stroke="black" d="M348.534,-1795.85C407.338,-1798.01 496.508,-1796.26 570,-1773.39 594.742,-1765.68 619.769,-1749.88 637.128,-1737.34"/>
+<polygon fill="black" stroke="black" points="639.526,-1739.92 645.465,-1731.15 635.351,-1734.3 639.526,-1739.92"/>
+<text text-anchor="middle" x="640.711" y="-1738.65" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node48" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/comwmlwww/" xlink:title="comwmlwww.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="342,-1764.39 228,-1764.39 228,-1746.39 342,-1746.39 342,-1764.39"/>
+<text text-anchor="middle" x="285" y="-1754.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">comwmlwww.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge2" class="edge">
+<path fill="none" stroke="black" d="M342.536,-1754.02C400.255,-1752.12 491.593,-1747.66 570,-1737.39 583.849,-1735.57 598.766,-1732.89 612.396,-1730.15"/>
+<polygon fill="black" stroke="black" points="613.445,-1733.5 622.529,-1728.05 612.027,-1726.65 613.445,-1733.5"/>
+<text text-anchor="middle" x="614.51" y="-1732.72" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node49" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/au/com/facebook/comwww/" xlink:title="comwww.facebook.com.au">
+<polygon fill="#ccccff" stroke="black" points="341,-1728.39 229,-1728.39 229,-1710.39 341,-1710.39 341,-1728.39"/>
+<text text-anchor="middle" x="285" y="-1718.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">comwww.facebook.com.au</text>
+</a>
+</g>
+
+<g id="edge62" class="edge">
+<path fill="none" stroke="black" d="M341.141,-1719.39C409.302,-1719.39 524.003,-1719.39 595.663,-1719.39"/>
+<polygon fill="black" stroke="black" points="595.913,-1722.89 605.913,-1719.39 595.913,-1715.89 595.913,-1722.89"/>
+<text text-anchor="middle" x="596.85" y="-1722.31" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node50" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebok/www/creatives/" xlink:title="creatives.www.facebok.com">
+<polygon fill="#ccccff" stroke="black" points="343,-1692.39 227,-1692.39 227,-1674.39 343,-1674.39 343,-1692.39"/>
+<text text-anchor="middle" x="285" y="-1682.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">creatives.www.facebok.com</text>
+</a>
+</g>
+
+<g id="edge66" class="edge">
+<path fill="none" stroke="black" d="M343.08,-1684.77C400.828,-1686.68 491.839,-1691.15 570,-1701.39 583.849,-1703.2 598.766,-1705.88 612.396,-1708.62"/>
+<polygon fill="black" stroke="black" points="612.027,-1712.12 622.529,-1710.72 613.445,-1705.27 612.027,-1712.12"/>
+<text text-anchor="middle" x="612.797" y="-1711.72" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node51" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/dl/" xlink:title="dl.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-1656.39 231,-1656.39 231,-1638.39 339,-1638.39 339,-1656.39"/>
+<text text-anchor="middle" x="285" y="-1646.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">dl.fb.me</text>
+</a>
+</g>
+
+<g id="edge182" class="edge">
+<path fill="none" stroke="black" d="M339.156,-1643.31C397.526,-1640.63 492.484,-1641.26 570,-1665.39 594.742,-1673.09 619.769,-1688.9 637.128,-1701.43"/>
+<polygon fill="black" stroke="black" points="635.351,-1704.47 645.465,-1707.62 639.526,-1698.85 635.351,-1704.47"/>
+<text text-anchor="middle" x="635.67" y="-1704.31" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node52" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/tfbops/dns/" xlink:title="dns.tfbops.com">
+<polygon fill="#ccccff" stroke="black" points="339,-1620.39 231,-1620.39 231,-1602.39 339,-1602.39 339,-1620.39"/>
+<text text-anchor="middle" x="285" y="-1610.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">dns.tfbops.com</text>
+</a>
+</g>
+
+<g id="edge160" class="edge">
+<path fill="none" stroke="black" d="M339.173,-1603.83C398.604,-1597.97 495.448,-1595.71 570,-1629.39 603.127,-1644.35 630.843,-1677.24 646.422,-1698.85"/>
+<polygon fill="black" stroke="black" points="643.746,-1701.13 652.337,-1707.33 649.488,-1697.12 643.746,-1701.13"/>
+<text text-anchor="middle" x="643.687" y="-1701.01" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node54" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/fbjs/et-ee/" xlink:title="et&#45;ee.fbjs.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="339,-1584.39 231,-1584.39 231,-1566.39 339,-1566.39 339,-1584.39"/>
+<text text-anchor="middle" x="285" y="-1574.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">et&#45;ee.fbjs.facebook.com</text>
+</a>
+</g>
+
+<g id="edge130" class="edge">
+<path fill="none" stroke="black" d="M334.142,-1566.37C393.916,-1558.01 495.987,-1552.3 570,-1593.39 611.838,-1616.61 639.008,-1668.46 651.68,-1697.9"/>
+<polygon fill="black" stroke="black" points="648.506,-1699.38 655.558,-1707.29 654.977,-1696.71 648.506,-1699.38"/>
+<text text-anchor="middle" x="648.193" y="-1699.22" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node55" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/lite/htmlwww/com/facebook/" xlink:title="facebook.com.htmlwww.lite.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="369,-1548.39 201,-1548.39 201,-1530.39 369,-1530.39 369,-1548.39"/>
+<text text-anchor="middle" x="285" y="-1538.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">facebook.com.htmlwww.lite.facebook.com</text>
+</a>
+</g>
+
+<g id="edge150" class="edge">
+<path fill="none" stroke="black" d="M326.973,-1530.34C386.138,-1520.02 495.181,-1510.12 570,-1557.39 620.782,-1589.46 645.361,-1660.91 654.948,-1697.24"/>
+<polygon fill="black" stroke="black" points="651.642,-1698.45 657.454,-1707.31 658.434,-1696.76 651.642,-1698.45"/>
+<text text-anchor="middle" x="651.164" y="-1698.24" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node56" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/he-il/" xlink:title="he&#45;il.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="339,-1512.39 231,-1512.39 231,-1494.39 339,-1494.39 339,-1512.39"/>
+<text text-anchor="middle" x="285" y="-1502.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">he&#45;il.facebook.com</text>
+</a>
+</g>
+
+<g id="edge6" class="edge">
+<path fill="none" stroke="black" d="M339.046,-1500.37C411.117,-1497.41 533.826,-1496.45 570,-1521.39 630.213,-1562.9 650.832,-1654.94 657.302,-1697.28"/>
+<polygon fill="black" stroke="black" points="653.861,-1697.96 658.715,-1707.37 660.794,-1696.99 653.861,-1697.96"/>
+<text text-anchor="middle" x="653.272" y="-1697.69" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node57" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/hu/facebook/htmlwww/" xlink:title="htmlwww.facebook.hu">
+<polygon fill="#ccccff" stroke="black" points="339,-1476.39 231,-1476.39 231,-1458.39 339,-1458.39 339,-1476.39"/>
+<text text-anchor="middle" x="285" y="-1466.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">htmlwww.facebook.hu</text>
+</a>
+</g>
+
+<g id="edge158" class="edge">
+<path fill="none" stroke="black" d="M339.261,-1464.07C411.583,-1460.76 534.584,-1459.38 570,-1485.39 639.67,-1536.54 655.408,-1649.14 658.963,-1697.07"/>
+<polygon fill="black" stroke="black" points="655.485,-1697.53 659.604,-1707.29 662.471,-1697.09 655.485,-1697.53"/>
+<text text-anchor="middle" x="654.819" y="-1697.21" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node58" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/id/co/facebook/htmlxl/" xlink:title="htmlxl.facebook.co.id">
+<polygon fill="#ccccff" stroke="black" points="339,-1440.39 231,-1440.39 231,-1422.39 339,-1422.39 339,-1440.39"/>
+<text text-anchor="middle" x="285" y="-1430.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">htmlxl.facebook.co.id</text>
+</a>
+</g>
+
+<g id="edge122" class="edge">
+<path fill="none" stroke="black" d="M339.124,-1427.85C411.604,-1424.27 535.134,-1422.55 570,-1449.39 610.553,-1480.6 644.406,-1638.09 655.849,-1697.05"/>
+<polygon fill="black" stroke="black" points="652.466,-1698 657.778,-1707.17 659.342,-1696.69 652.466,-1698"/>
+<text text-anchor="middle" x="651.929" y="-1697.76" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node59" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/id/co/facebook/http2f2fwww/" xlink:title="http2f2fwww.facebook.co.id">
+<polygon fill="#ccccff" stroke="black" points="343,-1404.39 227,-1404.39 227,-1386.39 343,-1386.39 343,-1404.39"/>
+<text text-anchor="middle" x="285" y="-1394.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">http2f2fwww.facebook.co.id</text>
+</a>
+</g>
+
+<g id="edge148" class="edge">
+<path fill="none" stroke="black" d="M343.302,-1391.47C416.402,-1387.83 536.248,-1386.43 570,-1413.39 615.513,-1449.73 647,-1632.98 656.779,-1697.15"/>
+<polygon fill="black" stroke="black" points="653.366,-1697.99 658.304,-1707.36 660.289,-1696.96 653.366,-1697.99"/>
+<text text-anchor="middle" x="652.786" y="-1697.72" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node60" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/new/http3a2f2fwww/" xlink:title="http3a2f2fwww.new.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="354,-1368.39 216,-1368.39 216,-1350.39 354,-1350.39 354,-1368.39"/>
+<text text-anchor="middle" x="285" y="-1358.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">http3a2f2fwww.new.facebook.com</text>
+</a>
+</g>
+
+<g id="edge16" class="edge">
+<path fill="none" stroke="black" d="M354.123,-1354.8C427.819,-1351.44 538.218,-1351.25 570,-1377.39 620.421,-1418.85 649.179,-1627.43 657.47,-1696.86"/>
+<polygon fill="black" stroke="black" points="654.031,-1697.59 658.665,-1707.11 660.984,-1696.78 654.031,-1697.59"/>
+<text text-anchor="middle" x="653.418" y="-1697.3" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node61" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/br/com/facebook/www/https/" xlink:title="https.www.facebook.com.br">
+<polygon fill="#ccccff" stroke="black" points="343,-1332.39 227,-1332.39 227,-1314.39 343,-1314.39 343,-1332.39"/>
+<text text-anchor="middle" x="285" y="-1322.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">https.www.facebook.com.br</text>
+</a>
+</g>
+
+<g id="edge86" class="edge">
+<path fill="none" stroke="black" d="M343.206,-1319.22C416.515,-1315.28 536.917,-1313.52 570,-1341.39 625.454,-1388.1 651.237,-1622.89 658.078,-1696.96"/>
+<polygon fill="black" stroke="black" points="654.604,-1697.41 658.984,-1707.05 661.576,-1696.78 654.604,-1697.41"/>
+<text text-anchor="middle" x="653.964" y="-1697.1" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node62" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/htmlm/ro/promotur/instalatii-gaze-aragazuri-comercializare-montare20/" xlink:title="instalatii&#45;gaze&#45;aragazuri&#45;comercializare&#45;montare20.promotur.ro.htmlm.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="448,-1296.39 122,-1296.39 122,-1278.39 448,-1278.39 448,-1296.39"/>
+<text text-anchor="middle" x="285" y="-1286.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">instalatii&#45;gaze&#45;aragazuri&#45;comercializare&#45;montare20.promotur.ro.htmlm.facbook.com</text>
+</a>
+</g>
+
+<g id="edge194" class="edge">
+<path fill="none" stroke="black" d="M448.351,-1281.17C500.96,-1282.61 550.683,-1288.78 570,-1305.39 630.481,-1357.36 653.074,-1618.31 658.572,-1696.93"/>
+<polygon fill="black" stroke="black" points="655.097,-1697.42 659.261,-1707.16 662.081,-1696.95 655.097,-1697.42"/>
+<text text-anchor="middle" x="654.435" y="-1697.1" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node63" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/co/facebook/www/k/" xlink:title="k.www.facebook.co">
+<polygon fill="#ccccff" stroke="black" points="339,-1260.39 231,-1260.39 231,-1242.39 339,-1242.39 339,-1260.39"/>
+<text text-anchor="middle" x="285" y="-1250.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">k.www.facebook.co</text>
+</a>
+</g>
+
+<g id="edge124" class="edge">
+<path fill="none" stroke="black" d="M339.305,-1247.28C412.319,-1242.98 536.823,-1240.39 570,-1269.39 635.527,-1326.65 654.758,-1613.88 658.989,-1696.89"/>
+<polygon fill="black" stroke="black" points="655.499,-1697.18 659.48,-1707 662.49,-1696.84 655.499,-1697.18"/>
+<text text-anchor="middle" x="654.819" y="-1696.85" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node64" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/fbops/project-camelot-click-fraud-murder/kerry-cassidy-bisexual-bitch/" xlink:title="kerry&#45;cassidy&#45;bisexual&#45;bitch.project&#45;camelot&#45;click&#45;fraud&#45;murder.fbops.com">
+<polygon fill="#ccccff" stroke="black" points="428,-1224.39 142,-1224.39 142,-1206.39 428,-1206.39 428,-1224.39"/>
+<text text-anchor="middle" x="285" y="-1214.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">kerry&#45;cassidy&#45;bisexual&#45;bitch.project&#45;camelot&#45;click&#45;fraud&#45;murder.fbops.com</text>
+</a>
+</g>
+
+<g id="edge190" class="edge">
+<path fill="none" stroke="black" d="M428.176,-1208.53C487.95,-1208.82 548.484,-1214.31 570,-1233.39 640.583,-1295.97 656.312,-1609.53 659.346,-1696.81"/>
+<polygon fill="black" stroke="black" points="655.852,-1697.06 659.675,-1706.94 662.848,-1696.83 655.852,-1697.06"/>
+<text text-anchor="middle" x="655.157" y="-1696.72" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node65" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/org/facebook/lite/" xlink:title="lite.facebook.org">
+<polygon fill="#ccccff" stroke="black" points="339,-1188.39 231,-1188.39 231,-1170.39 339,-1170.39 339,-1188.39"/>
+<text text-anchor="middle" x="285" y="-1178.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">lite.facebook.org</text>
+</a>
+</g>
+
+<g id="edge156" class="edge">
+<path fill="none" stroke="black" d="M339.106,-1175.17C412.206,-1170.72 537.166,-1167.91 570,-1197.39 645.71,-1265.35 657.779,-1605.8 659.66,-1696.92"/>
+<polygon fill="black" stroke="black" points="656.162,-1697.05 659.847,-1706.99 663.161,-1696.92 656.162,-1697.05"/>
+<text text-anchor="middle" x="655.453" y="-1696.7" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node66" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebooklogin/htmlm/com/login/" xlink:title="login.com.htmlm.facebooklogin.com">
+<polygon fill="#ccccff" stroke="black" points="359,-1152.39 211,-1152.39 211,-1134.39 359,-1134.39 359,-1152.39"/>
+<text text-anchor="middle" x="285" y="-1142.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">login.com.htmlm.facebooklogin.com</text>
+</a>
+</g>
+
+<g id="edge12" class="edge">
+<path fill="none" stroke="black" d="M359.688,-1137.98C433.705,-1134.36 540.217,-1134.36 570,-1161.39 610.712,-1198.33 649.118,-1598.24 658.054,-1697.29"/>
+<polygon fill="black" stroke="black" points="654.578,-1697.71 658.954,-1707.36 661.55,-1697.09 654.578,-1697.71"/>
+<text text-anchor="middle" x="653.938" y="-1697.41" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node67" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/ca/facebook/m/" xlink:title="m.facebook.ca">
+<polygon fill="#ccccff" stroke="black" points="339,-1116.39 231,-1116.39 231,-1098.39 339,-1098.39 339,-1116.39"/>
+<text text-anchor="middle" x="285" y="-1106.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">m.facebook.ca</text>
+</a>
+</g>
+
+<g id="edge30" class="edge">
+<path fill="none" stroke="black" d="M339.19,-1103.08C412.39,-1098.52 537.468,-1095.58 570,-1125.39 613.269,-1165.03 650.02,-1594.08 658.27,-1697.19"/>
+<polygon fill="black" stroke="black" points="654.798,-1697.69 659.077,-1707.38 661.776,-1697.13 654.798,-1697.69"/>
+<text text-anchor="middle" x="654.148" y="-1697.38" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node68" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/ml-in/" xlink:title="ml&#45;in.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="339,-1080.39 231,-1080.39 231,-1062.39 339,-1062.39 339,-1080.39"/>
+<text text-anchor="middle" x="285" y="-1070.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">ml&#45;in.facebook.com</text>
+</a>
+</g>
+
+<g id="edge46" class="edge">
+<path fill="none" stroke="black" d="M339.226,-1067.04C412.467,-1062.43 537.594,-1059.44 570,-1089.39 615.846,-1131.75 650.888,-1590.32 658.471,-1697.21"/>
+<polygon fill="black" stroke="black" points="654.98,-1697.47 659.172,-1707.2 661.963,-1696.98 654.98,-1697.47"/>
+<text text-anchor="middle" x="654.322" y="-1697.15" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node69" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook-login/wmlwww/ro/mobilegsm/" xlink:title="mobilegsm.ro.wmlwww.facebook&#45;login.com">
+<polygon fill="#ccccff" stroke="black" points="370,-1044.39 200,-1044.39 200,-1026.39 370,-1026.39 370,-1044.39"/>
+<text text-anchor="middle" x="285" y="-1034.09" font-family="Times Roman,serif" font-size="7.00" fill="#000077">mobilegsm.ro.wmlwww.facebook&#45;login.com</text>
+</a>
+</g>
+
+<g id="edge80" class="edge">
+<path fill="none" stroke="black" d="M370.661,-1029.32C443.968,-1026.13 541.971,-1027.29 570,-1053.39 618.448,-1098.5 651.73,-1587.07 658.658,-1697.35"/>
+<polygon fill="black" stroke="black" points="655.166,-1697.58 659.278,-1707.35 662.152,-1697.15 655.166,-1697.58"/>
+<text text-anchor="middle" x="654.499" y="-1697.26" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node70" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceboot/officialprojectscamalot/officialprojectscamalot/officialprojectscamalot/" xlink:title="officialprojectscamalot.officialprojectscamalot.officialprojectscamalot.faceboot.com">
+<polygon fill="#ccccff" stroke="black" points="449,-1008.39 121,-1008.39 121,-990.386 449,-990.386 449,-1008.39"/>
+<text text-anchor="middle" x="285" y="-998.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">officialprojectscamalot.officialprojectscamalot.officialprojectscamalot.faceboot.com</text>
+</a>
+</g>
+
+<g id="edge114" class="edge">
+<path fill="none" stroke="black" d="M449.142,-992.285C501.841,-993.628 551.419,-999.965 570,-1017.39 621.019,-1065.22 652.474,-1583.19 658.812,-1697.25"/>
+<polygon fill="black" stroke="black" points="655.319,-1697.48 659.361,-1707.27 662.308,-1697.09 655.319,-1697.48"/>
+<text text-anchor="middle" x="654.645" y="-1697.15" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node71" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/org/oglint/officialprojectscamelot/officialprojectscamelot/officialprojectscamelot/" xlink:title="officialprojectscamelot.officialprojectscamelot.officialprojectscamelot.oglint.org">
+<polygon fill="#ccccff" stroke="black" points="441,-972.386 129,-972.386 129,-954.386 441,-954.386 441,-972.386"/>
+<text text-anchor="middle" x="285" y="-962.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">officialprojectscamelot.officialprojectscamelot.officialprojectscamelot.oglint.org</text>
+</a>
+</g>
+
+<g id="edge56" class="edge">
+<path fill="none" stroke="black" d="M441.873,-956.07C497.256,-956.997 550.616,-963.1 570,-981.386 623.607,-1031.96 653.195,-1579.66 658.955,-1697.24"/>
+<polygon fill="black" stroke="black" points="655.46,-1697.42 659.438,-1707.24 662.452,-1697.09 655.46,-1697.42"/>
+<text text-anchor="middle" x="654.78" y="-1697.09" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node72" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/htmlm/olarian-augustin-maradona/" xlink:title="olarian&#45;augustin&#45;maradona.htmlm.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="379,-936.386 191,-936.386 191,-918.386 379,-918.386 379,-936.386"/>
+<text text-anchor="middle" x="285" y="-926.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">olarian&#45;augustin&#45;maradona.htmlm.facbook.com</text>
+</a>
+</g>
+
+<g id="edge184" class="edge">
+<path fill="none" stroke="black" d="M379.797,-920.826C451.979,-918.058 543.339,-920.093 570,-945.386 626.155,-998.657 653.837,-1575.3 659.074,-1696.94"/>
+<polygon fill="black" stroke="black" points="655.591,-1697.42 659.511,-1707.26 662.584,-1697.12 655.591,-1697.42"/>
+<text text-anchor="middle" x="654.905" y="-1697.08" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node73" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/de/facebook/phobos/" xlink:title="phobos.facebook.de">
+<polygon fill="#ccccff" stroke="black" points="339,-900.386 231,-900.386 231,-882.386 339,-882.386 339,-900.386"/>
+<text text-anchor="middle" x="285" y="-890.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">phobos.facebook.de</text>
+</a>
+</g>
+
+<g id="edge128" class="edge">
+<path fill="none" stroke="black" d="M339.048,-886.92C412.402,-882.137 538.021,-878.893 570,-909.386 628.774,-965.427 654.514,-1572.41 659.2,-1697.08"/>
+<polygon fill="black" stroke="black" points="655.711,-1697.45 659.578,-1707.31 662.707,-1697.19 655.711,-1697.45"/>
+<text text-anchor="middle" x="655.02" y="-1697.11" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node74" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/connect/la/es-es/pl-pl/" xlink:title="pl&#45;pl.es&#45;es.la.connect.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="359,-864.386 211,-864.386 211,-846.386 359,-846.386 359,-864.386"/>
+<text text-anchor="middle" x="285" y="-854.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">pl&#45;pl.es&#45;es.la.connect.facebook.com</text>
+</a>
+</g>
+
+<g id="edge112" class="edge">
+<path fill="none" stroke="black" d="M359.3,-849.702C433.588,-845.779 540.867,-845.477 570,-873.386 631.344,-932.152 655.116,-1568.52 659.304,-1696.89"/>
+<polygon fill="black" stroke="black" points="655.813,-1697.21 659.631,-1707.1 662.809,-1696.99 655.813,-1697.21"/>
+<text text-anchor="middle" x="655.117" y="-1696.87" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node75" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebok/theidylgroup-beastiality-scat-clone/project-camelot-porn-clone/" xlink:title="project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.facebok.com">
+<polygon fill="#ccccff" stroke="black" points="432,-828.386 138,-828.386 138,-810.386 432,-810.386 432,-828.386"/>
+<text text-anchor="middle" x="285" y="-818.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.facebok.com</text>
+</a>
+</g>
+
+<g id="edge140" class="edge">
+<path fill="none" stroke="black" d="M432.376,-811.774C491.149,-812.106 549.68,-817.836 570,-837.386 633.993,-898.954 655.748,-1566.26 659.415,-1697.17"/>
+<polygon fill="black" stroke="black" points="655.917,-1697.33 659.69,-1707.23 662.915,-1697.13 655.917,-1697.33"/>
+<text text-anchor="middle" x="655.217" y="-1696.98" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node76" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/kerry-cassidy-soulless-bitch-fetish-scat-beastiality/revolution-radio-scat-clone/mike-ringley-nitehawk-gay-clone/project-camelot-porn-pusher/" xlink:title="project&#45;camelot&#45;porn&#45;pusher.mike&#45;ringley&#45;nitehawk&#45;gay&#45;clone.revolution&#45;radio&#45;scat&#45;clone.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;scat&#45;beastiality.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="570,-792.386 2.84217e-13,-792.386 0,-774.386 570,-774.386 570,-792.386"/>
+<text text-anchor="middle" x="285" y="-782.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">project&#45;camelot&#45;porn&#45;pusher.mike&#45;ringley&#45;nitehawk&#45;gay&#45;clone.revolution&#45;radio&#45;scat&#45;clone.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;scat&#45;beastiality.facbook.com</text>
+</a>
+</g>
+
+<g id="edge186" class="edge">
+<path fill="none" stroke="black" d="M556.389,-792.49C561.923,-795.076 566.523,-798.027 570,-801.386 636.521,-865.641 656.275,-1561.49 659.496,-1696.7"/>
+<polygon fill="black" stroke="black" points="656.006,-1697.15 659.737,-1707.06 663.004,-1696.98 656.006,-1697.15"/>
+<text text-anchor="middle" x="655.302" y="-1696.8" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node77" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/ca/facebook/theidylgroup-beastiality-scat-clone/project-camelot-porn-clone/kerry-cassidy-soulless-bitch-fetish-clone/revolution-radio-scat-clone/" xlink:title="revolution&#45;radio&#45;scat&#45;clone.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.facebook.ca">
+<polygon fill="#ccccff" stroke="black" points="554,-756.386 16,-756.386 16,-738.386 554,-738.386 554,-756.386"/>
+<text text-anchor="middle" x="285" y="-746.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">revolution&#45;radio&#45;scat&#45;clone.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylgroup&#45;beastiality&#45;scat&#45;clone.facebook.ca</text>
+</a>
+</g>
+
+<g id="edge32" class="edge">
+<path fill="none" stroke="black" d="M554.675,-755.688C560.979,-758.462 566.173,-761.676 570,-765.386 639.198,-832.472 656.865,-1559.83 659.593,-1697.11"/>
+<polygon fill="black" stroke="black" points="656.096,-1697.33 659.788,-1707.26 663.095,-1697.19 656.096,-1697.33"/>
+<text text-anchor="middle" x="655.388" y="-1696.98" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node78" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/theidylwildgroup-formerwhitehat-porn/project-camelot-porn-clone/kerry-cassidy-soulless-bitch-fetish-clone/revolution-radio-scat-clone/" xlink:title="revolution&#45;radio&#45;scat&#45;clone.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylwildgroup&#45;formerwhitehat&#45;porn.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="560,-720.386 10,-720.386 10,-702.386 560,-702.386 560,-720.386"/>
+<text text-anchor="middle" x="285" y="-710.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">revolution&#45;radio&#45;scat&#45;clone.kerry&#45;cassidy&#45;soulless&#45;bitch&#45;fetish&#45;clone.project&#45;camelot&#45;porn&#45;clone.theidylwildgroup&#45;formerwhitehat&#45;porn.facbook.com</text>
+</a>
+</g>
+
+<g id="edge152" class="edge">
+<path fill="none" stroke="black" d="M556.42,-720.458C561.945,-723.054 566.535,-726.015 570,-729.386 641.815,-799.247 657.398,-1556.93 659.673,-1697.14"/>
+<polygon fill="black" stroke="black" points="656.174,-1697.2 659.83,-1707.15 663.173,-1697.09 656.174,-1697.2"/>
+<text text-anchor="middle" x="655.462" y="-1696.85" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node79" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook-login/wmlwww/ro/promotur/saloane-de-inumusetare/" xlink:title="saloane&#45;de&#45;inumusetare.promotur.ro.wmlwww.facebook&#45;login.com">
+<polygon fill="#ccccff" stroke="black" points="412,-684.386 158,-684.386 158,-666.386 412,-666.386 412,-684.386"/>
+<text text-anchor="middle" x="285" y="-674.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">saloane&#45;de&#45;inumusetare.promotur.ro.wmlwww.facebook&#45;login.com</text>
+</a>
+</g>
+
+<g id="edge88" class="edge">
+<path fill="none" stroke="black" d="M412.006,-667.742C477.152,-666.796 547.469,-671.398 570,-693.386 644.369,-765.96 657.886,-1552.69 659.743,-1696.79"/>
+<polygon fill="black" stroke="black" points="656.247,-1697.1 659.87,-1707.05 663.246,-1697.01 656.247,-1697.1"/>
+<text text-anchor="middle" x="655.532" y="-1696.74" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node80" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/messenger/scs/" xlink:title="scs.messenger.com">
+<polygon fill="#ccccff" stroke="black" points="339,-648.386 231,-648.386 231,-630.386 339,-630.386 339,-648.386"/>
+<text text-anchor="middle" x="285" y="-638.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">scs.messenger.com</text>
+</a>
+</g>
+
+<g id="edge42" class="edge">
+<path fill="none" stroke="black" d="M339.159,-634.805C412.646,-629.885 538.422,-626.479 570,-657.386 647.009,-732.759 658.39,-1550.27 659.815,-1696.92"/>
+<polygon fill="black" stroke="black" points="656.319,-1697.37 659.91,-1707.34 663.319,-1697.3 656.319,-1697.37"/>
+<text text-anchor="middle" x="655.602" y="-1697.01" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node81" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/id/co/facebook/com252fm/robtex/sec3dweb26slk3dweb26pos3d226linkstr3dhttp253a252f252fpop/" xlink:title="sec3dweb26slk3dweb26pos3d226linkstr3dhttp253a252f252fpop.robtex.com252fm.facebook.co.id">
+<polygon fill="#ccccff" stroke="black" points="470,-612.386 100,-612.386 100,-594.386 470,-594.386 470,-612.386"/>
+<text text-anchor="middle" x="285" y="-602.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">sec3dweb26slk3dweb26pos3d226linkstr3dhttp253a252f252fpop.robtex.com252fm.facebook.co.id</text>
+</a>
+</g>
+
+<g id="edge144" class="edge">
+<path fill="none" stroke="black" d="M470.135,-596.623C514.79,-599.009 554.21,-605.889 570,-621.386 649.656,-699.565 658.875,-1548.02 659.882,-1697.09"/>
+<polygon fill="black" stroke="black" points="656.383,-1697.31 659.945,-1707.29 663.383,-1697.27 656.383,-1697.31"/>
+<text text-anchor="middle" x="655.663" y="-1696.95" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node82" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebok/0/com252fwww/robtex/sec3dweb26slk3dweb26pos3d226linkstr3dhttp253a252f252fpop/" xlink:title="sec3dweb26slk3dweb26pos3d226linkstr3dhttp253a252f252fpop.robtex.com252fwww.0.facebok.com">
+<polygon fill="#ccccff" stroke="black" points="474,-576.386 96,-576.386 96,-558.386 474,-558.386 474,-576.386"/>
+<text text-anchor="middle" x="285" y="-566.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">sec3dweb26slk3dweb26pos3d226linkstr3dhttp253a252f252fpop.robtex.com252fwww.0.facebok.com</text>
+</a>
+</g>
+
+<g id="edge48" class="edge">
+<path fill="none" stroke="black" d="M474.273,-560.83C517.222,-563.415 554.716,-570.346 570,-585.386 611.2,-625.927 652.322,-1540.92 659.045,-1696.88"/>
+<polygon fill="black" stroke="black" points="655.559,-1697.3 659.484,-1707.14 662.553,-1697 655.559,-1697.3"/>
+<text text-anchor="middle" x="654.874" y="-1696.96" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node83" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebok/com252f0/robtex/sec3dweb26slk3dweb26pos3d326linkstr3dhttp253a252f252fpop/" xlink:title="sec3dweb26slk3dweb26pos3d326linkstr3dhttp253a252f252fpop.robtex.com252f0.facebok.com">
+<polygon fill="#ccccff" stroke="black" points="465,-540.386 105,-540.386 105,-522.386 465,-522.386 465,-540.386"/>
+<text text-anchor="middle" x="285" y="-530.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">sec3dweb26slk3dweb26pos3d326linkstr3dhttp253a252f252fpop.robtex.com252f0.facebok.com</text>
+</a>
+</g>
+
+<g id="edge154" class="edge">
+<path fill="none" stroke="black" d="M465.664,-524.347C512.164,-526.504 553.72,-533.327 570,-549.386 612.494,-591.301 652.619,-1537.23 659.092,-1696.67"/>
+<polygon fill="black" stroke="black" points="655.614,-1697.28 659.515,-1707.13 662.608,-1697 655.614,-1697.28"/>
+<text text-anchor="middle" x="654.926" y="-1696.95" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node84" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/br/com/facebook/com252fm/robtex/sec3dweb26slk3dweb26pos3d326linkstr3dhttp253a252f252fpop/" xlink:title="sec3dweb26slk3dweb26pos3d326linkstr3dhttp253a252f252fpop.robtex.com252fm.facebook.com.br">
+<polygon fill="#ccccff" stroke="black" points="473,-504.386 97,-504.386 97,-486.386 473,-486.386 473,-504.386"/>
+<text text-anchor="middle" x="285" y="-494.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">sec3dweb26slk3dweb26pos3d326linkstr3dhttp253a252f252fpop.robtex.com252fm.facebook.com.br</text>
+</a>
+</g>
+
+<g id="edge118" class="edge">
+<path fill="none" stroke="black" d="M473.574,-488.738C516.835,-491.288 554.664,-498.223 570,-513.386 613.833,-556.722 652.99,-1535.62 659.157,-1696.97"/>
+<polygon fill="black" stroke="black" points="655.667,-1697.29 659.544,-1707.15 662.662,-1697.02 655.667,-1697.29"/>
+<text text-anchor="middle" x="654.977" y="-1696.95" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node85" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/lite/speed/" xlink:title="speed.lite.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="339,-468.386 231,-468.386 231,-450.386 339,-450.386 339,-468.386"/>
+<text text-anchor="middle" x="285" y="-458.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">speed.lite.facebook.com</text>
+</a>
+</g>
+
+<g id="edge120" class="edge">
+<path fill="none" stroke="black" d="M339.211,-454.752C412.761,-449.769 538.611,-446.286 570,-477.386 615.134,-522.103 653.276,-1532.23 659.201,-1696.81"/>
+<polygon fill="black" stroke="black" points="655.717,-1697.31 659.572,-1707.18 662.712,-1697.06 655.717,-1697.31"/>
+<text text-anchor="middle" x="655.025" y="-1696.97" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node86" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/pl/com/facebook/sq-al/" xlink:title="sq&#45;al.facebook.com.pl">
+<polygon fill="#ccccff" stroke="black" points="339,-432.386 231,-432.386 231,-414.386 339,-414.386 339,-432.386"/>
+<text text-anchor="middle" x="285" y="-422.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">sq&#45;al.facebook.com.pl</text>
+</a>
+</g>
+
+<g id="edge132" class="edge">
+<path fill="none" stroke="black" d="M339.22,-418.743C412.78,-413.749 538.643,-410.255 570,-441.386 616.483,-487.534 653.632,-1531.06 659.261,-1697.18"/>
+<polygon fill="black" stroke="black" points="655.765,-1697.35 659.599,-1707.22 662.761,-1697.11 655.765,-1697.35"/>
+<text text-anchor="middle" x="655.07" y="-1697.01" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node87" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facebook/new/static/" xlink:title="static.new.facebook.com">
+<polygon fill="#ccccff" stroke="black" points="339,-396.386 231,-396.386 231,-378.386 339,-378.386 339,-396.386"/>
+<text text-anchor="middle" x="285" y="-386.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">static.new.facebook.com</text>
+</a>
+</g>
+
+<g id="edge64" class="edge">
+<path fill="none" stroke="black" d="M339.228,-382.735C412.798,-377.731 538.673,-374.224 570,-405.386 617.79,-452.922 653.908,-1527.99 659.302,-1697.09"/>
+<polygon fill="black" stroke="black" points="655.81,-1697.4 659.625,-1707.29 662.807,-1697.18 655.81,-1697.4"/>
+<text text-anchor="middle" x="655.114" y="-1697.06" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node88" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/it/facebook/htmltouch/com/facebook/touch/" xlink:title="touch.facebook.com.htmltouch.facebook.it">
+<polygon fill="#ccccff" stroke="black" points="371,-360.386 199,-360.386 199,-342.386 371,-342.386 371,-360.386"/>
+<text text-anchor="middle" x="285" y="-350.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">touch.facebook.com.htmltouch.facebook.it</text>
+</a>
+</g>
+
+<g id="edge164" class="edge">
+<path fill="none" stroke="black" d="M371.801,-344.848C445.317,-341.399 542.959,-342.439 570,-369.386 619.124,-418.338 654.214,-1526.15 659.349,-1697.27"/>
+<polygon fill="black" stroke="black" points="655.854,-1697.47 659.65,-1707.36 662.851,-1697.27 655.854,-1697.47"/>
+<text text-anchor="middle" x="655.156" y="-1697.13" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node89" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/wip3/" xlink:title="wip3.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-324.386 231,-324.386 231,-306.386 339,-306.386 339,-324.386"/>
+<text text-anchor="middle" x="285" y="-314.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">wip3.fb.me</text>
+</a>
+</g>
+
+<g id="edge104" class="edge">
+<path fill="none" stroke="black" d="M339.244,-310.72C412.831,-305.697 538.728,-302.169 570,-333.386 620.41,-383.707 654.443,-1522.13 659.379,-1696.95"/>
+<polygon fill="black" stroke="black" points="655.884,-1697.15 659.662,-1707.04 662.881,-1696.95 655.884,-1697.15"/>
+<text text-anchor="middle" x="655.184" y="-1696.8" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node90" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/faceebok/wmlwww/" xlink:title="wmlwww.faceebok.com">
+<polygon fill="#ccccff" stroke="black" points="339,-288.386 231,-288.386 231,-270.386 339,-270.386 339,-288.386"/>
+<text text-anchor="middle" x="285" y="-278.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">wmlwww.faceebok.com</text>
+</a>
+</g>
+
+<g id="edge142" class="edge">
+<path fill="none" stroke="black" d="M339.251,-274.713C412.847,-269.682 538.754,-266.143 570,-297.386 621.725,-349.104 654.705,-1519.44 659.416,-1696.92"/>
+<polygon fill="black" stroke="black" points="655.924,-1697.24 659.686,-1707.15 662.921,-1697.06 655.924,-1697.24"/>
+<text text-anchor="middle" x="655.223" y="-1696.9" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node91" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/me/fb/ww/" xlink:title="ww.fb.me">
+<polygon fill="#ccccff" stroke="black" points="339,-252.386 231,-252.386 231,-234.386 339,-234.386 339,-252.386"/>
+<text text-anchor="middle" x="285" y="-242.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">ww.fb.me</text>
+</a>
+</g>
+
+<g id="edge106" class="edge">
+<path fill="none" stroke="black" d="M339.257,-238.706C412.862,-233.667 538.778,-230.119 570,-261.386 623.07,-314.531 654.995,-1518.06 659.459,-1697.18"/>
+<polygon fill="black" stroke="black" points="655.962,-1697.36 659.708,-1707.27 662.96,-1697.18 655.962,-1697.36"/>
+<text text-anchor="middle" x="655.26" y="-1697.01" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node92" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/messenger/blackberry/www/" xlink:title="www.blackberry.messenger.com">
+<polygon fill="#ccccff" stroke="black" points="350,-216.386 220,-216.386 220,-198.386 350,-198.386 350,-216.386"/>
+<text text-anchor="middle" x="285" y="-206.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">www.blackberry.messenger.com</text>
+</a>
+</g>
+
+<g id="edge82" class="edge">
+<path fill="none" stroke="black" d="M350.795,-201.951C425.351,-197.383 540.376,-195.676 570,-225.386 624.362,-279.906 655.214,-1514.33 659.487,-1696.91"/>
+<polygon fill="black" stroke="black" points="655.989,-1697.05 659.72,-1706.97 662.987,-1696.89 655.989,-1697.05"/>
+<text text-anchor="middle" x="655.285" y="-1696.71" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node93" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/facbook/htmlm/com/centraletermice-b/www/" xlink:title="www.centraletermice&#45;b.com.htmlm.facbook.com">
+<polygon fill="#ccccff" stroke="black" points="381,-180.386 189,-180.386 189,-162.386 381,-162.386 381,-180.386"/>
+<text text-anchor="middle" x="285" y="-170.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">www.centraletermice&#45;b.com.htmlm.facbook.com</text>
+</a>
+</g>
+
+<g id="edge188" class="edge">
+<path fill="none" stroke="black" d="M381.286,-164.382C453.519,-161.447 544.202,-163.476 570,-189.386 625.685,-245.312 655.463,-1512 659.52,-1696.94"/>
+<polygon fill="black" stroke="black" points="656.025,-1697.19 659.741,-1707.11 663.023,-1697.04 656.025,-1697.19"/>
+<text text-anchor="middle" x="655.319" y="-1696.84" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node94" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/za/co/facebook/www/" xlink:title="www.facebook.co.za">
+<polygon fill="#ccccff" stroke="black" points="339,-144.386 231,-144.386 231,-126.386 339,-126.386 339,-144.386"/>
+<text text-anchor="middle" x="285" y="-134.086" font-family="Times Roman,serif" font-size="7.00" fill="#000077">www.facebook.co.za</text>
+</a>
+</g>
+
+<g id="edge100" class="edge">
+<path fill="none" stroke="black" d="M339.276,-130.688C412.902,-125.627 538.844,-122.053 570,-153.386 627.011,-210.721 655.708,-1509.81 659.552,-1696.99"/>
+<polygon fill="black" stroke="black" points="656.059,-1697.34 659.761,-1707.27 663.057,-1697.2 656.059,-1697.34"/>
+<text text-anchor="middle" x="655.352" y="-1696.99" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node95" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/de/faceboook/www/" xlink:title="www.faceboook.de">
+<polygon fill="#ccccff" stroke="black" points="339,-108.386 231,-108.386 231,-90.3857 339,-90.3857 339,-108.386"/>
+<text text-anchor="middle" x="285" y="-98.0857" font-family="Times Roman,serif" font-size="7.00" fill="#000077">www.faceboook.de</text>
+</a>
+</g>
+
+<g id="edge116" class="edge">
+<path fill="none" stroke="black" d="M339.281,-94.6822C412.914,-89.6146 538.864,-86.0329 570,-117.386 628.309,-176.101 655.918,-1506.32 659.578,-1696.77"/>
+<polygon fill="black" stroke="black" points="656.082,-1697.06 659.772,-1706.99 663.081,-1696.93 656.082,-1697.06"/>
+<text text-anchor="middle" x="655.374" y="-1696.71" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node96" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/im/ff/www/" xlink:title="www.ff.im">
+<polygon fill="#ccccff" stroke="black" points="339,-72.3857 231,-72.3857 231,-54.3857 339,-54.3857 339,-72.3857"/>
+<text text-anchor="middle" x="285" y="-62.0857" font-family="Times Roman,serif" font-size="7.00" fill="#000077">www.ff.im</text>
+</a>
+</g>
+
+<g id="edge146" class="edge">
+<path fill="none" stroke="black" d="M339.287,-58.6769C412.926,-53.6029 538.884,-50.0137 570,-81.3857 629.669,-141.545 656.181,-1505.7 659.613,-1697.14"/>
+<polygon fill="black" stroke="black" points="656.114,-1697.23 659.791,-1707.17 663.113,-1697.11 656.114,-1697.23"/>
+<text text-anchor="middle" x="655.405" y="-1696.88" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node97" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/en/advisory/dns/com/httpwwwfacebook/www/" xlink:title="www.httpwwwfacebook.com">
+<polygon fill="#ccccff" stroke="black" points="343,-36.3857 227,-36.3857 227,-18.3857 343,-18.3857 343,-36.3857"/>
+<text text-anchor="middle" x="285" y="-26.0857" font-family="Times Roman,serif" font-size="7.00" fill="#000077">www.httpwwwfacebook.com</text>
+</a>
+</g>
+
+<g id="edge70" class="edge">
+<path fill="none" stroke="black" d="M314.244,-18.2661C372.213,-2.2115 501.96,23.2943 570,-45.3857 631.003,-106.963 656.412,-1503.88 659.642,-1697.26"/>
+<polygon fill="black" stroke="black" points="656.144,-1697.42 659.809,-1707.36 663.143,-1697.3 656.144,-1697.42"/>
+<text text-anchor="middle" x="655.434" y="-1697.07" font-family="Times Roman,serif" font-size="7.00">A</text>
+</g>
+
+<g id="node99" class="node">
+<a target="_top" xlink:href="https://www.robtex.com/as/as32934.html" xlink:title="AS32934 Facebook&#13;Facebook">
+<ellipse fill="#ffffaa" stroke="black" cx="993" cy="-1699.39" rx="60.8112" ry="19.799"/>
+<text text-anchor="middle" x="993" y="-1703.09" font-family="Times Roman,serif" font-size="7.00" fill="#777700">AS32934 Facebook</text>
+<text text-anchor="middle" x="993" y="-1693.09" font-family="Times Roman,serif" font-size="7.00" fill="#777700">Facebook</text>
+</a>
+</g>
+
+<g id="edge180" class="edge">
+<path fill="none" stroke="black" d="M877.256,-1699.39C891.389,-1699.39 906.832,-1699.39 921.7,-1699.39"/>
+<polygon fill="black" stroke="black" points="921.879,-1702.89 931.878,-1699.39 921.878,-1695.89 921.879,-1702.89"/>
+<text text-anchor="middle" x="922.815" y="-1702.31" font-family="Times Roman,serif" font-size="7.00">AS</text>
+</g>
+</g>
+</svg>
