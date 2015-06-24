@@ -1,0 +1,113 @@
+Domain Name:PARROTSEC.ORG
+Domain ID: D170385309-LROR
+Creation Date: 2013-12-09T17:23:54Z
+Updated Date: 2015-05-15T09:36:07Z
+Registry Expiry Date: 2015-12-09T17:23:54Z
+Sponsoring Registrar:PDR Ltd. d/b/a PublicDomainRegistry.com (R27-LROR)
+Sponsoring Registrar IANA ID: 303
+WHOIS Server: 
+Referral URL: 
+Domain Status: clientTransferProhibited -- http://www.icann.org/epp#clientTransferProhibited
+Registrant ID:DI_31752278
+Registrant Name:NETWORK FROZENBOX
+Registrant Organization:FROZENBOX NETWORK 129231R
+Registrant Street: PIAZZA INDIPENDENZA
+Registrant City:PALERMO
+Registrant State/Province:PA
+Registrant Postal Code:90134
+Registrant Country:IT
+Registrant Phone:+39.0916613810
+Registrant Phone Ext: 
+Registrant Fax: +39.0916613810
+Registrant Fax Ext: 
+Registrant Email:parrot@frozenbox.org
+Admin ID:DI_31752278
+Admin Name:NETWORK FROZENBOX
+Admin Organization:FROZENBOX NETWORK 129231R
+Admin Street: PIAZZA INDIPENDENZA
+Admin City:PALERMO
+Admin State/Province:PA
+Admin Postal Code:90134
+Admin Country:IT
+Admin Phone:+39.0916613810
+Admin Phone Ext: 
+Admin Fax: +39.0916613810
+Admin Fax Ext: 
+Admin Email:parrot@frozenbox.org
+Tech ID:DI_31752278
+Tech Name:NETWORK FROZENBOX
+Tech Organization:FROZENBOX NETWORK 129231R
+Tech Street: PIAZZA INDIPENDENZA
+Tech City:PALERMO
+Tech State/Province:PA
+Tech Postal Code:90134
+Tech Country:IT
+Tech Phone:+39.0916613810
+Tech Phone Ext: 
+Tech Fax: +39.0916613810
+Tech Fax Ext: 
+Tech Email:parrot@frozenbox.org
+Name Server:SIMON.NS.CLOUDFLARE.COM
+Name Server:POLA.NS.CLOUDFLARE.COM
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+DNSSEC:Unsigned
+
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy. For more information on Whois status codes, please visit https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en.
+
+
+
+www.parrotsec.org @j.root-servers.net (192.58.128.30)
+Host Name	TTL	Type	Value
+org.	86400	DS	21366 7 1 E6C1716CFB6BDC84E84CE1AB5510DAC69173B5B2
+org.	86400	DS	21366 7 2 96EEB2FFD9B00CD4694E78278B5EFDAB0A80446567B69F634DA078F0 D90F01BA
+org.	172800	NS	a0.org.afilias-nst.info.
+org.	172800	NS	a2.org.afilias-nst.info.
+org.	172800	NS	b0.org.afilias-nst.org.
+org.	172800	NS	b2.org.afilias-nst.org.
+org.	172800	NS	c0.org.afilias-nst.info.
+org.	172800	NS	d0.org.afilias-nst.org.
+org.	86400	RRSIG	DS 8 1 86400 20150703170000 20150623160000 48613 . VtmWCfoyI/vF2oxFTQy+NKN9vbufT4aCOvMH4aMP3744IhHSKPwR7twi 8L1o2fS18iiDZdkjbhTLZzN+3BXMnYXWtzCYX0dXZUq28vBrnMWO3GKc Z6ft20G6t7swiDc4+pp6pKdC8FBDDvux9yS/78ljwizKFFfsVNqni67Y vtQ=
+www.parrotsec.org @a0.org.afilias-nst.info (2001:500:e::1)
+www.parrotsec.org @simon.ns.cloudflare.com (2400:cb00:2049:1::adf5:3be8)
+Host Name	TTL	Type	Value
+www.parrotsec.org.	300	A	104.24.124.114
+www.parrotsec.org.	300	A	104.24.125.114
+
+Host Name	TTL	Type	Value
+org.	86400	DS	21366 7 1 E6C1716CFB6BDC84E84CE1AB5510DAC69173B5B2
+org.	86400	DS	21366 7 2 96EEB2FFD9B00CD4694E78278B5EFDAB0A80446567B69F634DA078F0 D90F01BA
+org.	172800	NS	a0.org.afilias-nst.info.
+org.	172800	NS	a2.org.afilias-nst.info.
+org.	172800	NS	b0.org.afilias-nst.org.
+org.	172800	NS	b2.org.afilias-nst.org.
+org.	172800	NS	c0.org.afilias-nst.info.
+org.	172800	NS	d0.org.afilias-nst.org.
+org.	86400	RRSIG	DS 8 1 86400 20150703170000 20150623160000 48613 . VtmWCfoyI/vF2oxFTQy+NKN9vbufT4aCOvMH4aMP3744IhHSKPwR7twi 8L1o2fS18iiDZdkjbhTLZzN+3BXMnYXWtzCYX0dXZUq28vBrnMWO3GKc Z6ft20G6t7swiDc4+pp6pKdC8FBDDvux9yS/78ljwizKFFfsVNqni67Y vtQ=
+
+
+
+www.parrotsec.org @a0.org.afilias-nst.info (2001:500:e::1)
+Host Name	TTL	Type	Value
+4rkiu9pubr850s23n4prepmcpgbjs9ak.org.	86400	NSEC3	1 1 1 D399EAAB 4RM2I71TDNLA2L758SEGJQMBSLUICBIK NS DS RRSIG
+4rkiu9pubr850s23n4prepmcpgbjs9ak.org.	86400	RRSIG	NSEC3 7 2 86400 20150708155654 20150617145654 56198 org. mEVrCJ2SKdGbRiSivNuHkqsXHigDFx9T310ZCZf2tjnHnEh2ijPAnKRj pBYeyE/wa+OH6zb1AG+Gn6WT/QBAdMUNWGeTb1pbN7T6UASM/ECggsGR DOduJtyDOPljo1tmdJZeED80XP2+P96r5jZn7NOoluSa6Ac0bgA1O2rw hFY=
+h9p7u7tr2u91d0v0ljs9l1gidnp90u3h.org.	86400	NSEC3	1 1 1 D399EAAB H9PARR669T6U8O1GSG9E1LMITK4DEM0T NS SOA RRSIG DNSKEY NSEC3PARAM
+h9p7u7tr2u91d0v0ljs9l1gidnp90u3h.org.	86400	RRSIG	NSEC3 7 2 86400 20150714231527 20150623221527 56198 org. BlHQpq7Qzob1l+Fl506eXAyudwp87OHh5EPg6Y0SIfthmqXwN4cSRAw0 jJ3ld0UKMioN3hwjLSadmkyfYxbZqbtum/4KdK6qJGUBokqEVoxAIWm6 PQI5i8h87gqtqoQwHMnARn5rtZ/JUuwsorAIpNRldFb+RlEN4D0rm5sc WbM=
+parrotsec.org.	86400	NS	pola.ns.cloudflare.com.
+parrotsec.org.	86400	NS	simon.ns.cloudflare.com.
+
+
+
+www.parrotsec.org @simon.ns.cloudflare.com (2400:cb00:2049:1::adf5:3be8)
+Host Name	TTL	Type	Value
+www.parrotsec.org.	300	A	104.24.124.114
+www.parrotsec.org.	300	A	104.24.125.114
