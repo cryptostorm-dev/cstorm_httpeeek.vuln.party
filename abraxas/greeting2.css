@@ -1,0 +1,167 @@
+html{
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+
+body{
+	margin:0;
+	background-color:#f4f4f4;
+	background-repeat:no-repeat;
+	background-position:top center
+}
+
+body:before{
+	content:" ";
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:2;
+	top:0;
+	left:0;
+	background:#f4f4f4;
+	background-repeat:no-repeat;
+	background-position:top center
+}
+
+.alert{
+	padding:15px;
+	margin-bottom:20px;
+	border:1px solid transparent;
+	border-radius:4px
+}
+
+.alert h4{
+	margin-top:0;
+	color:inherit
+}
+
+.alert .alert-link{
+	font-weight:bold
+}
+
+.alert>p,.alert>ul{
+	margin-bottom:0
+}
+
+.alert>p+p{
+	margin-top:5px
+}
+
+.alert-dismissable{
+	padding-right:35px
+}
+
+.alert-dismissable .close{
+	position:relative;
+	top:-2px;
+	right:-21px;
+	color:inherit
+}
+
+.alert-success{
+	color:#3c763d;
+	background-color:#dff0d8;
+	border-color:#d6e9c6
+}
+
+.alert-success hr{
+	border-top-color:#c9e2b3
+}
+
+.alert-success .alert-link{
+	color:#2b542c
+}
+
+.alert-info{
+	color:#31708f;
+	background-color:#d9edf7;
+	border-color:#bce8f1
+}
+
+.alert-info hr{
+	border-top-color:#a6e1ec
+}
+
+.alert-info .alert-link{
+	color:#245269
+}
+
+.alert-warning{
+	color:#8a6d3b;
+	background-color:#fcf8e3;
+	border-color:#faebcc
+}
+
+.alert-warning hr{
+	border-top-color:#f7e1b5
+}
+
+.alert-warning .alert-link{
+	color:#66512c
+}
+
+.alert-danger{
+	color:#a94442;
+	background-color:#f2dede;
+	border-color:#ebccd1
+}
+
+.alert-danger hr{
+	border-top-color:#e4b9c0
+}
+
+.alert-danger .alert-link{
+	color:#843534
+}
+
+.text-danger{
+	color:#a94442
+}
+
+a.text-danger:hover{
+	color:#843534
+}
+
+.text-left{
+	text-align:left
+}
+
+.text-right{
+	text-align:right
+}
+
+.text-center{
+	text-align:center
+}
+
+.center-block{
+	display:block;
+	margin-right:auto;
+	margin-left:auto
+}
+
+.pull-right{
+	float:right!important
+}
+
+.pull-left{
+	float:left!important
+}
+
+#wrap{
+	background-color:#f4f4f4;
+	padding-bottom:60px
+}
+
+#wrap.narrow.login_screen{
+	max-width:300px
+}
+
+#wrap.narrow.register_screen{
+	max-width:600px
+}
+
+.nav-pills.nav-xs>li>a{
+	padding:4px 8px
+}
